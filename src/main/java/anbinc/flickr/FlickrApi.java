@@ -102,10 +102,10 @@ public class FlickrApi {
 
         if (!pools.stream().anyMatch(p -> p.getId().equals(groupId)))   {
             try {
-                //flickr.getPoolsInterface().add(photoId, groupId);
+                flickr.getPoolsInterface().add(photoId, groupId);
                 System.out.println(String.format("Photo '%s' was successfully added to group '%s'.", photoId, groupId));
-                flickr.getPoolsInterface().getGroups();
-                return false;
+                //flickr.getPoolsInterface().getGroups();
+                return true;
             }
             catch (FlickrException e) {
 

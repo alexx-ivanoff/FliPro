@@ -25,26 +25,31 @@ public class Administrator {
         for (Task task : tasks) {
 
             int groupsAmount = task.getGroups().size();
+            if (groupsAmount > 0) {
 
-            Random rnd = new Random();
-            int groupNumber = rnd.nextInt(groupsAmount);
-            int groupsCounter = 0;
+                Random rnd = new Random();
+                int groupNumber = rnd.nextInt(groupsAmount);
+                int groupsCounter = 0;
 
-            while (groupsCounter++ != groupsAmount)  {
-                groupNumber = getNextNumber(groupNumber, groupsAmount);
-                List<String> photosWithoutGroup = flickrApi.getPhotoIdsWithoutGroup(task.getGroups().get(groupNumber), task.getPhotos());
+                while (groupsCounter++ != groupsAmount) {
+                    groupNumber = getNextNumber(groupNumber, groupsAmount);
+                    List<String> photosWithoutGroup = flickrApi.getPhotoIdsWithoutGroup(task.getGroups().get(groupNumber), task.getPhotos());
 
-                String groupId = task.getGroups().get(groupNumber);
+                    String groupId = task.getGroups().get(groupNumber);
 
-                int photosAmount = photosWithoutGroup.size();
-                int photoNumber = rnd.nextInt(photosAmount);
-                int photosCounter = 0;
+                    int photosAmount = photosWithoutGroup.size();
 
-                String photoId = photosWithoutGroup.get(groupNumber);
+                    if (photosAmount > 0) {
+                        int photoNumber = rnd.nextInt(photosAmount);
+                        int photosCounter = 0;
 
-                while (photosCounter++  != photosAmount && !flickrApi.addPhotoToGroup(photoId, groupId))  {
-                    photoNumber = getNextNumber(photoNumber, photosAmount);
-                    photoId = photosWithoutGroup.get(photoNumber);
+                        String photoId = photosWithoutGroup.get(photoNumber);
+
+                        while (photosCounter++ != photosAmount && !flickrApi.addPhotoToGroup(photoId, groupId)) {
+                            photoNumber = getNextNumber(photoNumber, photosAmount);
+                            photoId = photosWithoutGroup.get(photoNumber);
+                        }
+                    }
                 }
             }
         }
@@ -54,6 +59,6 @@ public class Administrator {
         if (number == size - 1)
             return 0;
 
-        return number++;
+        return ++number;
     }
 }
