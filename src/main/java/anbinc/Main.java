@@ -19,9 +19,9 @@ import java.util.Properties;
 public class Main {
 
     public static void main(String[] args) throws IOException, FlickrException {
-        //TasksReader.readTasksFromXML();
         FlickrApi flickrApi = new FlickrApi();
-        Administrator admin = new Administrator(getTasks());
+        List<Task> tasks = TasksReader.readTasksFromXML();
+        Administrator admin = new Administrator(tasks);
         admin.manageGroups();
     }
 

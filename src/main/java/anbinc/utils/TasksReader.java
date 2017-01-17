@@ -1,5 +1,6 @@
 package anbinc.utils;
 
+import anbinc.flickr.Task;
 import org.apache.commons.io.IOUtils;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -13,14 +14,21 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.StringReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Created by Alex on 15.01.2017.
  */
 public class TasksReader {
-    public static void readTasksFromXML()   {
+    public static List<Task> readTasksFromXML()   {
+
+        List<Task> tasks = new ArrayList<>();
+
         try {
             String filename = "Tasks.xml";
+
             InputStream inputStream = new FileInputStream(filename);
             String file = IOUtils.toString(inputStream, "UTF-8").replace("&", "&amp;");
             inputStream.close();
@@ -28,34 +36,50 @@ public class TasksReader {
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             InputSource inputSource = new InputSource(new StringReader(file));
+
             Document doc = dBuilder.parse(inputSource);
 
-            //optional, but recommended
-            //read this - http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
             doc.getDocumentElement().normalize();
 
-            NodeList nList = doc.getElementsByTagName("sets");
+            NodeList setsList = doc.getElementsByTagName("set");
 
-            for (int temp = 0; temp < nList.getLength(); temp++) {
+            for (int setNum = 0; setNum < setsList.getLength(); setNum++) {
+                Node setNode = setsList.item(setNum);
 
-                Node nNode = nList.item(temp);
+                Task task = new Task();
+                List<String> groupIds = new ArrayList<>();
+                List<String> photoIds = new ArrayList<>();
 
-                System.out.println("\nCurrent Element :" + nNode.getNodeName());
+                if (setNode.getNodeType() == Node.ELEMENT_NODE) {
+                    Element setElement = (Element)setNode;
+                    NodeList groupsList = setElement.getElementsByTagName("group");
+                    NodeList photosList = setElement.getElementsByTagName("photo");
 
-                if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+                    //fill groups
+                    for (int groupNum = 0; groupNum < groupsList.getLength(); groupNum++) {
+                        Node groupNode = groupsList.item(groupNum);
 
-                    Element eElement = (Element) nNode;
+                        if (groupNode.getNodeType() == Node.ELEMENT_NODE)
+                            groupIds.add(((Element)groupNode).getAttribute("id"));
+                    }
 
-                    System.out.println("Staff id : " + eElement.getAttribute("id"));
-                    System.out.println("First Name : " + eElement.getElementsByTagName("firstname").item(0).getTextContent());
-                    System.out.println("Last Name : " + eElement.getElementsByTagName("lastname").item(0).getTextContent());
-                    System.out.println("Nick Name : " + eElement.getElementsByTagName("nickname").item(0).getTextContent());
-                    System.out.println("Salary : " + eElement.getElementsByTagName("salary").item(0).getTextContent());
+                    //fill photos
+                    for (int photoNum = 0; photoNum < photosList.getLength(); photoNum++) {
+                        Node photoNode = photosList.item(photoNum);
 
+                        if (photoNode.getNodeType() == Node.ELEMENT_NODE)
+                            photoIds.add(((Element)photoNode).getAttribute("id"));
+                    }
                 }
+
+                task.setGroups(groupIds.stream().distinct().collect(Collectors.toList()));
+                task.setPhotos(photoIds.stream().distinct().collect(Collectors.toList()));
+                tasks.add(task);
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        return tasks;
     }
 }

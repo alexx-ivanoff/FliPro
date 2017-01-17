@@ -103,13 +103,16 @@ public class FlickrApi {
         if (!pools.stream().anyMatch(p -> p.getId().equals(groupId)))   {
             try {
                 //flickr.getPoolsInterface().add(photoId, groupId);
+                System.out.println(String.format("Photo '%s' was successfully added to group '%s'.", photoId, groupId));
                 flickr.getPoolsInterface().getGroups();
-                return true;
+                return false;
             }
             catch (FlickrException e) {
+
             }
         }
 
+        System.out.println(String.format("Photo '%s' was not added to group '%s'.", photoId, groupId));
         return false;
     }
 
@@ -119,13 +122,13 @@ public class FlickrApi {
 
         try {
             PhotoList<Photo> groupPhotos = flickr.getPoolsInterface().getPhotos(groupId, userId, new String[] {}, new HashSet<String>(), 1000, 1);
-            groupPhotos.stream().filter(p -> !photoIds.contains(p.getId())).collect(Collectors.toList()).stream().forEach(p -> result.add(p.getId()));
+            groupPhotos.stream().filter(p -> photoIds.contains(p.getId())).collect(Collectors.toList()).stream().forEach(p -> photoIds.remove(p.getId()));
         }
         catch (FlickrException e)   {
 
         }
 
-        return result;
+        return photoIds;
     }
 
     public void getToken() throws IOException, FlickrException {
