@@ -25,28 +25,29 @@ public class Administrator {
         for (Task task : tasks) {
 
             int groupsNum = task.getGroups().size();
-            int photosNum = task.getPhotos().size();
 
             Random rnd = new Random();
             int initialGroupNum = rnd.nextInt(groupsNum - 1);
-            int initialPhotoNum = rnd.nextInt(photosNum - 1);
-
             int currentGroupNum = getNextNumber(initialGroupNum, groupsNum);
-            int currentPhotoNum = getNextNumber(initialPhotoNum, photosNum);
 
-            String groupId = task.getGroups().get(initialGroupNum);
-            String photoId = task.getPhotos().get(initialGroupNum);
+            while (currentGroupNum != initialGroupNum)  {
+                List<String> photosWithoutGroup = flickrApi.getPhotoIdsWithoutGroup(task.getGroups().get(currentGroupNum), task.getPhotos());
 
-            while (currentPhotoNum != initialPhotoNum && !flickrApi.addPhotoToGroup(photoId, groupId))  {
-                currentPhotoNum = getNextNumber(initialPhotoNum, photosNum);
+                String groupId = task.getGroups().get(currentGroupNum);
 
-                groupId = task.getGroups().get(currentGroupNum);
-                photoId = task.getPhotos().get(currentPhotoNum);
+                int photosNum = photosWithoutGroup.size();
+                int initialPhotoNum = rnd.nextInt(photosNum - 1);
+                int currentPhotoNum = getNextNumber(initialPhotoNum, photosNum);
+
+                String photoId = photosWithoutGroup.get(initialGroupNum);
+
+                while (currentPhotoNum != initialPhotoNum && !flickrApi.addPhotoToGroup(photoId, groupId))  {
+                    currentPhotoNum = getNextNumber(currentPhotoNum, photosNum);
+                    photoId = task.getPhotos().get(currentPhotoNum);
+                }
+
+                currentGroupNum = getNextNumber(initialGroupNum, groupsNum);
             }
-
-
-            //if (!flickrApi.addPhotoToGroup(photoId, groupId))
-            //    getNextNumber(photoId)
         }
     }
 

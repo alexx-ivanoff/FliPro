@@ -16,10 +16,8 @@ import org.scribe.model.Verifier;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.HashSet;
-import java.util.Properties;
-import java.util.Scanner;
-import java.util.StringJoiner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 import com.flickr4java.flickr.*;
 
@@ -29,6 +27,7 @@ import com.flickr4java.flickr.*;
 public class FlickrApi {
 
     private static Flickr flickr;
+    private String userId;
 
     REST rest;
 
@@ -43,7 +42,8 @@ public class FlickrApi {
         //getToken();
 
         String photoId = "29408278120";
-        String userId = "142254954@N05";
+        String groupId = "48926546@N00";
+        userId = "142254954@N05";
 
         flickr = new Flickr(key, secret,new REST());
 
@@ -55,6 +55,11 @@ public class FlickrApi {
         requestContext.setAuth(auth);
         Flickr.debugRequest = false;
         Flickr.debugStream = false;
+
+        List<String> photoIds = new ArrayList<>();
+        photoIds.add(photoId);
+        getPhotoIdsWithoutGroup(groupId, photoIds);
+
 /*
         GroupList<Group> groups = flickr.getPeopleInterface().getGroups(userId);
         PhotoList<Photo> photos = flickr.getPeopleInterface().getPublicPhotos(userId, new HashSet<String>(), 1000, 1);
@@ -97,7 +102,8 @@ public class FlickrApi {
 
         if (!pools.stream().anyMatch(p -> p.getId().equals(groupId)))   {
             try {
-                flickr.getPoolsInterface().add(photoId, groupId);
+                //flickr.getPoolsInterface().add(photoId, groupId);
+                flickr.getPoolsInterface().getGroups();
                 return true;
             }
             catch (FlickrException e) {
@@ -105,6 +111,21 @@ public class FlickrApi {
         }
 
         return false;
+    }
+
+    public List<String> getPhotoIdsWithoutGroup(String groupId, List<String> photoIds)   {
+
+        List<String> result = new ArrayList<>();
+
+        try {
+            PhotoList<Photo> groupPhotos = flickr.getPoolsInterface().getPhotos(groupId, userId, new String[] {}, new HashSet<String>(), 1000, 1);
+            groupPhotos.stream().filter(p -> !photoIds.contains(p.getId())).collect(Collectors.toList()).stream().forEach(p -> result.add(p.getId()));
+        }
+        catch (FlickrException e)   {
+
+        }
+
+        return result;
     }
 
     public void getToken() throws IOException, FlickrException {
