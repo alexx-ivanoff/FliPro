@@ -24,29 +24,28 @@ public class Administrator {
     public void manageGroups() {
         for (Task task : tasks) {
 
-            int groupsNum = task.getGroups().size();
+            int groupsAmount = task.getGroups().size();
 
             Random rnd = new Random();
-            int initialGroupNum = rnd.nextInt(groupsNum - 1);
-            int currentGroupNum = getNextNumber(initialGroupNum, groupsNum);
+            int groupNumber = rnd.nextInt(groupsAmount);
+            int groupsCounter = 0;
 
-            while (currentGroupNum != initialGroupNum)  {
-                List<String> photosWithoutGroup = flickrApi.getPhotoIdsWithoutGroup(task.getGroups().get(currentGroupNum), task.getPhotos());
+            while (groupsCounter++ != groupsAmount)  {
+                groupNumber = getNextNumber(groupNumber, groupsAmount);
+                List<String> photosWithoutGroup = flickrApi.getPhotoIdsWithoutGroup(task.getGroups().get(groupNumber), task.getPhotos());
 
-                String groupId = task.getGroups().get(currentGroupNum);
+                String groupId = task.getGroups().get(groupNumber);
 
-                int photosNum = photosWithoutGroup.size();
-                int initialPhotoNum = rnd.nextInt(photosNum - 1);
-                int currentPhotoNum = getNextNumber(initialPhotoNum, photosNum);
+                int photosAmount = photosWithoutGroup.size();
+                int photoNumber = rnd.nextInt(photosAmount);
+                int photosCounter = 0;
 
-                String photoId = photosWithoutGroup.get(initialGroupNum);
+                String photoId = photosWithoutGroup.get(groupNumber);
 
-                while (currentPhotoNum != initialPhotoNum && !flickrApi.addPhotoToGroup(photoId, groupId))  {
-                    currentPhotoNum = getNextNumber(currentPhotoNum, photosNum);
-                    photoId = task.getPhotos().get(currentPhotoNum);
+                while (photosCounter++  != photosAmount && !flickrApi.addPhotoToGroup(photoId, groupId))  {
+                    photoNumber = getNextNumber(photoNumber, photosAmount);
+                    photoId = photosWithoutGroup.get(photoNumber);
                 }
-
-                currentGroupNum = getNextNumber(initialGroupNum, groupsNum);
             }
         }
     }
