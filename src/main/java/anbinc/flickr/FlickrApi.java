@@ -10,6 +10,7 @@ import com.flickr4java.flickr.photos.PhotoList;
 import com.flickr4java.flickr.photos.Pool;
 import com.flickr4java.flickr.photos.PoolList;
 import com.flickr4java.flickr.photosets.Photoset;
+import com.flickr4java.flickr.photosets.Photosets;
 import com.flickr4java.flickr.util.IOUtilities;
 import org.scribe.model.Token;
 import org.scribe.model.Verifier;
@@ -56,33 +57,14 @@ public class FlickrApi {
         Flickr.debugRequest = false;
         Flickr.debugStream = false;
 
+        getIds();
+
         List<String> photoIds = new ArrayList<>();
         photoIds.add(photoId);
         getPhotoIdsWithoutGroup(groupId, photoIds);
 
 /*
-        GroupList<Group> groups = flickr.getPeopleInterface().getGroups(userId);
-        PhotoList<Photo> photos = flickr.getPeopleInterface().getPublicPhotos(userId, new HashSet<String>(), 1000, 1);
 
-        String groupsMapping = "";
-        for (Group group : groups)  {
-            groupsMapping += String.format("<group>name=\"%s\" id=\"%s\"</group>\n", group.getName(), group.getId());
-        }
-
-        String albumName = "India 2016";
-        photos = flickr.getPhotosetsInterface().getPhotos(flickr.getPhotosetsInterface().getList(userId).getPhotosets().stream().filter(a->a.getTitle().equals(albumName)).findFirst().get().getId(), 1000, 1);
-
-        String photosMapping = "";
-
-        for (Photoset photoset : flickr.getPhotosetsInterface().getList(userId).getPhotosets()) {
-            photos = flickr.getPhotosetsInterface().getPhotos(photoset.getId(), 1000, 1);
-
-            photosMapping += "\n\n>>>>>\n>" + photoset.getTitle() + "\n";
-
-            for (Photo photo : photos)  {
-                photosMapping += String.format("<photo>name=\"%s\" id=\"%s\"</photo>\n", photo.getTitle(), photo.getId());
-            }
-        }
 */
 
 //        Group group = groups.stream().filter(g->g.getName().equals("Nikon DSLR Users")).findFirst().get();
@@ -129,6 +111,42 @@ public class FlickrApi {
         }
 
         return photoIds;
+    }
+
+    public List<String> getPhotosFromAlbum(String albumId) throws FlickrException {
+        return flickr.getPhotosetsInterface().getPhotos(albumId, 1000, 1).stream().map(p->p.getId()).collect(Collectors.toList());
+    }
+
+    private void getIds() throws FlickrException {
+        GroupList<Group> groups = flickr.getPeopleInterface().getGroups(userId);
+        PhotoList<Photo> photos = flickr.getPeopleInterface().getPublicPhotos(userId, new HashSet<String>(), 1000, 1);
+        Collection<Photoset> albums = flickr.getPhotosetsInterface().getList(userId).getPhotosets();
+
+        //groups.stream().filter(g->g.getName().toLowerCase().contains("girl")).map(g -> String.format("<group name=\"%s\" id=\"%s\"/group>", g.getName(), g.getId())).collect (Collectors.joining ("\n"))
+
+        String groupsMapping = "";
+        for (Group group : groups)  {
+            groupsMapping += String.format("<group name=\"%s\" id=\"%s\"/group>\n", group.getName(), group.getId());
+        }
+
+        String albumName = "India 2016";
+        String albumsMapping = "";
+        for (Photoset album : albums)   {
+            albumsMapping += String.format("<album name=\"%s\" id=\"%s\"/group>\n", album.getTitle(), album.getId());
+
+        }
+
+        String photosMapping = "";
+
+        for (Photoset photoset : flickr.getPhotosetsInterface().getList(userId).getPhotosets()) {
+            photos = flickr.getPhotosetsInterface().getPhotos(photoset.getId(), 1000, 1);
+
+            photosMapping += "\n\n>>>>>\n>" + photoset.getTitle() + "\n";
+
+            for (Photo photo : photos)  {
+                photosMapping += String.format("<photo name=\"%s\" id=\"%s\"/photo>\n", photo.getTitle(), photo.getId());
+            }
+        }
     }
 
     public void getToken() throws IOException, FlickrException {

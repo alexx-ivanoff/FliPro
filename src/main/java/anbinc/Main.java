@@ -20,7 +20,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException, FlickrException {
         FlickrApi flickrApi = new FlickrApi();
-        List<Task> tasks = TasksReader.readTasksFromXML();
+        List<Task> tasks = TasksReader.readTasksFromXML(flickrApi);
+        //List<Task> tasks = getTasks();
         Administrator admin = new Administrator(tasks);
         admin.manageGroups();
     }
