@@ -30,4 +30,12 @@ public class Task {
     public void setPhotos(List<String> photos) {
         this.photos = photos;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

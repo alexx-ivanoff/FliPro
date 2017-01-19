@@ -122,7 +122,7 @@ public class FlickrApi {
         PhotoList<Photo> photos = flickr.getPeopleInterface().getPublicPhotos(userId, new HashSet<String>(), 1000, 1);
         Collection<Photoset> albums = flickr.getPhotosetsInterface().getList(userId).getPhotosets();
 
-        //groups.stream().filter(g->g.getName().toLowerCase().contains("girl")).map(g -> String.format("<group name=\"%s\" id=\"%s\"/group>", g.getName(), g.getId())).collect (Collectors.joining ("\n"))
+        //groups.stream().filter(g->g.getName().toLowerCase().contains("girl")).map(g -> String.format("<group name=\"%s\" id=\"%s\"/>", g.getName(), g.getId())).collect (Collectors.joining ("\n"))
 
         String groupsMapping = "";
         for (Group group : groups)  {
@@ -132,7 +132,7 @@ public class FlickrApi {
         String albumName = "India 2016";
         String albumsMapping = "";
         for (Photoset album : albums)   {
-            albumsMapping += String.format("<album name=\"%s\" id=\"%s\"/group>\n", album.getTitle(), album.getId());
+            albumsMapping += String.format("<album name=\"%s\" id=\"%s\"/>\n", album.getTitle(), album.getId());
 
         }
 
@@ -144,9 +144,10 @@ public class FlickrApi {
             photosMapping += "\n\n>>>>>\n>" + photoset.getTitle() + "\n";
 
             for (Photo photo : photos)  {
-                photosMapping += String.format("<photo name=\"%s\" id=\"%s\"/photo>\n", photo.getTitle(), photo.getId());
+                photosMapping += String.format("<photo name=\"%s\" id=\"%s\"/>\n", photo.getTitle(), photo.getId());
             }
         }
+        int a=0;
     }
 
     public void getToken() throws IOException, FlickrException {

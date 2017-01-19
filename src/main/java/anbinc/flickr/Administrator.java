@@ -22,6 +22,8 @@ public class Administrator {
     }
 
     public void manageGroups() {
+
+        int photosProcessedTotal = 0;
         for (Task task : tasks) {
 
             int groupsAmount = task.getGroups().size();
@@ -30,6 +32,7 @@ public class Administrator {
                 Random rnd = new Random();
                 int groupNumber = rnd.nextInt(groupsAmount);
                 int groupsCounter = 0;
+                int photosProcessed = 0;
 
                 while (groupsCounter++ != groupsAmount) {
                     groupNumber = getNextNumber(groupNumber, groupsAmount);
@@ -45,14 +48,24 @@ public class Administrator {
 
                         String photoId = photosWithoutGroup.get(photoNumber);
 
-                        while (photosCounter++ != photosAmount && !flickrApi.addPhotoToGroup(photoId, groupId)) {
+                        while (photosCounter != photosAmount && photosProcessed<groupsAmount) {
+                            if (flickrApi.addPhotoToGroup(photoId, groupId)) {
+                                photosProcessed++;
+                                break;
+                            }
+
                             photoNumber = getNextNumber(photoNumber, photosAmount);
                             photoId = photosWithoutGroup.get(photoNumber);
+                            photosCounter++;
                         }
                     }
                 }
+
+                photosProcessedTotal += photosProcessed;
             }
         }
+
+        System.out.println(String.format("%s photos were successfully added to groups.", photosProcessedTotal));
     }
 
     private int getNextNumber(int number, int size) {

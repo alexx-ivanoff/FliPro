@@ -208,8 +208,32 @@
 		<photoPack name="India Street">
 			
 		</photoPack>
-		<photoPack name="India Nature">
-			
+		<photoPack name="India Nature and Landscapes">
+			<photo name="Leh" id="30898834836"/>
+			<photo name="Leh" id="30898839856"/>
+			<photo name="Leh" id="30898841106"/>
+			<photo name="Road to Pangong Tso" id="22772501638"/>
+			<photo name="Road to Pangong Tso" id="30649307940"/>
+			<photo name="Road to Pangong Tso" id="30862996441"/>
+			<photo name="Road to Pangong Tso" id="30862997731"/>
+			<photo name="Pangong Tso" id="30649431170"/>
+			<photo name="Pangong Tso" id="30951445045"/>
+			<photo name="Pangong Tso II" id="25338349459"/>
+			<photo name="Mountains... everywhere" id="30973961215"/>
+			<photo name="Pangong Tso" id="22795317668"/>
+			<photo name="Ladakh" id="30960289226"/>
+			<photo name="Ladakh" id="30907337401"/>
+			<photo name="Tso Moriri" id="30984204026"/>
+			<photo name="Tso Moriri" id="22841419508"/>
+			<photo name="Tso Moriri" id="30718185580"/>
+			<photo name="Sunrise at Tso Moriri" id="31009208096"/>
+			<photo name="Tso Moriri" id="31077766945"/>
+			<photo name="Jammu and Kashmir" id="31042056196"/>
+			<photo name="The Earth is Round" id="31056107481"/>
+			<photo name="Dhauladhar" id="30349051614"/>
+			<photo name="Dhauladhar" id="31134581476"/>
+			<photo name="In the Mist" id="31134650936"/>
+			<photo name="Hole in the Sky" id="31290851425"/>
 		</photoPack>
 		<photoPack name="Night">
 			
@@ -217,17 +241,104 @@
 		<photoPack name="City">
 			
 		</photoPack>
-		<photoPack name="">
-			
+		<photoPack name="USA Nature and Landscapes">
+			<photo name="Zion Canyon" id="28822956684"/>
+			<photo name="Zion Canyon" id="29367054801"/>
+			<photo name="Zion Canyon" id="29368823991"/>
+			<photo name="Angels Landing" id="29454350965"/>
+			<photo name="Zion Canyon" id="29168760640"/>
+			<photo name="Utah" id="29379148061"/>
+			<photo name="Bryce Canyon" id="29467394715"/>
+			<photo name="Bryce Canyon" id="29433169006"/>
+			<photo name="Utah" id="29433171416"/>
+			<photo name="Mars" id="29433173826"/>
+			<photo name="Bryce Canyon" id="29368315102"/>
+			<photo name="Mars Tree" id="29478594525"/>
+			<photo name="Road to Arches" id="28856542983"/>
+			<photo name="Valley in Rocks" id="29400147791"/>
+			<photo name="Delicate Arch" id="29491978125"/>
+			<photo name="Landscape Arch" id="29492123475"/>
+			<photo name="Arches National Park" id="29384069212"/>
+			<photo name="Arches National Park" id="29412611131"/>
+			<photo name="Mars at Utah" id="28889297954"/>
+			<photo name="Mars at Utah" id="29480154946"/>
+			<photo name="Road to the Monument Valley" id="29235306260"/>
+			<photo name="Horseshoe Bend" id="29500566406"/>
+			<photo name="Arizona" id="29246369860"/>
+			<photo name="Sunset at Grand Canyon" id="29255058590"/>
+			<photo name="Twillight of the Grand Canyon" id="29465420121"/>
+			<photo name="In the name of" id="28924633823"/>
+			<photo name="Mesquite Flat Sand Dunes" id="29522387476"/>
+			<photo name="Mesquite Flat Sand Dunes" id="29476076381"/>
+			<photo name="Mesquite Flat Sand Dunes" id="29476129081"/>
+			<photo name="Devil's Golf Course" id="28941730653"/>
+			<photo name="Artist's Drive" id="28940871304"/>
+			<photo name="Zabriskie Point" id="29543161596"/>
+			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
-		<photoPack name="">
-			
+		<photoPack name="Other Nature and Landscapes">
+			<photo name="Drought" id="30198703351"/>
+			<photo name="Travertines" id="30198767621"/>
+			<photo name="Travertines" id="30259219806"/>
+			<photo name="Sunset in Cappadocia" id="29663625023"/>
+			<photo name="Sunset in Cappadocia" id="30294048835"/>
+			<photo name="Cappadocia's Rocks" id="30294197175"/>
+			<photo name="Sunset in Cappadocia" id="30178821072"/>
+			<photo name="Sunset in Cappadocia" id="29663963044"/>
+			<photo name="Cappadocia 2D" id="29672310644"/>
+			<photo name="Morning Flight" id="30018073560"/>
+			<photo name="Morning Flight" id="30199063462"/>
+			<photo name="Map" id="30279985966"/>
+			<photo name="Uchisar" id="30319382575"/>
+			<photo name="Cappadocia" id="30022617180"/>
+			<photo name="Cappadocia" id="30203530242"/>
+			<photo name="Cappadocia" id="29689247234"/>
+			<photo name="Cappadocia" id="30247630191"/>
+			<photo name="Cappadocia" id="30247631811"/>
+			<photo name="White Silence" id="29105538395"/>
+			<photo name="Hard Day Night" id="30425618116"/>
+			<photo name="Mirror Rocks" id="29146237991"/>
+			<photo name="Twillight" id="29400412350"/>
+			<photo name="Carpathians' Mist" id="29933581070"/>
+			<photo name="Carpathians' Mist" id="30195200186"/>
+			<photo name="Carpathians' Mist" id="29933690270"/>
+			<photo name="Carpathians' Mist" id="29599856244"/>
+			<photo name="Carpathians' Mist" id="29600686503"/>
+			<photo name="Azov" id="30343246916"/>
+			<photo name="Carpathians" id="30081975870"/>
+			<photo name="Carpathians" id="29748514104"/>
+			<photo name="Village" id="30505619345"/>
+			<photo name="Kosmach" id="29873497313"/>
+			<photo name="The Beauty of Winter" id="29897314833"/>
+			<photo name="The Beauty of Winter" id="30231970510"/>
+			<photo name="Tram in Forest... nothing special)" id="30530172525"/>
+			<photo name="Branch Frame" id="30505575751"/>
+			<photo name="Carpathians" id="30505609631"/>
+			<photo name="Caucasus" id="29406967150"/>
+			<photo name="Kumlistsikhe" id="29408278120"/>
+			<photo name="Georgia" id="29588521452"/>
 		</photoPack>
-		<photoPack name="">
-			
+		<photoPack name="Just Nature">
+			<photo name="The End" id="30233595171"/>
+			<photo name="Smoothed by the Wind" id="29392561212"/>
+			<photo name="Space" id="30262332562"/>
+			<photo name="Nigttime" id="30343485586"/>
+			<photo name="Fall Season" id="30164493730"/>
+			<photo name="Village" id="30389180192"/>
+			<photo name="Blackwood" id="29897356113"/>
+			<photo name="Blackwood" id="30231999540"/>
+			<photo name="Under the Waterfall" id="30425797204"/>
+			<photo name="Family" id="31186040862"/>
+			<photo name="Game" id="30522605713"/>
 		</photoPack>
-		<photoPack name="">
-			
+		<photoPack name="Just Landscapes">
+			<photo name="Road of Utah" id="29501991035"/>
+			<photo name="Rainy Day" id="29535595995"/>
+			<photo name="Power Supply" id="29236426410"/>
+			<photo name="Hoover Dam" id="29266034260"/>
+			<photo name="Misty Fortress" id="28566049894"/>
+			<photo name="Misty Island" id="29102654171"/>
+			<photo name="Misty Village" id="29109498511"/>
 		</photoPack>
 		<photoPack name="">
 			
@@ -247,6 +358,54 @@
 			</groups>
 			<photos>
 				<album name="India 2016" id="72157675283589160"/>
+			</photos>
+		</set>
+		
+		<set name="India Nature and Landscapes">
+			<groups>	
+				<groupPack name="Nature"/>
+				<groupPack name="Landscapes"/>
+			</groups>
+			<photos>
+				<photoPack name="India Nature and Landscapes" id="72157675283589160"/>
+			</photos>
+		</set>
+		
+		<set name="USA Nature and Landscapes">
+			<groups>	
+				<groupPack name="Nature"/>
+				<groupPack name="Landscapes"/>
+			</groups>
+			<photos>
+				<photoPack name="USA Nature and Landscapes" id="72157675283589160"/>
+			</photos>
+		</set>
+		
+		<set name="Other Nature and Landscapes">
+			<groups>	
+				<groupPack name="Nature"/>
+				<groupPack name="Landscapes"/>
+			</groups>
+			<photos>
+				<photoPack name="Other Nature and Landscapes" id="72157675283589160"/>
+			</photos>
+		</set>
+		
+		<set name="Just Nature">
+			<groups>	
+				<groupPack name="Nature"/>
+			</groups>
+			<photos>
+				<photoPack name="Just Nature" id="72157675283589160"/>
+			</photos>
+		</set>
+		
+		<set name="Just Landscapes">
+			<groups>	
+				<groupPack name="Landscapes"/>
+			</groups>
+			<photos>
+				<photoPack name="Just Landscapes" id="72157675283589160"/>
 			</photos>
 		</set>
 		
