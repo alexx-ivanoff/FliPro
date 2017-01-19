@@ -5,10 +5,7 @@ import com.flickr4java.flickr.auth.AuthInterface;
 import com.flickr4java.flickr.auth.Permission;
 import com.flickr4java.flickr.groups.Group;
 import com.flickr4java.flickr.groups.GroupList;
-import com.flickr4java.flickr.photos.Photo;
-import com.flickr4java.flickr.photos.PhotoList;
-import com.flickr4java.flickr.photos.Pool;
-import com.flickr4java.flickr.photos.PoolList;
+import com.flickr4java.flickr.photos.*;
 import com.flickr4java.flickr.photosets.Photoset;
 import com.flickr4java.flickr.photosets.Photosets;
 import com.flickr4java.flickr.util.IOUtilities;
@@ -124,9 +121,14 @@ public class FlickrApi {
 
         //groups.stream().filter(g->g.getName().toLowerCase().contains("girl")).map(g -> String.format("<group name=\"%s\" id=\"%s\"/>", g.getName(), g.getId())).collect (Collectors.joining ("\n"))
 
+        SearchParameters searchParameters = new SearchParameters();
+        searchParameters.setTags(new String[]{"castle"});
+        searchParameters.setUserId(userId);
+        String searchResults = flickr.getPhotosInterface().search(searchParameters, 1000, 1).stream().map(g -> String.format("<photo name=\"%s\" id=\"%s\"/>", g.getTitle(), g.getId())).collect (Collectors.joining ("\n"));
+
         String groupsMapping = "";
         for (Group group : groups)  {
-            groupsMapping += String.format("<group name=\"%s\" id=\"%s\"/group>\n", group.getName(), group.getId());
+            groupsMapping += String.format("<group name=\"%s\" id=\"%s\"/>\n", group.getName(), group.getId());
         }
 
         String albumName = "India 2016";

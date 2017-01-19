@@ -5,6 +5,7 @@
 			<group name="Nikon Digital" id="35034364564@N01"/>
 			<group name="Nikon DSLR Users" id="55835613@N00"/>
 			<group name="Nikon D600/D610 CLUB" id="1949459@N23"/>
+			<group name="Nikon D600/D610" id="1936641@N20"/>
 		</groupPack>
 		<groupPack name="Photography">
 			<group name="Photography" id="40732569271@N01"/>
@@ -15,18 +16,25 @@
 			<group name="Digital SLR Photography Magazine" id="1437478@N20"/>
 			<group name="The Photographer's Club" id="15166189@N00"/>
 			<group name="Beautiful Capture" id="347276@N23"/>
+			<group name="The Official Digital Camera Magazine Flickr Group" id="736342@N25"/>
+			<group name="The Best ..." id="2532236@N24"/>
+			<group name="!*ALL ARE WELCOME*!" id="2692194@N22"/>
 		</groupPack>
 		<groupPack name="Flickr Global">
 			<group name="***Flickr Global" id="1136489@N22"/>
 			<group name="FlickrCentral" id="34427469792@N01"/>
 			<group name="` FLICKR ´" id="1755214@N23"/>
 			<group name="Flickr Addicts" id="76535076@N00"/>
+			<group name="!FlickrSoup for Soul" id="15153247@N00"/>
+			<group name="Flickr Friday" id="2091880@N25"/>
+			<group name="Today's Flickr" id="2755668@N23"/>
 		</groupPack>
 			<groupPack name="Art">
 			<group name="You Think this is Art" id="75964794@N00"/>		
 			<group name="Art Meets Photography" id="676103@N20"/>
 			<group name="Magic Moments" id="52240880306@N01"/>
 			<group name="Artistic Photography" id="58898522@N00"/>
+			<group name="The best of world picture" id="2978869@N23"/>
 		</groupPack>
 		<groupPack name="Street">
 			<group name="Just Street Photography" id="97329809@N00"/>
@@ -49,8 +57,15 @@
 			<group name="Urban - Photography" id="712151@N23"/>
 			<group name="Urban Life" id="95614496@N00"/>
 			<group name="People in the City" id="66447238@N00"/>
+			<group name="StreetPhoto" id="49503026089@N01"/>
+			<group name="B&amp;W" id="52239733174@N01"/>
+			<group name="Urban Life Perspectives" id="26434968@N00"/>
+			<group name="Street Photographers" id="579020@N23"/>
+			<group name="Street Shooter" id="1278426@N24"/>
+			<group name="In The Streets" id="1306738@N24"/>
+			<group name="Street Photography Beginners" id="2075599@N22"/>
 		</groupPack>
-		<groupPack name="B&amp;W">
+		<groupPack name="Black and White">
 			<group name="BLACK AND WHITE PHOTO HEAVEN!" id="38613568@N00"/>
 			<group name="Black &amp; White Pictures" id="16829496@N00"/>
 			<group name="Life in Black &amp; White" id="91479755@N00"/>
@@ -62,6 +77,11 @@
 			<group name="B&amp;W" id="52239733174@N01"/>
 			<group name="World of B&amp;W + Sepia &amp; other monochrome" id="405546@N20"/>
 			<group name="B+W" id="81723560@N00"/>
+			<group name="White and Black Photography" id="66351550@N00"/>
+			<group name="Flickr B&amp;W" id="56076375@N00"/>
+			<group name="BW and Sepia" id="53041022@N00"/>
+			<group name="Black &amp; White Art Awards (Post 1 - Award 3)" id="480152@N21"/>
+			<group name="Black ♥ Black &amp;White♥ NO SEPIA" id="1218322@N22"/>
 		</groupPack>
 		<groupPack name="City">
 			<group name="URBAN" id="14049426@N00"/>
@@ -74,6 +94,8 @@
 			<group name="City Centers ♫ /// of the World ///" id="61601134@N00"/>
 			<group name="City Skylines (Buildings,Cities)" id="738515@N22"/>
 			<group name="The City: Urban &amp; Street Photography" id="2686179@N24"/>
+			<group name="CityScape" id="26328425@N00"/>
+			<group name="Urban Urban Urban" id="850014@N23"/>
 		</groupPack>
 		<groupPack name="Nature">
 			<group name="Nature" id="40969270@N00"/>
@@ -89,6 +111,9 @@
 			<group name="NATURE'S BEST" id="496080@N22"/>
 			<group name="nature's composition" id="614277@N22"/>
 			<group name="Nature's Gallery (Post 1 / Award 3)" id="1353720@N25"/>
+			<group name="Awesome Nature" id="40025645@N00"/>
+			<group name="The Landscapes Scenery &amp; Sunsets Group" id="761487@N25"/>
+			<group name="NATURE'S PRIME (P1/A4)" id="1118172@N20"/>
 		</groupPack>
 		<groupPack name="Landscapes">
 			<group name="Landscape Photos" id="35638995@N00"/>
@@ -106,6 +131,8 @@
 			<group name="PLANET EARTH LANDSCAPES" id="1609106@N20"/>
 			<group name="All kind of Landscapes" id="2241717@N21"/>
 			<group name="Landscapes Only" id="2297498@N20"/>
+			<group name="Landscapes 101 (Unlimited)" id="82258726@N00"/>
+			<group name="Landscape Photographs - P 1 A 1" id="1063369@N24"/>
 		</groupPack>
 		<groupPack name="Colors">
 			<group name="!Catchy Colors" id="71332142@N00"/>
@@ -113,8 +140,8 @@
 			<group name="!Colors of Flickr - Welcome!" id="2745829@N25"/>
 			<group name="Colors of the World" id="28747776@N00"/>
 		</groupPack>
-		<groupPack name="World">
-			
+		<groupPack name="All">
+			<group name="ANYTHING ALLOWED!!!!!!" id="76649513@N00"/>
 		</groupPack>
 		<groupPack name="Girls">
 			<group name="Beautiful Girls" id="81019155@N00"/>
@@ -136,6 +163,11 @@
 			<group name="Portraits Only" id="1597446@N21"/>
 			<group name="Portraits of women (woman only)" id="1642531@N23"/>
 			<group name="People Portraits World" id="1812051@N23"/>
+			<group name="Portrait★Faces" id="58146428@N00"/>
+			<group name="Portraits... Get Closer!" id="72289549@N00"/>
+			<group name="PORTRAITS you can fall in love with..." id="11983832@N00"/>
+			<group name="girl's portrait" id="408478@N22"/>
+			<group name="Female Faces" id="1338689@N20"/>
 		</groupPack>
 		<groupPack name="Winter">
 			<group name="**Snow, Snow, Snow!**" id="563072@N25"/>
@@ -157,6 +189,8 @@
 			<group name="India as we see it" id="52992818@N00"/>
 			<group name="The India Tree" id="370435@N25"/>
 			<group name="Discovery  India" id="1567384@N23"/>
+			<group name="Incredible India !" id="79356248@N00"/>
+			<group name="Incredible India" id="76999930@N00"/>
 		</groupPack>
 		<groupPack name="India People">
 			<group name="LIFE IN INDIA" id="879395@N23"/>
@@ -191,23 +225,84 @@
 			<group name="*People  All  Over  World*" id="73343692@N00"/>
 			<group name="People of the World" id="21819324@N00"/>
 			<group name="World Culture" id="44416664@N00"/>
+			<group name="People and Persons" id="12938526@N00"/>
+			<group name="People pictures" id="89483931@N00"/>
+			
+		</groupPack>
+		<groupPack name="New York">
+			<group name="New York City" id="35034350743@N01"/>
+			<group name="New York life" id="46299879@N00"/>
+			<group name="New York, New York" id="63028098@N00"/>
+			<group name="New York City, New York" id="85835138@N00"/>
+			<group name="New York City - Shots From Above - READ RULES!!!!" id="76674380@N00"/>
+			<group name="NEW YORK !" id="74982067@N00"/>
+			<group name="I ♡ New York" id="1468186@N25"/>
+		</groupPack>
+		<groupPack name="Sunsets">
+			<group name="Sunsets &amp; Sunrises around the world (121 Countries!)" id="52242317293@N01"/>
+			<group name="Sunsets in the world" id="723408@N25"/>
+			<group name="Sunset light" id="845280@N25"/>
+			<group name="Sunset of the Day!" id="1865258@N24"/>
+			<group name="Clouds, Storms, Sunsets &amp; Sunrises" id="426071@N23"/>
+		</groupPack>
+		<groupPack name="Castles">
+			<group name="Castles of Europe" id="71423588@N00"/>
+			<group name="Castles from the world." id="24856420@N00"/>
+			<group name="Palaces, Castles, Towers, Pagodas, Fortresses And Ruins of Old" id="98656991@N00"/>
+			<group name="Fortresses, forts &amp; fortifications of the World (photo guide)" id="46808761@N00"/>
+		</groupPack>		
+		<groupPack name="Water">
+			<group name="Water...  Oceans, Lakes, Rivers, Creeks" id="92767609@N00"/>
+			<group name="WATER, WATER   EVERYWHERE !" id="665152@N21"/>
+			<group name="ANYTHING TO DO WITH WATER (P1/A1)  VOTING TIME" id="778927@N21"/>
+		</groupPack>		
+		<groupPack name="USA">
+			<group name="Road Trip USA" id="46205126@N00"/>
+			<group name="EVERYTHING AMERICA" id="49906912@N00"/>
+			<group name="USA - UNITED STATES OF AMERICA" id="74744754@N00"/>
+		</groupPack>
+		<groupPack name="Roads">
+			<group name="Roads Less Travelled" id="70687104@N00"/>
+			<group name="Road" id="92278554@N00"/>
+			<group name="Road Tripping" id="28556022@N00"/>
+		</groupPack>
+		<groupPack name="Turkey">
+			<group name="Turkey - People &amp; Friends of Turkey" id="59031224@N00"/>
+			<group name="Turkey | I dream of Turkey" id="43089303@N00"/>
+			<group name="Turkey / Türkiye" id="22045629@N00"/>
+		</groupPack>
+		<groupPack name="Industrial">
+			<group name="industrial culture" id="79703798@N00"/>
+			<group name="Industry_Industrie_Industria" id="32108276@N00"/>
+			<group name="Industrial Landscapes - 工場萌え" id="353855@N23"/>
+			<group name="INDUSTRIAL LANDSCAPES &amp; INDUSTRIAL STRUCTURES OLD AND NEW." id="338321@N24"/>
+		</groupPack>
+		<groupPack name="Reflections">
+			<group name="Wet Reflections" id="64733912@N00"/>
+			<group name="Reflections Of The World" id="769765@N21"/>
+			<group name="reflections, spiegelungen" id="1018200@N20"/>
+		</groupPack>
+		<groupPack name="Bridges">
+			<group name="Bridges Across" id="74376489@N00"/>
+			<group name="Bridges, Bridges, and MORE BRIDGES" id="917429@N25"/>
+			<group name="Bridges around the world" id="97241455@N00"/>
+		</groupPack>
+		<groupPack name="US National Parks">
+			<group name="Best of U.S. National Parks" id="1257878@N22"/>
+			<group name="U.S. National Parks" id="57347939@N00"/>
+			<group name="U.S. National Parks and Places" id="39889516@N00"/>
+		</groupPack>
+		<groupPack name="Weather">
+			<group name="Weather Worldwide" id="1553326@N24"/>
+			<group name="Whatever the weather" id="16765852@N00"/>
+			<group name="Weather Photography" id="499909@N21"/>
+		</groupPack>
+		<groupPack name="">
 
-		</groupPack>
-		<groupPack name="">
-			
-		</groupPack>
-		<groupPack name="">
-			
 		</groupPack>
 	</groupPacks>
 
 	<photoPacks>
-		<photoPack name="India People">
-			
-		</photoPack>
-		<photoPack name="India Street">
-			
-		</photoPack>
 		<photoPack name="India Nature and Landscapes">
 			<photo name="Leh" id="30898834836"/>
 			<photo name="Leh" id="30898839856"/>
@@ -234,12 +329,6 @@
 			<photo name="Dhauladhar" id="31134581476"/>
 			<photo name="In the Mist" id="31134650936"/>
 			<photo name="Hole in the Sky" id="31290851425"/>
-		</photoPack>
-		<photoPack name="Night">
-			
-		</photoPack>
-		<photoPack name="City">
-			
 		</photoPack>
 		<photoPack name="USA Nature and Landscapes">
 			<photo name="Zion Canyon" id="28822956684"/>
@@ -340,11 +429,235 @@
 			<photo name="Misty Island" id="29102654171"/>
 			<photo name="Misty Village" id="29109498511"/>
 		</photoPack>
+		<photoPack name="Architecture">
+			<photo name="Gallery" id="31377279692"/>
+			<photo name="Bara Gumbad" id="31524053985"/>
+			<photo name="Rashtrapati Bhavan" id="31338063591"/>
+			<photo name="Torch" id="31083007740"/>
+			<photo name="Night Shimla" id="31242387542"/>
+			<photo name="Constructor" id="31017275460"/>
+			<photo name="Shimla" id="30564709984"/>
+			<photo name="Shimla Levels" id="31331943796"/>
+			<photo name="Architectural Chaos" id="31253207701"/>
+			<photo name="At the Gates" id="31223969212"/>
+			<photo name="Band Box" id="30507676234"/>
+			<photo name="Shimla" id="30522484383"/>
+			<photo name="Shimla" id="30489095954"/>
+			<photo name="Dharamsala" id="30781664700"/>
+			<photo name="Delhi's Traffic" id="30989714212"/>
+			<photo name="Karzok" id="30902810422"/>
+			<photo name="Shanti Stupa" id="30995522495"/>
+			<photo name="Stupa" id="30863023851"/>
+			<photo name="Urban Volcano" id="30553036675"/>
+			<photo name="Stadium" id="30465340101"/>
+			<photo name="Winterlights" id="29899670924"/>
+			<photo name="Amsterdam" id="30326275942"/>
+			<photo name="Red Light District" id="30406262356"/>
+			<photo name="Red Light District" id="30406255916"/>
+			<photo name="Red Light District" id="29811794514"/>
+			<photo name="Red Light District" id="29810673423"/>
+			<photo name="Red Light District" id="30356468611"/>
+			<photo name="Hamburg" id="29789906623"/>
+			<photo name="Hamburg" id="30304786202"/>
+			<photo name="Gdansk" id="30314463161"/>
+			<photo name="Gdansk" id="29768913133"/>
+			<photo name="Uchisar" id="30319382575"/>
+			<photo name="Circle" id="29644384314"/>
+			<photo name="La Grande Arche" id="29603779536"/>
+			<photo name="Night Louvre" id="29630518045"/>
+			<photo name="Through the Pyramid" id="28999142894"/>
+			<photo name="Strasbourg" id="28985065404"/>
+			<photo name="Washington D.C." id="28957954853"/>
+			<photo name="to Manhattan" id="28752638284"/>
+			<photo name="At the edge of the Central Park" id="29081275160"/>
+			<photo name="Big Apple" id="28740928114"/>
+			<photo name="Stairway to..." id="28542122624"/>
+			<photo name="Hamburg's Reflections" id="29162219815"/>
+			<photo name="St. Vitus" id="28850915430"/>
+			<photo name="Český Krumlov" id="28838148520"/>
+			<photo name="Český Krumlov" id="29019041022"/>
+		</photoPack>
+		<photoPack name="Black and White">
+			<photo name="Street Barbershop" id="31274676256"/>
+			<photo name="Shimla's Street" id="30503107713"/>
+			<photo name="Street of Manali" id="30482749123"/>
+			<photo name="Oh Those Dark Eyes" id="31175673461"/>
+			<photo name="Leh's Streetlife" id="30990750141"/>
+			<photo name="Leh's Streetlife" id="30961921352"/>
+			<photo name="Leh's Streetlife" id="31078113315"/>
+			<photo name="Nika" id="29939966283"/>
+			<photo name="Nika" id="29939956413"/>
+			<photo name="Blackwood" id="30231999540"/>
+			<photo name="Blackwood" id="29897356113"/>
+			<photo name="Subway Girl" id="30388929262"/>
+			<photo name="Subway Girl" id="29874913444"/>
+			<photo name="Subway Girl" id="29873220373"/>
+			<photo name="Reeperbahn" id="30124669440"/>
+			<photo name="Reeperbahn" id="30421661845"/>
+			<photo name="Reeperbahn" id="30421597875"/>
+			<photo name="Hamburg" id="30304786202"/>
+			<photo name="Taksim Tram" id="30298754436"/>
+			<photo name="Bubbles" id="29702602573"/>
+			<photo name="Another side of Istanbul" id="29978404570"/>
+			<photo name="Imprisoned" id="29583827252"/>
+			<photo name="Catched!" id="28822968963"/>
+			<photo name="Street Games" id="28819614654"/>
+			<photo name="Feelings Frame" id="28782145144"/>
+			<photo name="Taxi" id="28774175944"/>
+			<photo name="Fiddler" id="28744310124"/>
+			<photo name="Formicary" id="29267465381"/>
+			<photo name="City Runners" id="29036059770"/>
+			<photo name="Forever 21" id="28696758914"/>
+			<photo name="Shooter on Rails" id="29226395145"/>
+			<photo name="Waiting" id="29191836126"/>
+			<photo name="Hamburg's Reflections" id="29162219815"/>
+			<photo name="Nika" id="30274495840"/>
+			<photo name="Reeperbahn" id="29789945353"/>
+			<photo name="Reeperbahn" id="29789921243"/>
+			<photo name="Witch" id="30378951075"/>
+			<photo name="Witch" id="30081819210"/>
+			<photo name="Conversation" id="30275283935"/>
+			<photo name="Of Birds and Men" id="29644385494"/>
+			<photo name="Black & White" id="30159272502"/>
+			<photo name="Endless Emptiness" id="30168224831"/>
+		</photoPack>
+		<photoPack name="Bridges">
+			<photo name="Urban Fishing" id="29942203314"/>
+			<photo name="Snowy Kiev" id="29919187213"/>
+			<photo name="Hamburg" id="29789906623"/>
+			<photo name="Gloomy Dnepr" id="29066813663"/>
+			<photo name="Keep Calm and Sail On" id="29379445380"/>
+			<photo name="Urban Sport" id="29023261833"/>
+			<photo name="Hoover Dam" id="29266034260"/>
+			<photo name="Manhattan" id="29289326372"/>
+			<photo name="Brooklin Bridge" id="28765781384"/>
+			<photo name="New York" id="29388626535"/>
+			<photo name="City Runners" id="29036059770"/>
+			<photo name="Clear Morning" id="29129037291"/>
+			<photo name="Fortress in Kamenets-Podolskiy" id="29121258271"/>
+			<photo name="Misty Island" id="29102654171"/>
+			<photo name="Night Prague" id="28517652213"/>
+			<photo name="Český Krumlov" id="28838148520"/>
+			<photo name="Karlův most" id="29045987451"/>
+			<photo name="Kinderdijk" id="29829495503"/>
+			<photo name="Bosphorus" id="30189721851"/>
+		</photoPack>
+		<photoPack name="Industrial">
+			<photo name="Morning at Station" id="30319715856"/>
+			<photo name="Endless Emptiness" id="30168224831"/>
+			<photo name="Ironworks" id="29400645240"/>
+			<photo name="Dnepr Sunrise" id="29723399063"/>
+			<photo name="Dnepr Sunrise" id="29724708774"/>
+			<photo name="Industrialization" id="30253937255"/>
+			<photo name="Industrialization" id="29957075740"/>
+			<photo name="Master of Pipes" id="29600421773"/>
+		</photoPack>
+		<photoPack name="Sunsets">
+			<photo name="Torch" id="31083007740"/>
+			<photo name="Rajpath" id="31308080022"/>
+			<photo name="Constructor" id="31017275460"/>
+			<photo name="On the Rooftop" id="31271398671"/>
+			<photo name="Shimla Levels" id="31331943796"/>
+			<photo name="Hole in the Sky" id="31290851425"/>
+			<photo name="Leh's Streetlife" id="30297638463"/>
+			<photo name="Pangong Tso" id="30951445045"/>
+			<photo name="Pangong Tso" id="30649431170"/>
+			<photo name="City Levels" id="29897500213"/>
+			<photo name="Sunset over Kiev" id="29851152143"/>
+			<photo name="Sunset over Kiev" id="30366683282"/>
+			<photo name="Sunset over Kiev" id="30483481405"/>
+			<photo name="Sunset over Kiev" id="30366578912"/>
+			<photo name="Sunset over Kiev" id="30366577702"/>
+			<photo name="Sunset over Kiev" id="30366559402"/>
+			<photo name="Cosplayers" id="30375793271"/>
+			<photo name="Hard Day Night" id="30425618116"/>
+			<photo name="Azov" id="30343246916"/>
+			<photo name="Industrialization" id="30253937255"/>
+			<photo name="Industrialization" id="29957075740"/>
+			<photo name="Twillight" id="29400412350"/>
+			<photo name="Dante's View" id="29468167812"/>
+			<photo name="Sunset at Grand Canyon" id="29255058590"/>
+			<photo name="Road to the Monument Valley" id="29235306260"/>
+			<photo name="Mars at Utah" id="29480154946"/>
+			<photo name="Mars at Utah" id="28889297954"/>
+			<photo name="Lost in a Dusk" id="29317162745"/>
+			<photo name="Hell on Earth" id="29115708565"/>
+			<photo name="Sunset in Cappadocia" id="29663963044"/>
+			<photo name="Sunset in Cappadocia" id="30178821072"/>
+			<photo name="Sunset in Cappadocia" id="30294048835"/>
+			<photo name="Sunset in Cappadocia" id="29663625023"/>
+			<photo name="Travertines" id="30259219806"/>
+			<photo name="Travertines" id="30198767621"/>
+			<photo name="Dnepr City" id="30229831025"/>
+			<photo name="Dnepr City" id="30114837222"/>
+			<photo name="Jersey City" id="29223291382"/>
+		</photoPack>
 		<photoPack name="">
 			
 		</photoPack>
 		<photoPack name="">
 			
+		</photoPack>
+		<photoPack name="">
+			
+		</photoPack>
+		<photoPack name="">
+			
+		</photoPack>
+		
+		<photoPack name="Night">
+			<photo name="Night Delhi" id="31106405540"/>
+			<photo name="Sun Ise" id="31440164566"/>
+			<photo name="Night Shimla" id="31242387542"/>
+			<photo name="Oh Those Dark Eyes" id="31175673461"/>
+			<photo name="Night Dharamsala" id="31113669976"/>
+			<photo name="Shanti Stupa" id="30995522495"/>
+			<photo name="Leh" id="30898841106"/>
+			<photo name="Calm Kiev" id="30356533750"/>
+			<photo name="Urban Volcano" id="30553036675"/>
+			<photo name="Night Coffee" id="30465437291"/>
+			<photo name="In the Lights" id="30552971475"/>
+			<photo name="Stadium" id="30465340101"/>
+			<photo name="Winterlights" id="29899670924"/>
+			<photo name="Red Light District" id="30406262356"/>
+			<photo name="Red Light District" id="30406255916"/>
+			<photo name="Red Light District" id="29811794514"/>
+			<photo name="Red Light District" id="29810673423"/>
+			<photo name="Red Light District" id="30356468611"/>
+			<photo name="Reeperbahn" id="30421661845"/>
+			<photo name="Hamburg" id="29789906623"/>
+			<photo name="Gdansk" id="30314463161"/>
+			<photo name="Gdansk" id="29768913133"/>
+			<photo name="Nigttime" id="30343485586"/>
+			<photo name="Night Dnepr" id="30262411892"/>
+			<photo name="Night Dnepr" id="30081777290"/>
+			<photo name="Space" id="30262332562"/>
+			<photo name="Uchisar" id="30319382575"/>
+			<photo name="Gloomy Dnepr" id="29066813663"/>
+			<photo name="Hellfest" id="29647908765"/>
+			<photo name="Night Louvre" id="29630518045"/>
+			<photo name="The Edge" id="29544979381"/>
+			<photo name="Big City Lights #2" id="29426297495"/>
+			<photo name="Big City Lights #1" id="28803105173"/>
+			<photo name="Alone in the Rain" id="29312557902"/>
+			<photo name="Manhattan" id="29289326372"/>
+			<photo name="Brooklin Bridge" id="28765781384"/>
+			<photo name="New York" id="29388626535"/>
+			<photo name="NYC's Motion" id="28721226634"/>
+			<photo name="Street Patrol" id="29234956122"/>
+			<photo name="Fortress in Kamenets-Podolskiy" id="29121258271"/>
+			<photo name="Stairway to..." id="28542122624"/>
+			<photo name="Night Prague" id="28517652213"/>
+			<photo name="Český Krumlov" id="29019041022"/>
+			<photo name="Karlův most" id="29045987451"/>
+			<photo name="Night Leh" id="30995520235"/>
+			<photo name="Kumlistsikhe" id="29408278120"/>
+			<photo name="Twillight" id="29400412350"/>
+			<photo name="Witch" id="29400159560"/>
+			<photo name="Witch" id="29600533161"/>
+		</photoPack>
+		<photoPack name="City">
+
 		</photoPack>
 	</photoPacks>
 
@@ -355,9 +668,36 @@
 				<groupPack name="Nikon"/>
 				<groupPack name="National Geographic"/>
 				<groupPack name="Travel"/>
+				<groupPack name="Colors">
 			</groups>
 			<photos>
 				<album name="India 2016" id="72157675283589160"/>
+			</photos>
+		</set>
+		
+		<set name="USA Main">
+			<groups>	
+				<groupPack name="Nikon"/>
+				<groupPack name="National Geographic"/>
+				<groupPack name="Travel"/>
+				<groupPack name="Flickr Global"/>
+				<groupPack name="USA"/>
+			</groups>
+			<photos>
+				<album name="USA 2014" id="72157673164339365"/>
+			</photos>
+		</set>
+		
+		<set name="Turkey">
+			<groups>	
+				<groupPack name="Nikon"/>
+				<groupPack name="National Geographic"/>
+				<groupPack name="Travel"/>
+				<groupPack name="Turkey"/>
+				<groupPack name="Colors">
+			</groups>
+			<photos>
+				<album name="Turkey 2015">
 			</photos>
 		</set>
 		
@@ -375,6 +715,7 @@
 			<groups>	
 				<groupPack name="Nature"/>
 				<groupPack name="Landscapes"/>
+				<groupPack name="Colors">
 			</groups>
 			<photos>
 				<photoPack name="USA Nature and Landscapes" id="72157675283589160"/>
@@ -436,12 +777,12 @@
 			</photos>
 		</set>
 		
-		<set name="B&amp;W">
+		<set name="Black and White">
 			<groups>	
-				<groupPack name="B&amp;W"/>
+				<groupPack name="Black and White"/>
 			</groups>
 			<photos>
-				
+				<photoPack name="Black and White">
 			</photos>
 		</set>
 		
@@ -450,7 +791,7 @@
 				<groupPack name="City"/>
 			</groups>
 			<photos>
-				
+				<photoPack name="City">
 			</photos>
 		</set>
 		
@@ -459,16 +800,53 @@
 				<groupPack name="Architecture"/>
 			</groups>
 			<photos>
-				
+				<photoPack name="Architecture">
 			</photos>
 		</set>
+									
+		<set name="Industrial">
+			<groups>	
+				<groupPack name="Industrial"/>
+			</groups>
+			<photos>
+				<photoPack name="Industrial">
+			</photos>
+		</set>
+						
+		<set name="Bridges">
+			<groups>	
+				<groupPack name="Bridges"/>
+			</groups>
+			<photos>
+				<photoPack name="Bridges">
+			</photos>
+		</set>
+						
+		<set name="Sunsets">
+			<groups>	
+
+			</groups>
+			<photos>
+
+			</photos>
+		</set>
+						
+		<set name="">
+			<groups>	
+
+			</groups>
+			<photos>
+
+			</photos>
+		</set>
+		
 		
 		<set name="Night">
 			<groups>	
 				<groupPack name="Night"/>
 			</groups>
 			<photos>
-				
+				<photoPack name="Night">
 			</photos>
 		</set>
 		
@@ -481,19 +859,7 @@
 				<album name="Girls, Girls, Girls" id="72157669972218114"/>
 			</photos>
 		</set>
-		
-		<set name="USA Main">
-			<groups>	
-				<groupPack name="Nikon"/>
-				<groupPack name="National Geographic"/>
-				<groupPack name="Travel"/>
-				<groupPack name="Flickr Global"/>
-			</groups>
-			<photos>
-				<album name="USA 2014" id="72157673164339365"/>
-			</photos>
-		</set>
-		
+			
 		<set name="Art">
 			<groups>	
 				<groupPack name="Art"/>
