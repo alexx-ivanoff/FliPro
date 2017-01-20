@@ -21,6 +21,7 @@
 			<group name="!*ALL ARE WELCOME*!" id="2692194@N22"/>
 			<group name="The world through photography" id="769299@N22"/>
 			<group name="World Wide Photographers" id="70663139@N00"/>
+			<group name="ANYTHING ALLOWED!!!!!!" id="76649513@N00"/>
 		</groupPack>
 		<groupPack name="Flickr Global">
 			<group name="***Flickr Global" id="1136489@N22"/>
@@ -162,7 +163,7 @@
 			<group name="Colores" id="641286@N24"/>
 		</groupPack>
 		<groupPack name="All">
-			<group name="ANYTHING ALLOWED!!!!!!" id="76649513@N00"/>
+			
 		</groupPack>
 		<groupPack name="Girls">
 			<group name="Beautiful Girls" id="81019155@N00"/>
@@ -286,6 +287,15 @@
 			<group name="Road Trip USA" id="46205126@N00"/>
 			<group name="EVERYTHING AMERICA" id="49906912@N00"/>
 			<group name="USA - UNITED STATES OF AMERICA" id="74744754@N00"/>
+		</groupPack>
+		<groupPack name="Europe">
+			<group name="European Union" id="88993476@N00"/>
+			<group name="Architecture in Europe" id="77162218@N00"/>
+			<group name="Europe on Flickr" id="979035@N25"/>
+			<group name="★ EUROPE ★ ЕВРОПА ★ ΕΥΡΩΠΗ ★ EUROPA ★" id="2795712@N24"/>
+			<group name="This Is Europe" id="60853857@N00"/>
+			<group name="Europe at * Night *" id="82036771@N00"/>
+			<group name="Europe ! Europa !" id="1286471@N20"/>
 		</groupPack>
 		<groupPack name="Roads">
 			<group name="Roads Less Travelled" id="70687104@N00"/>
@@ -694,7 +704,6 @@
 				<groupPack name="Nikon"/>
 				<groupPack name="National Geographic"/>
 				<groupPack name="Travel"/>
-				<groupPack name="Colors">
 			</groups>
 			<photos>
 				<album name="India 2016" id="72157675283589160"/>
@@ -720,10 +729,19 @@
 				<groupPack name="National Geographic"/>
 				<groupPack name="Travel"/>
 				<groupPack name="Turkey"/>
-				<groupPack name="Colors">
 			</groups>
 			<photos>
 				<album name="Turkey 2015">
+			</photos>
+		</set>
+		
+		<set name="Europe">
+			<groups>	
+				<groupPack name="Europe"/>
+				<groupPack name="Photography>
+			</groups>
+			<photos>
+				<album name="Europe">
 			</photos>
 		</set>
 		
@@ -733,7 +751,7 @@
 				<groupPack name="Landscapes"/>
 			</groups>
 			<photos>
-				<photoPack name="India Nature and Landscapes" id="72157675283589160"/>
+				<photoPack name="India Nature and Landscapes"/>
 			</photos>
 		</set>
 		
@@ -744,7 +762,7 @@
 				<groupPack name="Colors">
 			</groups>
 			<photos>
-				<photoPack name="USA Nature and Landscapes" id="72157675283589160"/>
+				<photoPack name="USA Nature and Landscapes"/>
 			</photos>
 		</set>
 		
@@ -754,7 +772,7 @@
 				<groupPack name="Landscapes"/>
 			</groups>
 			<photos>
-				<photoPack name="Other Nature and Landscapes" id="72157675283589160"/>
+				<photoPack name="Other Nature and Landscapes"/>
 			</photos>
 		</set>
 		
@@ -763,7 +781,7 @@
 				<groupPack name="Nature"/>
 			</groups>
 			<photos>
-				<photoPack name="Just Nature" id="72157675283589160"/>
+				<photoPack name="Just Nature"/>
 			</photos>
 		</set>
 		
@@ -772,7 +790,20 @@
 				<groupPack name="Landscapes"/>
 			</groups>
 			<photos>
-				<photoPack name="Just Landscapes" id="72157675283589160"/>
+				<photoPack name="Just Landscapes"/>
+			</photos>
+		</set>
+		
+		<set name="All Nature and Landscapes">
+			<groups>	
+				<groupPack name="Colors"/>
+			</groups>
+			<photos>
+				<photoPack name="India Nature and Landscapes"/>
+				<photoPack name="USA Nature and Landscapes"/>
+				<photoPack name="Other Nature and Landscapes"/>
+				<photoPack name="Just Landscapes"/>
+				<photoPack name="Just Nature"/>
 			</photos>
 		</set>
 		
@@ -857,12 +888,12 @@
 			</photos>
 		</set>
 						
-		<set name="">
+		<set name="Ukraine">
 			<groups>	
-
+				<groupPack name="Photography">
 			</groups>
 			<photos>
-
+				<album name="Ukraine"/>
 			</photos>
 		</set>
 		
@@ -889,6 +920,7 @@
 		<set name="Art">
 			<groups>	
 				<groupPack name="Art"/>
+				<groupPack name="Photography">
 			</groups>
 			<photos>	
 				<photo name="Leh" id="30898834836"/>
