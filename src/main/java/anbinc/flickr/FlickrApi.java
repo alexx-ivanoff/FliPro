@@ -32,6 +32,7 @@ public class FlickrApi {
     RequestContext requestContext;
 
     public FlickrApi () throws FlickrException, IOException {
+        userId = "142254954@N05";
         String key = "274e92403cf799fbf4defe5bfcd249fc";
         String secret = "ca332d4db0b1998d";
         String token = "72157679188156715-6fbf117ed9e5c774";
@@ -41,7 +42,6 @@ public class FlickrApi {
 
         String photoId = "29408278120";
         String groupId = "48926546@N00";
-        userId = "142254954@N05";
 
         flickr = new Flickr(key, secret,new REST());
 
@@ -54,20 +54,7 @@ public class FlickrApi {
         Flickr.debugRequest = false;
         Flickr.debugStream = false;
 
-        getIds();
-
-        List<String> photoIds = new ArrayList<>();
-        photoIds.add(photoId);
-        getPhotoIdsWithoutGroup(groupId, photoIds);
-
-/*
-
-*/
-
-//        Group group = groups.stream().filter(g->g.getName().equals("Nikon DSLR Users")).findFirst().get();
-//        addPhotoToGroup(photoId, group.getId());
-
-        int a=0;
+        //getIds();
     }
 
     public boolean addPhotoToGroup(String photoId, String groupId) {
@@ -98,16 +85,17 @@ public class FlickrApi {
     public List<String> getPhotoIdsWithoutGroup(String groupId, List<String> photoIds)   {
 
         List<String> result = new ArrayList<>();
+        List<String> unaddedPhotoIds = new ArrayList<>(photoIds);
 
         try {
             PhotoList<Photo> groupPhotos = flickr.getPoolsInterface().getPhotos(groupId, userId, new String[] {}, new HashSet<String>(), 1000, 1);
-            groupPhotos.stream().filter(p -> photoIds.contains(p.getId())).collect(Collectors.toList()).stream().forEach(p -> photoIds.remove(p.getId()));
+            groupPhotos.stream().filter(p -> unaddedPhotoIds.contains(p.getId())).collect(Collectors.toList()).stream().forEach(p -> unaddedPhotoIds.remove(p.getId()));
         }
         catch (FlickrException e)   {
 
         }
 
-        return photoIds;
+        return unaddedPhotoIds;
     }
 
     public List<String> getPhotosFromAlbum(String albumId) throws FlickrException {

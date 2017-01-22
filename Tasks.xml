@@ -29,7 +29,6 @@
 			<group name="` FLICKR ´" id="1755214@N23"/>
 			<group name="Flickr Addicts" id="76535076@N00"/>
 			<group name="!FlickrSoup for Soul" id="15153247@N00"/>
-			<group name="Flickr Friday" id="2091880@N25"/>
 			<group name="Today's Flickr" id="2755668@N23"/>
 			<group name="*Flickr Photo Award*" id="388123@N22"/>
 			<group name="[][][] Flickr. DNA [][][]" id="1998138@N22"/>
@@ -69,7 +68,6 @@
 			<group name="Urban Life" id="95614496@N00"/>
 			<group name="People in the City" id="66447238@N00"/>
 			<group name="StreetPhoto" id="49503026089@N01"/>
-			<group name="B&amp;W" id="52239733174@N01"/>
 			<group name="Urban Life Perspectives" id="26434968@N00"/>
 			<group name="Street Photographers" id="579020@N23"/>
 			<group name="Street Shooter" id="1278426@N24"/>
@@ -731,17 +729,17 @@
 				<groupPack name="Turkey"/>
 			</groups>
 			<photos>
-				<album name="Turkey 2015">
+				<album name="Turkey 2015" id="72157673922321210"/>
 			</photos>
 		</set>
 		
 		<set name="Europe">
-			<groups>	
+			<groups>
 				<groupPack name="Europe"/>
-				<groupPack name="Photography>
+				<groupPack name="Photography"/>
 			</groups>
 			<photos>
-				<album name="Europe">
+				<album name="Europe" id="72157672131418352"/>
 			</photos>
 		</set>
 		
@@ -759,7 +757,7 @@
 			<groups>	
 				<groupPack name="Nature"/>
 				<groupPack name="Landscapes"/>
-				<groupPack name="Colors">
+				<groupPack name="Colors"/>
 			</groups>
 			<photos>
 				<photoPack name="USA Nature and Landscapes"/>
@@ -812,7 +810,7 @@
 				<groupPack name="People"/>
 			</groups>
 			<photos>
-				<photoPack name="India People"/>
+				
 			</photos>
 		</set>
 
@@ -839,7 +837,7 @@
 				<groupPack name="Black and White"/>
 			</groups>
 			<photos>
-				<photoPack name="Black and White">
+				<photoPack name="Black and White"/>
 			</photos>
 		</set>
 		
@@ -848,7 +846,7 @@
 				<groupPack name="City"/>
 			</groups>
 			<photos>
-				<photoPack name="City">
+				<photoPack name="City"/>
 			</photos>
 		</set>
 		
@@ -857,7 +855,7 @@
 				<groupPack name="Architecture"/>
 			</groups>
 			<photos>
-				<photoPack name="Architecture">
+				<photoPack name="Architecture"/>
 			</photos>
 		</set>
 									
@@ -866,7 +864,7 @@
 				<groupPack name="Industrial"/>
 			</groups>
 			<photos>
-				<photoPack name="Industrial">
+				<photoPack name="Industrial"/>
 			</photos>
 		</set>
 						
@@ -875,7 +873,7 @@
 				<groupPack name="Bridges"/>
 			</groups>
 			<photos>
-				<photoPack name="Bridges">
+				<photoPack name="Bridges"/>
 			</photos>
 		</set>
 						
@@ -890,10 +888,10 @@
 						
 		<set name="Ukraine">
 			<groups>	
-				<groupPack name="Photography">
+				<groupPack name="Photography"/>
 			</groups>
 			<photos>
-				<album name="Ukraine"/>
+				<album name="Ukraine" id="72157672131427332"/>
 			</photos>
 		</set>
 		
@@ -903,7 +901,7 @@
 				<groupPack name="Night"/>
 			</groups>
 			<photos>
-				<photoPack name="Night">
+				<photoPack name="Night"/>
 			</photos>
 		</set>
 		
@@ -920,7 +918,7 @@
 		<set name="Art">
 			<groups>	
 				<groupPack name="Art"/>
-				<groupPack name="Photography">
+				<groupPack name="Photography"/>
 			</groups>
 			<photos>	
 				<photo name="Leh" id="30898834836"/>

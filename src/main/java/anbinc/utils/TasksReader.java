@@ -116,6 +116,7 @@ public class TasksReader {
 
                 if (setNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element setElement = (Element)setNode;
+                    task.setName(setElement.getAttribute("name"));
                     NodeList groupsList = setElement.getElementsByTagName("group");
                     NodeList photosList = setElement.getElementsByTagName("photo");
                     NodeList groupPackList = setElement.getElementsByTagName("groupPack");
@@ -148,6 +149,7 @@ public class TasksReader {
                             photoIds.add(((Element)photoNode).getAttribute("id"));
                     }
 
+                    //System.out.println(setElement.getAttribute("name") + " / ppacks");
                     //fill photos from photoPacks
                     for (int ppNum = 0; ppNum < photoPackList.getLength(); ppNum++) {
                         Node photoNode = photoPackList.item(ppNum);
@@ -177,6 +179,6 @@ public class TasksReader {
             e.printStackTrace();
         }
 
-        return tasks;
+            return tasks;
     }
 }
