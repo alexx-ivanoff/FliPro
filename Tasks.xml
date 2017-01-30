@@ -38,6 +38,11 @@
 			<group name="Flickr Social Club" id="1143545@N24"/>
 			<group name="FlickrToday (only 1 pic per day)" id="38436807@N00"/>
 			<group name="Group for all users of FLICKR" id="2849668@N21"/>
+			<group name="Your best photo on Flickr" id="432571@N25"/>
+			<group name="Self Taught Photographers - LOOK AT DISCUSSION" id="91514935@N00"/>
+			<group name="flickr clickx" id="2138658@N22"/>
+			<group name="flickr (unofficial)" id="1902869@N24"/>
+			<group name="2728886@N20" id="2728886@N20"/>
 		</groupPack>
 			<groupPack name="Art">
 			<group name="You Think this is Art" id="75964794@N00"/>		
@@ -92,18 +97,19 @@
 			<group name="Black &amp; White Art Awards (Post 1 - Award 3)" id="480152@N21"/>
 			<group name="Black ♥ Black &amp;White♥ NO SEPIA" id="1218322@N22"/>
 		</groupPack>
-		<groupPack name="City">
-			<group name="URBAN" id="14049426@N00"/>
-			<group name="Urban Landscape" id="384452@N21"/>
-			<group name="Cityscape and urban scenery" id="630863@N24"/>
-			<group name="Urban - Photography" id="712151@N23"/>
-			<group name="Cityscape, Landscape, and Incandescent Pics (CLI)" id="92869697@N00"/>
-			<group name="Cityscape and urban scenery" id="630863@N24"/>
+		<groupPack name="Just City">
 			<group name="City" id="83647807@N00"/>
 			<group name="City Centers ♫ /// of the World ///" id="61601134@N00"/>
 			<group name="City Skylines (Buildings,Cities)" id="738515@N22"/>
-			<group name="The City: Urban &amp; Street Photography" id="2686179@N24"/>
+			<group name="Cityscape, Landscape, and Incandescent Pics (CLI)" id="92869697@N00"/>
+			<group name="Urban Landscape" id="384452@N21"/>
 			<group name="CityScape" id="26328425@N00"/>
+		</groupPack>
+		<groupPack name="City and People">
+			<group name="URBAN" id="14049426@N00"/>
+			<group name="Cityscape and urban scenery" id="630863@N24"/>
+			<group name="Urban - Photography" id="712151@N23"/>
+			<group name="The City: Urban &amp; Street Photography" id="2686179@N24"/>
 			<group name="Urban Urban Urban" id="850014@N23"/>
 		</groupPack>
 		<groupPack name="Nature">
@@ -211,10 +217,17 @@
 			<group name="Discovery  India" id="1567384@N23"/>
 			<group name="Incredible India !" id="79356248@N00"/>
 			<group name="Incredible India" id="76999930@N00"/>
+			<group name="India Travel Desk" id="1599373@N25"/>
+			<group name="Explore India" id="1128021@N20"/>
+			<group name="'COLORS OF INDIA'" id="912078@N23"/>
+			<group name="DesiPundit - India through Flickr" id="94696839@N00"/>
+			<group name="I Love India" id="82072841@N00"/>
+			<group name="Yahoo! India - Your Photos" id="1824042@N22"/>
 		</groupPack>
 		<groupPack name="India People">
 			<group name="LIFE IN INDIA" id="879395@N23"/>
 			<group name="Peoples of India" id="420885@N22"/>
+			<group name="Candid Photography India" id="498891@N24"/>
 		</groupPack>
 		<groupPack name="National Geographic">
 			<group name="Official National Geographic Group" id="650323@N24"/>
@@ -285,6 +298,7 @@
 			<group name="Road Trip USA" id="46205126@N00"/>
 			<group name="EVERYTHING AMERICA" id="49906912@N00"/>
 			<group name="USA - UNITED STATES OF AMERICA" id="74744754@N00"/>
+			<group name="♥ AMERICA ᵇᵉᵃᵘᵗᶤᶠᵘˡ AMERICA ♥" id="2658644@N24"/>
 		</groupPack>
 		<groupPack name="Europe">
 			<group name="European Union" id="88993476@N00"/>
@@ -698,7 +712,7 @@
 			<photo name="Witch" id="29600533161"/>
 		</photoPack>
 		<photoPack name="City">
-
+			<photo name="UFO" id="31701941693"/>
 		</photoPack>
 	</photoPacks>
 
