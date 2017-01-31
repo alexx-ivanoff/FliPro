@@ -722,6 +722,7 @@
 				<groupPack name="India Main"/>
 				<groupPack name="Nikon"/>
 				<groupPack name="National Geographic"/>
+				<groupPack name="Flickr Global"/>
 				<groupPack name="Travel"/>
 			</groups>
 			<photos>
@@ -734,7 +735,7 @@
 				<groupPack name="Nikon"/>
 				<groupPack name="National Geographic"/>
 				<groupPack name="Travel"/>
-				<groupPack name="Flickr Global"/>
+				<groupPack name="Photography"/>
 				<groupPack name="USA"/>
 			</groups>
 			<photos>
@@ -757,7 +758,6 @@
 		<set name="Europe">
 			<groups>
 				<groupPack name="Europe"/>
-				<groupPack name="Photography"/>
 			</groups>
 			<photos>
 				<album name="Europe" id="72157672131418352"/>
@@ -940,8 +940,16 @@
 			<groups>	
 				<groupPack name="Art"/>
 				<groupPack name="Photography"/>
+				<groupPack name="Flickr Global"/>
 			</groups>
 			<photos>	
+				<photo name="Sunbathing" id="32623418365"/>
+				<photo name="Country Night" id="32204785200"/>
+				<photo name="Over the River, Under the Stars" id="32442501571"/>
+				<photo name="The First Night of 2017" id="31703881844"/>
+				<photo name="UFO" id="31701941693"/>
+				<photo name="Kryvorivnya" id="32117048670"/>
+				<photo name="Kryvorivnya" id="32414769326"/>
 				<photo name="Urban Grape" id="32416594685"/>
 				<photo name="Leh" id="30898834836"/>
 				<photo name="Leh" id="30898839856"/>
