@@ -26,7 +26,7 @@ public class Main {
         List<String> tasksToRun = new ArrayList<>();
 
         Properties properties = System.getProperties();
-        if (properties.contains("tasksToRun"))
+        if (properties.stringPropertyNames().contains("tasksToRun"))
             tasksToRun = Arrays.asList(properties.getProperty("tasksToRun").split(","));
 
 

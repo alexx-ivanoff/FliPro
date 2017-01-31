@@ -400,6 +400,8 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Kryvorivnya" id="32117048670"/>
+			<photo name="Kryvorivnya" id="32414769326"/>
 			<photo name="Drought" id="30198703351"/>
 			<photo name="Travertines" id="30198767621"/>
 			<photo name="Travertines" id="30259219806"/>
@@ -556,6 +558,7 @@
 			<photo name="Endless Emptiness" id="30168224831"/>
 		</photoPack>
 		<photoPack name="Bridges">
+			<photo name="Over the River, Under the Stars" id="32442501571"/>
 			<photo name="Urban Fishing" id="29942203314"/>
 			<photo name="Snowy Kiev" id="29919187213"/>
 			<photo name="Hamburg" id="29789906623"/>
@@ -640,6 +643,10 @@
 		</photoPack>
 		
 		<photoPack name="Night">
+			<photo name="Country Night" id="32204785200"/>
+			<photo name="Over the River, Under the Stars" id="32442501571"/>
+			<photo name="The First Night of 2017" id="31703881844"/>
+			<photo name="UFO" id="31701941693"/>
 			<photo name="Night Delhi" id="31106405540"/>
 			<photo name="Sun Ise" id="31440164566"/>
 			<photo name="Night Shimla" id="31242387542"/>
@@ -841,14 +848,14 @@
 			</photos>
 		</set>
 		
-		<set name="City">
+		<!--set name="City">
 			<groups>	
 				<groupPack name="City"/>
 			</groups>
 			<photos>
 				<photoPack name="City"/>
 			</photos>
-		</set>
+		</set-->
 		
 		<set name="Architecture">
 			<groups>	
@@ -921,6 +928,7 @@
 				<groupPack name="Photography"/>
 			</groups>
 			<photos>	
+				<photo name="Urban Grape" id="32416594685"/>
 				<photo name="Leh" id="30898834836"/>
 				<photo name="Leh" id="30898839856"/>
 				<photo name="Leh" id="30898841106"/>
