@@ -135,6 +135,8 @@ public class TasksReader {
                     for (int gpNum = 0; gpNum < groupPackList.getLength(); gpNum++) {
                         Node groupNode = groupPackList.item(gpNum);
 
+                        if (setNum == 14)
+                            System.out.println(setNum + "/" + gpNum);
                         if (groupNode.getNodeType() == Node.ELEMENT_NODE)   {
                             String gpName = ((Element)groupNode).getAttribute("name");
                             groupIds.addAll(groupPacks.get(gpName));
@@ -179,6 +181,15 @@ public class TasksReader {
             e.printStackTrace();
         }
 
-            return tasks;
+        final int gr = tasks.stream()
+                .mapToInt(outer ->
+                        outer.getGroups().size())
+                .sum();
+        final int ph = tasks.stream()
+                .flatMapToInt(outer ->
+                        outer.getPhotos().stream().mapToInt(sub -> sub.length())
+                ).sum();
+
+        return tasks;
     }
 }

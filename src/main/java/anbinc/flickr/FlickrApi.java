@@ -54,7 +54,7 @@ public class FlickrApi {
         Flickr.debugRequest = false;
         Flickr.debugStream = false;
 
-        //getIds();
+        getIds();
     }
 
     public boolean addPhotoToGroup(String photoId, String groupId) {
@@ -110,9 +110,17 @@ public class FlickrApi {
         //groups.stream().filter(g->g.getName().toLowerCase().contains("girl")).map(g -> String.format("<group name=\"%s\" id=\"%s\"/>", g.getName(), g.getId())).collect (Collectors.joining ("\n"))
 
         SearchParameters searchParameters = new SearchParameters();
-        searchParameters.setTags(new String[]{"castle"});
-        searchParameters.setUserId(userId);
-        String searchResults = flickr.getPhotosInterface().search(searchParameters, 1000, 1).stream().map(g -> String.format("<photo name=\"%s\" id=\"%s\"/>", g.getTitle(), g.getId())).collect (Collectors.joining ("\n"));
+        List<String> tags = new ArrayList<>(Arrays.asList("urban", "people"));
+        final PhotoList<Photo> searchResults = new PhotoList<>();
+
+        for (String tag : tags) {
+            searchParameters.setTags(new String[]{tag});
+            searchParameters.setUserId(userId);
+            flickr.getPhotosInterface().search(searchParameters, 1000, 1).stream().filter(p -> searchResults.contains(p)).forEach(p -> searchResults.remove(p));
+
+        }
+        String searchResultsString = searchResults.stream().map(g -> String.format("<photo name=\"%s\" id=\"%s\"/>", g.getTitle(), g.getId())).collect (Collectors.joining ("\n"));
+
 
         String groupsMapping = "";
         for (Group group : groups)  {
