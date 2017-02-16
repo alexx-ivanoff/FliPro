@@ -8,7 +8,7 @@ import java.util.List;
 public class Task {
 
     private List<String> groups;
-    private List<String> photos;
+    private List<Picture> pictures;
     private String name;
 
     public Task()   {
@@ -23,12 +23,12 @@ public class Task {
         this.groups = groups;
     }
 
-    public List<String> getPhotos() {
-        return photos;
+    public List<Picture> getPictures() {
+        return pictures;
     }
 
-    public void setPhotos(List<String> photos) {
-        this.photos = photos;
+    public void setPictures(List<Picture> pictures) {
+        this.pictures = pictures;
     }
 
     public String getName() {

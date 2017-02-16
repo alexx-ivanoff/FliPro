@@ -2,13 +2,12 @@ package anbinc;
 
 import anbinc.flickr.Administrator;
 import anbinc.flickr.FlickrApi;
+import anbinc.flickr.Picture;
 import anbinc.flickr.Task;
 import anbinc.utils.TasksReader;
 import com.flickr4java.flickr.*;
-import com.flickr4java.flickr.util.IOUtilities;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -21,7 +20,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException, FlickrException {
         FlickrApi flickrApi = new FlickrApi();
-        List<Task> tasks = TasksReader.readTasksFromXML(flickrApi);
+        List<Task> tasks = TasksReader.readTasksFromXML();
         //tasks = getTasks();
         List<String> tasksToRun = new ArrayList<>();
 
@@ -37,25 +36,25 @@ public class Main {
     private static void printTasks(List<Task> tasks) {
 
     }
-
+/*
     private static List<Task> getTasks()   {
 
         List<String> groupIds = new ArrayList<>();
-        List<String> photoIds = new ArrayList<>();
+        List<Picture> pictures = new ArrayList<>();
 
         groupIds.add("52242377700@N01");
-        photoIds.add("30546702814");
-        photoIds.add("31253207701");
-        photoIds.add("31367978415");
-        photoIds.add("31223969212");
+        pictures.add("30546702814");
+        pictures.add("31253207701");
+        pictures.add("31367978415");
+        pictures.add("31223969212");
 
         Task task = new Task();
         task.setGroups(groupIds);
-        task.setPhotos(photoIds);
+        task.setPictures(pictures);
 
         List<Task> tasks = new ArrayList<>();
         tasks.add(task);
 
         return tasks;
-    }
+    }*/
 }

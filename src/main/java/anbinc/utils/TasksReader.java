@@ -1,6 +1,7 @@
 package anbinc.utils;
 
 import anbinc.flickr.FlickrApi;
+import anbinc.flickr.Picture;
 import anbinc.flickr.Task;
 import org.apache.commons.io.IOUtils;
 import org.w3c.dom.Document;
@@ -11,7 +12,6 @@ import org.xml.sax.InputSource;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.StringReader;
@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
  * Created by Alex on 15.01.2017.
  */
 public class TasksReader {
-    public static List<Task> readTasksFromXML(FlickrApi flickrApi)   {
+    public static List<Task> readTasksFromXML()   {
 
         List<Task> tasks = new ArrayList<>();
 
@@ -74,7 +74,7 @@ public class TasksReader {
             }
 
             //read photoPacks
-            Map<String, List<String>> photoPacks = new HashMap<>();
+            Map<String, List<Picture>> photoPacks = new HashMap<>();
             NodeList photoPacksList = doc.getElementsByTagName("photoPacks");
             for (int gpsNum = 0; gpsNum < photoPacksList.getLength(); gpsNum++) {
                 Node ppsNode = photoPacksList.item(gpsNum);
@@ -86,17 +86,17 @@ public class TasksReader {
                         if (ppNode.getNodeType() == Node.ELEMENT_NODE) {
                             Element ppElement = (Element) ppNode;
                             String ppName = ppElement.getAttribute("name");
-                            List<String> photoIds = new ArrayList<>();
+                            List<Picture> pictures = new ArrayList<>();
                             NodeList photosList = ppElement.getElementsByTagName("photo");
 
                             for (int photoNum = 0; photoNum < photosList.getLength(); photoNum++) {
                                 Node photoNode = photosList.item(photoNum);
 
                                 if (photoNode.getNodeType() == Node.ELEMENT_NODE)
-                                    photoIds.add(((Element) photoNode).getAttribute("id"));
+                                    pictures.add(new Picture(((Element) photoNode).getAttribute("id")));
                             }
 
-                            photoPacks.put(ppName, photoIds.stream().distinct().collect(Collectors.toList()));
+                            photoPacks.put(ppName, pictures.stream().distinct().collect(Collectors.toList()));
                         }
                     }
                 }
@@ -112,7 +112,7 @@ public class TasksReader {
 
                 Task task = new Task();
                 List<String> groupIds = new ArrayList<>();
-                List<String> photoIds = new ArrayList<>();
+                List<Picture> pictures = new ArrayList<>();
 
                 if (setNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element setElement = (Element)setNode;
@@ -148,7 +148,7 @@ public class TasksReader {
                         Node photoNode = photosList.item(photoNum);
 
                         if (photoNode.getNodeType() == Node.ELEMENT_NODE)
-                            photoIds.add(((Element)photoNode).getAttribute("id"));
+                            pictures.add(new Picture(((Element)photoNode).getAttribute("id")));
                     }
 
                     //System.out.println(setElement.getAttribute("name") + " / ppacks");
@@ -158,7 +158,7 @@ public class TasksReader {
 
                         if (photoNode.getNodeType() == Node.ELEMENT_NODE)   {
                             String ppName = ((Element)photoNode).getAttribute("name");
-                            photoIds.addAll(photoPacks.get(ppName));
+                            pictures.addAll(photoPacks.get(ppName));
                         }
                     }
 
@@ -167,29 +167,29 @@ public class TasksReader {
                         Node albumNode = albumsList.item(albumNum);
                         if (albumNode.getNodeType() == Node.ELEMENT_NODE)   {
                             String albumId = ((Element)albumNode).getAttribute("id");
-                            photoIds.addAll(flickrApi.getPhotosFromAlbum(albumId));
+                            pictures.addAll(FlickrApi.getPhotosFromAlbum(albumId));
                         }
 
                     }
                 }
 
                 task.setGroups(groupIds.stream().distinct().collect(Collectors.toList()));
-                task.setPhotos(photoIds.stream().distinct().collect(Collectors.toList()));
+                task.setPictures(pictures.stream().distinct().collect(Collectors.toList()));
                 tasks.add(task);
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
-
+/*
         final int gr = tasks.stream()
                 .mapToInt(outer ->
                         outer.getGroups().size())
                 .sum();
         final int ph = tasks.stream()
                 .flatMapToInt(outer ->
-                        outer.getPhotos().stream().mapToInt(sub -> sub.length())
+                        outer.getPictures().stream().mapToInt(sub -> sub.length())
                 ).sum();
-
+*/
         return tasks;
     }
 }

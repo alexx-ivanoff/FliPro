@@ -7,8 +7,6 @@ import com.flickr4java.flickr.groups.Group;
 import com.flickr4java.flickr.groups.GroupList;
 import com.flickr4java.flickr.photos.*;
 import com.flickr4java.flickr.photosets.Photoset;
-import com.flickr4java.flickr.photosets.Photosets;
-import com.flickr4java.flickr.util.IOUtilities;
 import org.scribe.model.Token;
 import org.scribe.model.Verifier;
 
@@ -25,7 +23,7 @@ import com.flickr4java.flickr.*;
 public class FlickrApi {
 
     private static Flickr flickr;
-    private String userId;
+    private static String userId;
 
     REST rest;
 
@@ -54,13 +52,17 @@ public class FlickrApi {
         Flickr.debugRequest = false;
         Flickr.debugStream = false;
 
-        getIds();
+        //getIds();
     }
 
-    public boolean addPhotoToGroup(String photoId, String groupId) {
+    public static void setFlickr(Flickr _flickr)   {
+        flickr = _flickr;
+    }
+
+    public static boolean addPhotoToGroup(Picture picture, String groupId) {
         PoolList<Pool> pools = new PoolList<>();
         try {
-            pools = flickr.getPhotosInterface().getAllContexts(photoId).getPoolList();
+            pools = flickr.getPhotosInterface().getAllContexts(picture.getId()).getPoolList();
         }
         catch (FlickrException e)   {
 
@@ -68,9 +70,9 @@ public class FlickrApi {
 
         if (!pools.stream().anyMatch(p -> p.getId().equals(groupId)))   {
             try {
-                flickr.getPoolsInterface().add(photoId, groupId);
-                System.out.println(String.format("Photo '%s' was successfully added to group '%s'.", photoId, groupId));
-                //flickr.getPoolsInterface().getGroups();
+                //flickr.getPoolsInterface().add(picture.getId(), groupId);
+                System.out.println(String.format("Photo '%s' was successfully added to group '%s'.", picture, groupId));
+                flickr.getPoolsInterface().getGroups();
                 return true;
             }
             catch (FlickrException e) {
@@ -78,28 +80,41 @@ public class FlickrApi {
             }
         }
 
-        System.out.println(String.format("Photo '%s' was not added to group '%s'.", photoId, groupId));
+        System.out.println(String.format("Photo '%s' was not added to group '%s'.", picture, groupId));
         return false;
     }
 
-    public List<String> getPhotoIdsWithoutGroup(String groupId, List<String> photoIds)   {
+    public static List<Picture> getPhotoIdsWithoutGroup(String groupId, List<Picture> pictures)   {
 
         List<String> result = new ArrayList<>();
-        List<String> unaddedPhotoIds = new ArrayList<>(photoIds);
+        List<Picture> unaddedPictures = new ArrayList<>(pictures);
 
         try {
             PhotoList<Photo> groupPhotos = flickr.getPoolsInterface().getPhotos(groupId, userId, new String[] {}, new HashSet<String>(), 1000, 1);
-            groupPhotos.stream().filter(p -> unaddedPhotoIds.contains(p.getId())).collect(Collectors.toList()).stream().forEach(p -> unaddedPhotoIds.remove(p.getId()));
+            groupPhotos.stream().filter(p -> unaddedPictures.contains(p.getId())).collect(Collectors.toList()).stream().forEach(p -> unaddedPictures.remove(p.getId()));
         }
         catch (FlickrException e)   {
 
         }
 
-        return unaddedPhotoIds;
+        return unaddedPictures;
     }
 
-    public List<String> getPhotosFromAlbum(String albumId) throws FlickrException {
-        return flickr.getPhotosetsInterface().getPhotos(albumId, 1000, 1).stream().map(p->p.getId()).collect(Collectors.toList());
+    public static List<Picture> getPhotosFromAlbum(String albumId) throws FlickrException {
+        List<Picture> pictures = new ArrayList<>();
+        List<String> photoIds = flickr.getPhotosetsInterface().getPhotos(albumId, 1000, 1).stream().map(p->p.getId()).collect(Collectors.toList());
+        photoIds.forEach(p-> pictures.add(new Picture(p)));
+        return pictures;
+    }
+
+    public static String getPhotoName(String id) {
+        try {
+            return flickr.getPhotosInterface().getPhoto(id).getTitle();
+        }
+        catch (FlickrException e)   {
+
+        }
+        return null;
     }
 
     private void getIds() throws FlickrException {
