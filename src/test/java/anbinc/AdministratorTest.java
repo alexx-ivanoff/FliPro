@@ -6,7 +6,11 @@ import anbinc.flickr.Picture;
 import anbinc.flickr.Task;
 import com.flickr4java.flickr.Flickr;
 import com.flickr4java.flickr.FlickrException;
+import com.flickr4java.flickr.Transport;
+import com.flickr4java.flickr.groups.pools.PoolsInterface;
+import com.flickr4java.flickr.photos.*;
 import javafx.util.Pair;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;
@@ -16,15 +20,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static org.mockito.Matchers.any;
-import static org.mockito.Matchers.eq;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.mockingDetails;
-import static org.mockito.Mockito.when;
+import static org.mockito.Matchers.*;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasSize;
+import static org.mockito.Mockito.*;
 
 /**
  * Created by ivaa on 2017-01-21.
@@ -32,8 +33,12 @@ import static org.hamcrest.Matchers.hasSize;
 @RunWith(MockitoJUnitRunner.class)
 public class AdministratorTest {
 
+    Flickr flickr;
+    PhotosInterface photoInt;
+    PoolsInterface poolsInt;
     private List<String> groupIds = new ArrayList<>();
     private List<Picture> pictures = new ArrayList<>();
+    private PhotoList<Photo> photos = new PhotoList<>();
 
     @Test
     public void manageGroupsTestPhotosMoreThanGroups() throws IOException, FlickrException {
@@ -42,10 +47,6 @@ public class AdministratorTest {
         int photosNum = 4;
         List<Task> tasks = getTasks(groupsNum, photosNum);
 
-        FlickrApi flickrApi = mock(FlickrApi.class);
-        when(FlickrApi.addPhotoToGroup(any(Picture.class), any(String.class))).thenReturn(true);
-        when(FlickrApi.getPhotoIdsWithoutGroup(any(), any())).thenReturn(pictures);
-        when(FlickrApi.getPhotoName(any())).thenReturn("");
         Administrator admin = new Administrator(tasks);
 
         Map<String, List<Pair<Picture, String>>> report =  admin.manageGroups();
@@ -56,19 +57,10 @@ public class AdministratorTest {
     @Test
     public void manageGroupsTestGroupsMoreThanPhotos() throws IOException, FlickrException {
 
-        Flickr flickr = mock(Flickr.class);
-        FlickrApi flickrApi = mock(FlickrApi.class);
-        when(FlickrApi.getPhotoName(any())).thenReturn("");
-        //when(flickr.getPhotosInterface().getPhoto(any()).getTitle()).thenReturn("");
-        FlickrApi.setFlickr(flickr);
-
         int groupsNum = 4;
         int photosNum = 2;
         List<Task> tasks = getTasks(groupsNum, photosNum);
 
-
-        //when(flickrApi.addPhotoToGroup(any(Picture.class), any(String.class))).thenReturn(true);
-        //when(flickrApi.getPhotoIdsWithoutGroup(any(), any())).thenReturn(pictures);
         Administrator admin = new Administrator(tasks);
 
         Map<String, List<Pair<Picture, String>>> report =  admin.manageGroups();
@@ -83,9 +75,7 @@ public class AdministratorTest {
         int photosNum = 3;
         List<Task> tasks = getTasks(groupsNum, photosNum);
 
-        FlickrApi flickrApi = mock(FlickrApi.class);
-        when(flickrApi.addPhotoToGroup(any(Picture.class), any(String.class))).thenReturn(true).thenReturn(false).thenReturn(true);
-        when(flickrApi.getPhotoIdsWithoutGroup(any(), any())).thenReturn(pictures);
+        doNothing().doThrow(new FlickrException("")).doNothing().when(poolsInt).add(anyString(), anyString());
         Administrator admin = new Administrator(tasks);
 
         Map<String, List<Pair<Picture, String>>> report =  admin.manageGroups();
@@ -102,8 +92,13 @@ public class AdministratorTest {
         for (int g=1; g<=groupsNum; g++)
             groupIds.add("g" + g);
 
-        for (int p=1; p<=photosNum; p++)
-            pictures.add(new Picture("p" + p));
+        for (int p=1; p<=photosNum; p++) {
+            String id = "p" + p;
+            pictures.add(new Picture(id));
+            Photo photo = new Photo();
+            photo.setId(id);
+            photos.add(photo);
+        }
 
         task.setGroups(groupIds);
         task.setPictures(pictures);
@@ -111,4 +106,24 @@ public class AdministratorTest {
 
         return tasks;
     }
-}
+
+    @Before
+    public void setUp() throws Exception {
+        flickr = mock(Flickr.class);
+        photoInt = mock(PhotosInterface.class);
+        when(flickr.getPhotosInterface()).thenReturn(photoInt);
+        Photo photo = mock(Photo.class);
+        when(photoInt.getPhoto(any())).thenReturn(photo);
+        when(photo.getTitle()).thenReturn("");
+        FlickrApi.setFlickr(flickr);
+
+        poolsInt = mock(PoolsInterface.class);
+        when(flickr.getPoolsInterface()).thenReturn(poolsInt);
+        when(poolsInt.getPhotos(anyString(), anyString(), any(), any(), anyInt(), anyInt())).thenReturn(photos);
+        PhotoAllContext context = mock(PhotoAllContext.class);
+        when(photoInt.getAllContexts(anyString())).thenReturn(context);
+        PoolList poolList = new PoolList();
+        when(context.getPoolList()).thenReturn(poolList);
+    }
+
+    }

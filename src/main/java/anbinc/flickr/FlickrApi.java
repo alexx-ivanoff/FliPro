@@ -12,6 +12,8 @@ import org.scribe.model.Verifier;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -70,9 +72,9 @@ public class FlickrApi {
 
         if (!pools.stream().anyMatch(p -> p.getId().equals(groupId)))   {
             try {
-                //flickr.getPoolsInterface().add(picture.getId(), groupId);
+                flickr.getPoolsInterface().add(picture.getId(), groupId);
                 System.out.println(String.format("Photo '%s' was successfully added to group '%s'.", picture, groupId));
-                flickr.getPoolsInterface().getGroups();
+                //flickr.getPoolsInterface().getGroups();
                 return true;
             }
             catch (FlickrException e) {
@@ -109,7 +111,8 @@ public class FlickrApi {
 
     public static String getPhotoName(String id) {
         try {
-            return flickr.getPhotosInterface().getPhoto(id).getTitle();
+            String name =  flickr.getPhotosInterface().getPhoto(id).getTitle();
+            return name;
         }
         catch (FlickrException e)   {
 
