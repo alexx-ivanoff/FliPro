@@ -41,7 +41,7 @@ public class Administrator {
 
                 while (groupsCounter++ != groupsAmount) {
                     groupNumber = getNextNumber(groupNumber, groupsAmount);
-                    List<Picture> photosWithoutGroup = FlickrApi.getPhotoIdsWithoutGroup(task.getGroups().get(groupNumber), task.getPictures());
+                    List<Picture> photosWithoutGroup = FlickrApi.getPhotoIdsWithoutGroup(task.getGroups().get(groupNumber), task.getPictures()).stream().filter(p->p.getUsageCount()==0).collect(Collectors.toList());
 
                     String groupId = task.getGroups().get(groupNumber);
 
@@ -54,6 +54,7 @@ public class Administrator {
                         Picture picture = photosWithoutGroup.get(photoNumber);
 
                         if (FlickrApi.addPhotoToGroup(picture, groupId)) {
+                            picture.use();
                             report.get(task.getName()).add(new Pair<>(picture, groupId));
                             photosProcessed++;
                         }

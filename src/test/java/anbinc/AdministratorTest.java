@@ -69,6 +69,23 @@ public class AdministratorTest {
     }
 
     @Test
+    public void manageGroupsTestUsedPhotosMoreThanGroups() throws IOException, FlickrException {
+
+        int groupsNum = 2;
+        int photosNum = 4;
+        List<Task> tasks = getTasks(groupsNum, photosNum);
+
+        Administrator admin = new Administrator(tasks);
+        pictures.get(0).setUsageCount(1);
+        pictures.get(1).setUsageCount(1);
+        pictures.get(3).setUsageCount(1);
+
+        Map<String, List<Pair<Picture, String>>> report =  admin.manageGroups();
+        assertThat("Report size is not as expected", report.size(), equalTo(1));
+        assertThat("Photos/groups amount is not as expected", report.get("t1").size(), equalTo(1));
+    }
+
+    @Test
     public void manageGroupsTestWithGroupReject() throws IOException, FlickrException {
 
         int groupsNum = 3;
