@@ -22,6 +22,7 @@
 			<group name="The world through photography" id="769299@N22"/>
 			<group name="World Wide Photographers" id="70663139@N00"/>
 			<group name="ANYTHING ALLOWED!!!!!!" id="76649513@N00"/>
+			<group name="Primavera, Verano, Otoño e Invierno P1-C3" id="1041279@N24"/>
 		</groupPack>
 		<groupPack name="Flickr Global">
 			<group name="***Flickr Global" id="1136489@N22"/>
@@ -78,6 +79,8 @@
 			<group name="Street Shooter" id="1278426@N24"/>
 			<group name="In The Streets" id="1306738@N24"/>
 			<group name="Street Photography Beginners" id="2075599@N22"/>
+			<group name="Courageous Street Photography" id="1719843@N23"/>
+			<group name="Street Photography - Fotografia di Strada" id="1724648@N21"/>
 		</groupPack>
 		<groupPack name="Black and White">
 			<group name="BLACK AND WHITE PHOTO HEAVEN!" id="38613568@N00"/>
@@ -195,6 +198,7 @@
 			<group name="PORTRAITS you can fall in love with..." id="11983832@N00"/>
 			<group name="girl's portrait" id="408478@N22"/>
 			<group name="Female Faces" id="1338689@N20"/>
+			<group name="Visages, mains et tatoos...." id="518744@N24"/>
 		</groupPack>
 		<groupPack name="Winter">
 			<group name="**Snow, Snow, Snow!**" id="563072@N25"/>
@@ -911,6 +915,7 @@
 		<set name="Ukraine">
 			<groups>	
 				<groupPack name="Photography"/>
+				<groupPack name="Nikon"/>
 			</groups>
 			<photos>
 				<album name="Ukraine" id="72157672131427332"/>
@@ -931,6 +936,7 @@
 			<groups>	
 				<groupPack name="Girls"/>
 				<groupPack name="Portrait"/>
+				<groupPack name="Nikon"/>
 			</groups>
 			<photos>
 				<album name="Girls, Girls, Girls" id="72157669972218114"/>
@@ -944,304 +950,14 @@
 				<groupPack name="Flickr Global"/>
 			</groups>
 			<photos>	
-				<photo name="Sunbathing" id="32623418365"/>
-				<photo name="Country Night" id="32204785200"/>
-				<photo name="Over the River, Under the Stars" id="32442501571"/>
-				<photo name="The First Night of 2017" id="31703881844"/>
-				<photo name="UFO" id="31701941693"/>
-				<photo name="Kryvorivnya" id="32117048670"/>
-				<photo name="Kryvorivnya" id="32414769326"/>
-				<photo name="Urban Grape" id="32416594685"/>
-				<photo name="Leh" id="30898834836"/>
-				<photo name="Leh" id="30898839856"/>
-				<photo name="Leh" id="30898841106"/>
-				<photo name="Holy Light" id="30898920386"/>
-				<photo name="Temple" id="30898929296"/>
-				<photo name="When you try to Bargain" id="22756564058"/>
-				<photo name="Ready to Play" id="30818509352"/>
-				<photo name="Road to Pangong Tso" id="22772501638"/>
-				<photo name="Road to Pangong Tso" id="30649307940"/>
-				<photo name="Road to Pangong Tso" id="30862996441"/>
-				<photo name="Road to Pangong Tso" id="30862997731"/>
-				<photo name="Stupa" id="30863023851"/>
-				<photo name="Pangong Tso" id="30649431170"/>
-				<photo name="Pangong Tso" id="30951445045"/>
-				<photo name="Tibetian Cooking" id="22795241808"/>
-				<photo name="Pangong Tso II" id="25338349459"/>
-				<photo name="Mountains... everywhere" id="30973961215"/>
-				<photo name="Pangong Tso" id="22795317668"/>
-				<photo name="Yellow vs White" id="25338427009"/>
-				<photo name="Monk" id="22795346518"/>
-				<photo name="Ladakh" id="30960289226"/>
-				<photo name="Ladakh" id="30907337401"/>
-				<photo name="Need more flags?" id="30960325406"/>
-				<photo name="Night Leh" id="30995520235"/>
-				<photo name="Shanti Stupa" id="30995522495"/>
-				<photo name="Monk" id="25359786359"/>
-				<photo name="Figure in Red" id="25359787509"/>
-				<photo name="Green (Peace?)" id="30984111736"/>
-				<photo name="Women of Karzok" id="25383865189"/>
-				<photo name="Karzok" id="31019915785"/>
-				<photo name="Tso Moriri" id="30984204026"/>
-				<photo name="Tso Moriri" id="22841419508"/>
-				<photo name="Tso Moriri" id="30718185580"/>
-				<photo name="Mowgli" id="31044890905"/>
-				<photo name="Sunrise at Tso Moriri" id="31009208096"/>
-				<photo name="Karzok" id="30902792172"/>
-				<photo name="Karzok" id="30902810422"/>
-				<photo name="Morning Washing" id="30902897362"/>
-				<photo name="Cold Morning" id="30931079551"/>
-				<photo name="Karzok" id="30902938392"/>
-				<photo name="Tso Moriri" id="31077766945"/>
-				<photo name="Jammu and Kashmir" id="31042056196"/>
-				<photo name="In the Back" id="30963669111"/>
-				<photo name="Leh's Streetlife" id="31078113315"/>
-				<photo name="Leh's Streetlife" id="31078163855"/>
-				<photo name="Leh's Streetlife" id="31042463326"/>
-				<photo name="Leh's Streetlife" id="30964055991"/>
-				<photo name="Leh's Streetlife" id="30297638463"/>
-				<photo name="Leh's Streetlife" id="30961921352"/>
-				<photo name="Leh's Streetlife" id="30961925052"/>
-				<photo name="Leh's Streetlife" id="30990750141"/>
-				<photo name="Leh's Streetlife" id="30990758201"/>
-				<photo name="Delhi's Life" id="30311797634"/>
-				<photo name="Delhi's Life" id="31018758171"/>
-				<photo name="Delhi's Traffic" id="30989714212"/>
-				<photo name="Delhi's Life" id="31018848821"/>
-				<photo name="Delhi's Life" id="31018853991"/>
-				<photo name="Delhi's Life" id="31018860081"/>
-				<photo name="Dharamsala" id="30781664700"/>
-				<photo name="Dharamsala" id="31005860052"/>
-				<photo name="Roadworks" id="30328153674"/>
-				<photo name="Night Dharamsala" id="31113669976"/>
-				<photo name="Dharamsala" id="31006023722"/>
-				<photo name="The Earth is Round" id="31056107481"/>
-				<photo name="Dhauladhar" id="30349051614"/>
-				<photo name="Dhauladhar" id="31134581476"/>
-				<photo name="In the Mist" id="31134650936"/>
-				<photo name="Hi!" id="31246876555"/>
-				<photo name="Baba Yaga" id="31246969165"/>
-				<photo name="Under the Waterfall" id="30425797204"/>
-				<photo name="Waiting for the Bus" id="30879606260"/>
-				<photo name="Road of Kullu" id="31211289166"/>
-				<photo name="Kullu's Slum" id="30899792250"/>
-				<photo name="Kullu's Slum" id="31267633975"/>
-				<photo name="Kullu's Slum" id="30459872343"/>
-				<photo name="Kullu's Slum" id="31123355892"/>
-				<photo name="Kullu's Slum" id="30899828090"/>
-				<photo name="Kullu's Slum" id="31267676065"/>
-				<photo name="Oh Those Dark Eyes" id="31175673461"/>
-				<photo name="Street of Manali" id="30482749123"/>
-				<photo name="Cooking with Smile" id="31146372642"/>
-				<photo name="Hole in the Sky" id="31290851425"/>
-				<photo name="Shimla's Street" id="30503107713"/>
-				<photo name="Street Barbershop" id="31274676256"/>
-				<photo name="Shimla's Street" id="30489069964"/>
-				<photo name="Shimla" id="30489095954"/>
-				<photo name="Shimla" id="31166901522"/>
-				<photo name="Shimla" id="30522484383"/>
-				<photo name="Band Box" id="30507676234"/>
-				<photo name="Family" id="31186040862"/>
-				<photo name="Game" id="30522605713"/>
-				<photo name="At the Gates" id="31223969212"/>
-				<photo name="Shimla's Citizen" id="31367978415"/>
-				<photo name="Architectural Chaos" id="31253207701"/>
-				<photo name="Drying" id="30546702814"/>
-				<photo name="Shimla Levels" id="31331943796"/>
-				<photo name="Shimla" id="30564709984"/>
-				<photo name="City Gap" id="31242286812"/>
-				<photo name="On the Rooftop" id="31271398671"/>
-				<photo name="Constructor" id="31017275460"/>
-				<photo name="Night Shimla" id="31242387542"/>
-				<photo name="Kalka–Shimla Railway" id="31370100686"/>
-				<photo name="Retro Car" id="31337874521"/>
-				<photo name="Rajpath" id="31308080022"/>
-				<photo name="Torch" id="31083007740"/>
-				<photo name="Rashtrapati Bhavan" id="31338063591"/>
-				<photo name="Sun Ise" id="31440164566"/>
-				<photo name="Night Delhi" id="31106405540"/>
-				<photo name="Garbage Collector" id="31440235756"/>
-				<photo name="The Transporter" id="31384952751"/>
-				<photo name="Do you wanna drink?" id="30691715043"/>
-				<photo name="Delhi" id="31500618535"/>
-				<photo name="Delhi" id="31485843776"/>
-				<photo name="Bara Gumbad" id="31524053985"/>
-				<photo name="Gallery" id="31377279692"/>
-				<photo name="Sikh Temple" id="31506522956"/>
-				<photo name="Temple's Kitchen" id="30703837624"/>
-				<photo name="Delhi's Cafe" id="31506564046"/>
-				<photo name="Black &amp; White" id="30159272502"/>
-				<photo name="Another side of Istanbul" id="29978404570"/>
-				<photo name="Street Games" id="30189437461"/>
-				<photo name="Circle" id="29644384314"/>
-				<photo name="Of Birds and Men" id="29644385494"/>
-				<photo name="Conversation" id="30275283935"/>
-				<photo name="Bosphorus" id="30189721851"/>
-				<photo name="Flag Seller" id="30275349295"/>
-				<photo name="Drought" id="30198703351"/>
-				<photo name="Travertines" id="30198767621"/>
-				<photo name="Travertines" id="30259219806"/>
-				<photo name="Sunset in Cappadocia" id="29663625023"/>
-				<photo name="Sunset in Cappadocia" id="30294048835"/>
-				<photo name="Cappadocia's Rocks" id="30294197175"/>
-				<photo name="Sunset in Cappadocia" id="30178821072"/>
-				<photo name="Sunset in Cappadocia" id="29663963044"/>
-				<photo name="Preparing" id="29671935084"/>
-				<photo name="Cappadocia 2D" id="29672310644"/>
-				<photo name="Morning Flight" id="30018073560"/>
-				<photo name="Morning Flight" id="30199063462"/>
-				<photo name="Map" id="30279985966"/>
-				<photo name="Smile in the Sky" id="30229175881"/>
-				<photo name="Uchisar" id="30319382575"/>
-				<photo name="Cappadocia" id="30022617180"/>
-				<photo name="Cappadocia" id="30203530242"/>
-				<photo name="The End" id="30233595171"/>
-				<photo name="Cappadocia" id="29689247234"/>
-				<photo name="Cappadocia" id="30247630191"/>
-				<photo name="Cappadocia" id="30247631811"/>
-				<photo name="Istanbul" id="29702473463"/>
-				<photo name="Protest" id="30333293745"/>
-				<photo name="Bubbles" id="29702602573"/>
-				<photo name="Bazaar" id="30247914701"/>
-				<photo name="Taksim Tram" id="30298754436"/>
-				<photo name="Forever 21" id="28696758914"/>
-				<photo name="The Glorious End" id="28701044263"/>
-				<photo name="City Runners" id="29036059770"/>
-				<photo name="Jersey City" id="29223291382"/>
-				<photo name="Subway Frames" id="28717320334"/>
-				<photo name="Street Patrol" id="29234956122"/>
-				<photo name="NYC's Motion" id="28721226634"/>
-				<photo name="Formicary" id="29267465381"/>
-				<photo name="NYC Citizen" id="29329757946"/>
-				<photo name="Big Apple" id="28740928114"/>
-				<photo name="Fiddler" id="28744310124"/>
-				<photo name="At the edge of the Central Park" id="29081275160"/>
-				<photo name="to Manhattan" id="28752638284"/>
-				<photo name="New York" id="29388626535"/>
-				<photo name="Brooklin Bridge" id="28765781384"/>
-				<photo name="Manhattan" id="29289326372"/>
-				<photo name="Taxi" id="28774175944"/>
-				<photo name="Stranger in the... McDonald's" id="29290237822"/>
-				<photo name="NYC's Lines" id="28774313734"/>
-				<photo name="Feelings Frame" id="28782145144"/>
-				<photo name="Wet Conversation" id="29417618655"/>
-				<photo name="Alone in the Rain" id="29312557902"/>
-				<photo name="Big City Lights #1" id="28803105173"/>
-				<photo name="Big City Lights #2" id="29426297495"/>
-				<photo name="Street Games" id="28819614654"/>
-				<photo name="Catched!" id="28822968963"/>
-				<photo name="Zion Canyon" id="28822956684"/>
-				<photo name="Zion Canyon" id="29367054801"/>
-				<photo name="Zion Canyon" id="29368823991"/>
-				<photo name="Angels Landing" id="29454350965"/>
-				<photo name="Zion Canyon" id="29168760640"/>
-				<photo name="Utah" id="29379148061"/>
-				<photo name="Old Boy" id="29178554400"/>
-				<photo name="Bryce Canyon" id="29467394715"/>
-				<photo name="Bryce Canyon" id="29433169006"/>
-				<photo name="Utah" id="29433171416"/>
-				<photo name="Mars" id="29433173826"/>
-				<photo name="Bryce Canyon" id="29368315102"/>
-				<photo name="Mars Tree" id="29478594525"/>
-				<photo name="Road to Arches" id="28856542983"/>
-				<photo name="Valley in Rocks" id="29400147791"/>
-				<photo name="Delicate Arch" id="29491978125"/>
-				<photo name="Landscape Arch" id="29492123475"/>
-				<photo name="Arches National Park" id="29384069212"/>
-				<photo name="Arches National Park" id="29412611131"/>
-				<photo name="Smoothed by the Wind" id="29392561212"/>
-				<photo name="Road of Utah" id="29501991035"/>
-				<photo name="Mars at Utah" id="28889297954"/>
-				<photo name="Mars at Utah" id="29480154946"/>
-				<photo name="Road to the Monument Valley" id="29235306260"/>
-				<photo name="Brothers" id="29445073071"/>
-				<photo name="Power Supply" id="29236426410"/>
-				<photo name="Horseshoe Bend" id="29500566406"/>
-				<photo name="Rainy Day" id="29535595995"/>
-				<photo name="Arizona" id="29246369860"/>
-				<photo name="Sunset at Grand Canyon" id="29255058590"/>
-				<photo name="Twillight of the Grand Canyon" id="29465420121"/>
-				<photo name="In the name of" id="28924633823"/>
-				<photo name="Drink Coffee" id="29548711745"/>
-				<photo name="Hoover Dam" id="29266034260"/>
-				<photo name="Mesquite Flat Sand Dunes" id="29522387476"/>
-				<photo name="Mesquite Flat Sand Dunes" id="29476076381"/>
-				<photo name="Mesquite Flat Sand Dunes" id="29476129081"/>
-				<photo name="Devil's Golf Course" id="28941730653"/>
-				<photo name="Artist's Drive" id="28940871304"/>
-				<photo name="Zabriskie Point" id="29543161596"/>
-				<photo name="Dante's View" id="29468167812"/>
-				<photo name="Washington D.C." id="28957954853"/>
-				<photo name="Capitol Hill" id="29473236592"/>
-				<photo name="The Only Living" id="28960388374"/>
-				<photo name="White Silence" id="29105538395"/>
-				<photo name="Karlův most" id="29045987451"/>
-				<photo name="Český Krumlov" id="28838148520"/>
-				<photo name="Český Krumlov" id="29019041022"/>
-				<photo name="Night Prague" id="28517652213"/>
-				<photo name="St. Vitus" id="28850915430"/>
-				<photo name="Tunnel of Death" id="29043153262"/>
-				<photo name="Hamburg's Reflections" id="29162219815"/>
-				<photo name="Gay Pride" id="29600714685"/>
-				<photo name="Strasbourg" id="28985065404"/>
-				<photo name="Through the Pyramid" id="28999142894"/>
-				<photo name="The Edge" id="29544979381"/>
-				<photo name="Night Louvre" id="29630518045"/>
-				<photo name="La Grande Arche" id="29603779536"/>
-				<photo name="Urban Sport" id="29023261833"/>
-				<photo name="Hellfest" id="29647908765"/>
-				<photo name="Krakow Citizen" id="29566854521"/>
-				<photo name="Gdansk" id="29768913133"/>
-				<photo name="Gdansk" id="30314463161"/>
-				<photo name="Elbe" id="30284021572"/>
-				<photo name="Hamburg's Harbor" id="30284022962"/>
-				<photo name="Hamburg" id="30304786202"/>
-				<photo name="Reeperbahn" id="30421597875"/>
-				<photo name="Hamburg" id="29789906623"/>
-				<photo name="Reeperbahn" id="30421661845"/>
-				<photo name="Reeperbahn" id="29789921243"/>
-				<photo name="Reeperbahn" id="29789945353"/>
-				<photo name="Reeperbahn" id="30124669440"/>
-				<photo name="Red Light District" id="30356468611"/>
-				<photo name="Red Light District" id="29810673423"/>
-				<photo name="Red Light District" id="29811794514"/>
-				<photo name="Red Light District" id="30406255916"/>
-				<photo name="Red Light District" id="30406262356"/>
-				<photo name="Amsterdam" id="30326275942"/>
-				<photo name="Relax, dude" id="30335296902"/>
-				<photo name="Haarlem" id="30452276295"/>
-				<photo name="Fortress" id="30462196935"/>
-				<photo name="Hard Day Night" id="30425618116"/>
-				<photo name="Kinderdijk" id="29829495503"/>
-				<photo name="Misty Fortress" id="28566049894"/>
-				<photo name="Misty Island" id="29102654171"/>
-				<photo name="Misty Village" id="29109498511"/>
-				<photo name="Fortress in Kamenets-Podolskiy" id="29121258271"/>
-				<photo name="Clear Morning" id="29129037291"/>
-				<photo name="Carpathians' Mist" id="29933581070"/>
-				<photo name="Carpathians' Mist" id="30195200186"/>
-				<photo name="Carpathians' Mist" id="29933690270"/>
-				<photo name="Carpathians' Mist" id="29599856244"/>
-				<photo name="Carpathians' Mist" id="29600686503"/>
-				<photo name="Carpathians" id="30081975870"/>
-				<photo name="Carpathians" id="29748514104"/>
-				<photo name="Village Life" id="30468940496"/>
-				<photo name="Village" id="30505619345"/>
-				<photo name="Hello!" id="29873433773"/>
-				<photo name="Village" id="30389180192"/>
-				<photo name="Kosmach" id="29873497313"/>
-				<photo name="Village Life" id="30468940496"/>
-				<photo name="Village" id="30505619345"/>
-				<photo name="Village" id="30389180192"/>
-				<photo name="Kosmach" id="29873497313"/>
-				<photo name="The Beauty of Winter" id="29897314833"/>
-				<photo name="The Beauty of Winter" id="30231970510"/>
-				<photo name="How to Make Cheese" id="29959857713"/>
-				<photo name="Carpathians" id="30505609631"/>
-				<photo name="Walking" id="29104366965"/>
-				<photo name="Caucasus" id="29406967150"/>
-				<photo name="Kumlistsikhe" id="29408278120"/>
-				<photo name="Georgia" id="29588521452"/>
+				<album name="Ukraine" id="72157672131427332"/>
+				<album name="Girls, Girls, Girls" id="72157669972218114"/>
+				<album name="India 2016" id="72157675283589160"/>
+				<album name="Turkey 2015" id="72157673922321210"/>
+				<album name="Street" id="72157672167507692"/>
+				<album name="USA 2014" id="72157673164339365"/>
+				<album name="Europe" id="72157672131418352"/>
+				<album name="Misc" id="72157672211410112"/>
 			</photos>
 		</set>
 	</sets>
