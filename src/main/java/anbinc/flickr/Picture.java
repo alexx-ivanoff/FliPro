@@ -40,4 +40,8 @@ public class Picture {
     public void setUsageCount(int usageCount) {
         this.usageCount = usageCount;
     }
+
+    public void eraseUsageCount()   {
+        setUsageCount(0);
+    }
 }

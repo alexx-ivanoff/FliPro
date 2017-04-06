@@ -73,30 +73,32 @@ public class FlickrApi {
         if (!pools.stream().anyMatch(p -> p.getId().equals(groupId)))   {
             try {
                 flickr.getPoolsInterface().add(picture.getId(), groupId);
-                System.out.println(String.format("Photo '%s' was successfully added to group '%s'.", picture, groupId));
+                System.out.println(String.format("Photo '%s' was successfully added to group '%s'.", picture.getName(), groupId));
                 //flickr.getPoolsInterface().getGroups();
                 return true;
             }
             catch (FlickrException e) {
-
+                System.out.println(String.format("Photo '%s' was not added to group '%s' because of '%s'.", picture.getName(), groupId, e.getMessage()));
             }
         }
 
-        System.out.println(String.format("Photo '%s' was not added to group '%s'.", picture, groupId));
         return false;
     }
 
     public static List<Picture> getPhotoIdsWithoutGroup(String groupId, List<Picture> pictures)   {
 
         List<String> result = new ArrayList<>();
-        List<Picture> unaddedPictures = new ArrayList<>(pictures);
+        List<Picture> unaddedPictures = new ArrayList<>();
+        //List<String> unaddedPicsIds = new ArrayList<>();
+        //pictures.forEach(p -> unaddedPicsIds.add(p.getId()));
 
         try {
-            PhotoList<Photo> groupPhotos = flickr.getPoolsInterface().getPhotos(groupId, userId, new String[] {}, new HashSet<String>(), 1000, 1);
-            groupPhotos.stream().filter(p -> unaddedPictures.contains(p.getId())).collect(Collectors.toList()).stream().forEach(p -> unaddedPictures.remove(p.getId()));
+            List<String> groupPhotoIds = flickr.getPoolsInterface().getPhotos(groupId, userId, new String[] {}, new HashSet<String>(), 1000, 1).stream().map(p -> p.getId()).collect(Collectors.toList());
+            unaddedPictures = pictures.stream().filter(p -> !groupPhotoIds.contains(p.getId())).collect(Collectors.toList());
+            //groupPhotos.stream().filter(p -> unaddedPicsIds.contains(p.getId())).collect(Collectors.toList()).stream().forEach(id -> unaddedPictures.remove());
         }
         catch (FlickrException e)   {
-
+            int a=0;
         }
 
         return unaddedPictures;

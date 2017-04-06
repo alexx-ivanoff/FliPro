@@ -27,7 +27,7 @@ public class Administrator {
             tasks = tasks.stream().filter(t -> tasksToRun.contains(t.getName())).collect(Collectors.toList());
 
         for (Task task : tasks) {
-
+            task.getPictures().stream().forEach(p->p.setUsageCount(0));
             report.put(task.getName(), new ArrayList<>());
             System.out.println(String.format("Task '%s' with %s groups and %s photos is started.", task.getName(), task.getGroups().size(), task.getPictures().size()));
 
@@ -41,9 +41,9 @@ public class Administrator {
 
                 while (groupsCounter++ != groupsAmount) {
                     groupNumber = getNextNumber(groupNumber, groupsAmount);
-                    List<Picture> photosWithoutGroup = FlickrApi.getPhotoIdsWithoutGroup(task.getGroups().get(groupNumber), task.getPictures()).stream().filter(p->p.getUsageCount()==0).collect(Collectors.toList());
-
                     String groupId = task.getGroups().get(groupNumber);
+
+                    List<Picture> photosWithoutGroup = FlickrApi.getPhotoIdsWithoutGroup(groupId, task.getPictures()).stream().filter(p->p.getUsageCount()==0).collect(Collectors.toList());
 
                     int photosAmount = photosWithoutGroup.size();
 
