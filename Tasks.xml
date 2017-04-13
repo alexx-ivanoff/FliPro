@@ -107,6 +107,10 @@
 			<group name="Cityscape, Landscape, and Incandescent Pics (CLI)" id="92869697@N00"/>
 			<group name="Urban Landscape" id="384452@N21"/>
 			<group name="CityScape" id="26328425@N00"/>
+			<group name="The City: Urban &amp; Street Photography" id="2686179@N24"/>
+			<group name="Urban Urban Urban" id="850014@N23"/>
+			<group name="URBAN" id="14049426@N00"/>
+			<group name="Urban - Photography" id="712151@N23"/>
 		</groupPack>
 		<groupPack name="City and People">
 			<group name="URBAN" id="14049426@N00"/>
@@ -270,7 +274,6 @@
 			<group name="World Culture" id="44416664@N00"/>
 			<group name="People and Persons" id="12938526@N00"/>
 			<group name="People pictures" id="89483931@N00"/>
-			
 		</groupPack>
 		<groupPack name="New York">
 			<group name="New York City" id="35034350743@N01"/>
@@ -419,6 +422,7 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="The First Night of 2017" id="31703881844"/>
 			<photo name="Kryvorivnya" id="32117048670"/>
 			<photo name="Kryvorivnya" id="32414769326"/>
 			<photo name="Drought" id="30198703351"/>
@@ -485,6 +489,16 @@
 			<photo name="Misty Village" id="29109498511"/>
 		</photoPack>
 		<photoPack name="Architecture">
+			<photo name="Belfry at Sunset Light" id="32957483651"/>
+			<photo name="Sunset in Brugge" id="33023932896"/>
+			<photo name="Bricks & Wood" id="32201718014"/>
+			<photo name="Rainy Brugge" id="32985064695"/>
+			<photo name="Skateshop 911" id="32840433841"/>
+			<photo name="Gent" id="32905805836"/>
+			<photo name="Grand-Place de Bruxelles" id="32805272305"/>
+			<photo name="Brussels" id="32795829965"/>
+			<photo name="Atomium" id="32653663461"/>
+			<photo name="Inside Lviv" id="32262595610"/>
 			<photo name="Gallery" id="31377279692"/>
 			<photo name="Bara Gumbad" id="31524053985"/>
 			<photo name="Rashtrapati Bhavan" id="31338063591"/>
@@ -648,20 +662,156 @@
 			<photo name="Dnepr City" id="30114837222"/>
 			<photo name="Jersey City" id="29223291382"/>
 		</photoPack>
-		<photoPack name="">
-			
+		<photoPack name="Just City">
+			<photo name="Hell on Earth" id="29115708565"/>
+			<photo name="Prague in Gold" id="29045987451"/>
+			<photo name="Český Krumlov" id="28838148520"/>
+			<photo name="Český Krumlov" id="29019041022"/>
+			<photo name="Night Prague" id="28517652213"/>
+			<photo name="St. Vitus" id="28850915430"/>
+			<photo name="Hamburg's Reflections" id="29162219815"/>
+			<photo name="Stairway to..." id="28542122624"/>
+			<photo name="Clear Morning" id="29129037291"/>
+			<photo name="City Runners" id="29036059770"/>
+			<photo name="Jersey City" id="29223291382"/>
+			<photo name="NYC's Motion" id="28721226634"/>
+			<photo name="Formicary" id="29267465381"/>
+			<photo name="NYC Citizen" id="29329757946"/>
+			<photo name="Big Apple" id="28740928114"/>
+			<photo name="At the edge of the Central Park" id="29081275160"/>
+			<photo name="to Manhattan" id="28752638284"/>
+			<photo name="New York" id="29388626535"/>
+			<photo name="Brooklin Bridge" id="28765781384"/>
+			<photo name="Manhattan" id="29289326372"/>
+			<photo name="Taxi" id="28774175944"/>
+			<photo name="NYC's Lines" id="28774313734"/>
+			<photo name="Big City Lights #1" id="28803105173"/>
+			<photo name="Big City Lights #2" id="29426297495"/>
+			<photo name="Washington D.C." id="28957954853"/>
+			<photo name="Strasbourg" id="28985065404"/>
+			<photo name="Through the Pyramid" id="28999142894"/>
+			<photo name="Night Louvre" id="29630518045"/>
+			<photo name="The Edge" id="29544979381"/>
+			<photo name="La Grande Arche" id="29603779536"/>
+			<photo name="Urban Sport" id="29023261833"/>
+			<photo name="Keep Calm and Sail On" id="29379445380"/>
+			<photo name="Gloomy Dnepr" id="29066813663"/>
+			<photo name="Imprisoned" id="29583827252"/>
+			<photo name="Dnepr City" id="30114837222"/>
+			<photo name="Dnepr City" id="30229831025"/>
+			<photo name="Industrialization" id="29957075740"/>
+			<photo name="Industrialization" id="30253937255"/>
+			<photo name="Of Birds and Men" id="29644385494"/>
+			<photo name="Istanbul" id="29702473463"/>
+			<photo name="Dnepr Sunrise" id="29723399063"/>
+			<photo name="Night Dnepr" id="30081777290"/>
+			<photo name="Night Dnepr" id="30262411892"/>
+			<photo name="Gdansk" id="29768913133"/>
+			<photo name="Gdansk" id="30314463161"/>
+			<photo name="Hamburg" id="30304786202"/>
+			<photo name="Hamburg" id="29789906623"/>
+			<photo name="Red Light District" id="30406255916"/>
+			<photo name="Red Light District" id="29811794514"/>
+			<photo name="Red Light District" id="30356468611"/>
+			<photo name="Red Light District" id="29810673423"/>
+			<photo name="Red Light District" id="30406262356"/>
+			<photo name="Amsterdam" id="30326275942"/>
+			<photo name="Relax, dude" id="30335296902"/>
+			<photo name="Sunset over Kiev" id="30366559402"/>
+			<photo name="Autumn Road" id="30345549332"/>
+			<photo name="Sunset over Kiev" id="30366577702"/>
+			<photo name="Sunset over Kiev" id="30366578912"/>
+			<photo name="Sunset over Kiev" id="30483481405"/>
+			<photo name="Sunset over Kiev" id="30366683282"/>
+			<photo name="Sunset over Kiev" id="29851152143"/>
+			<photo name="City Levels" id="29897500213"/>
+			<photo name="Winterlights" id="29899670924"/>
+			<photo name="Snowy Kiev" id="29919187213"/>
+			<photo name="Stadium" id="30465340101"/>
+			<photo name="Urban Volcano" id="30553036675"/>
+			<photo name="Kiev" id="29939988053"/>
+			<photo name="Urban Fishing" id="29942203314"/>
+			<photo name="St. Michael's Golden-Domed Monastery" id="29961623454"/>
+			<photo name="Calm Kiev" id="30356533750"/>
+			<photo name="Leh" id="30898841106"/>
+			<photo name="Night Leh" id="30995520235"/>
+			<photo name="Karzok" id="31019915785"/>
+			<photo name="Karzok" id="30902810422"/>
+			<photo name="Karzok" id="30902792172"/>
+			<photo name="Leh's Streetlife" id="30297638463"/>
+			<photo name="Delhi's Life" id="30311797634"/>
+			<photo name="Delhi's Traffic" id="30989714212"/>
+			<photo name="Dharamsala" id="30781664700"/>
+			<photo name="Dharamsala" id="31005860052"/>
+			<photo name="Night Dharamsala" id="31113669976"/>
+			<photo name="Dharamsala" id="31006023722"/>
+			<photo name="Shimla" id="30522484383"/>
+			<photo name="Shimla" id="31166901522"/>
+			<photo name="Architectural Chaos" id="31253207701"/>
+			<photo name="Shimla Levels" id="31331943796"/>
+			<photo name="Shimla" id="30564709984"/>
+			<photo name="City Gap" id="31242286812"/>
+			<photo name="On the Rooftop" id="31271398671"/>
+			<photo name="Constructor" id="31017275460"/>
+			<photo name="Night Shimla" id="31242387542"/>
+			<photo name="Rajpath" id="31308080022"/>
+			<photo name="Rashtrapati Bhavan" id="31338063591"/>
+			<photo name="Torch" id="31083007740"/>
+			<photo name="Sun Ise" id="31440164566"/>
+			<photo name="Night Delhi" id="31106405540"/>
+			<photo name="Urban Grape" id="32416594685"/>
+			<photo name="UFO" id="31701941693"/>
+			<photo name="Brussels" id="32795829965"/>
+			<photo name="Grand-Place de Bruxelles" id="32805272305"/>
+			<photo name="Point of View" id="32512243980"/>
+			<photo name="Gent" id="32905805836"/>
+			<photo name="Skateshop 911" id="32840433841"/>
+			<photo name="Rainy Brugge" id="32985064695"/>
+			<photo name="Keep Calm and Watch the Clock" id="32191247573"/>
+			<photo name="Sunset in Brugge" id="33023932896"/>
+			<photo name="Belfry at Sunset Light" id="32957483651"/>
+		</photoPack>
+		<photoPack name="City and People">
+			<photo name="Rainy Walk" id="29104366965"/>
+			<photo name="Fall of Lenin" id="29208699645"/>
+			<photo name="NYC's Motion" id="28721226634"/>
+			<photo name="NYC Citizen" id="29329757946"/>
+			<photo name="Capitol Hill" id="29473236592"/>
+			<photo name="Red Light District" id="30406255916"/>
+			<photo name="Red Light District" id="29811794514"/>
+			<photo name="Red Light District" id="30356468611"/>
+			<photo name="Red Light District" id="29810673423"/>
+			<photo name="Red Light District" id="30406262356"/>
+			<photo name="Figure in Red" id="25359787509"/>
+			<photo name="Karzok" id="30902938392"/>
+			<photo name="Rashtrapati Bhavan" id="31338063591"/>
+			<photo name="Sun Ise" id="31440164566"/>
+		</photoPack>
+		<photoPack name="People">
+			<photo name="Rainy Walk" id="29104366965"/>
+			<photo name="Moonspell" id="29054853642"/>
+			<photo name="Master of Pipes" id="29600421773"/>
+			<photo name="Circle" id="29644384314"/>
+			<photo name="Preparing" id="29671935084"/>
+			<photo name="Cappadocia" id="30022617180"/>
+			<photo name="Cosplayers" id="30375793271"/>
+			<photo name="Village Life" id="30468940496"/>
+			<photo name="Singer" id="30505543691"/>
+			<photo name="How to Make Cheese" id="29959857713"/>
+			<photo name="Temple" id="30898929296"/>
+			<photo name="Tibetian Cooking" id="22795241808"/>
+			<photo name="Monk" id="25359786359"/>
+			<photo name="Figure in Red" id="25359787509"/>
+			<photo name="Gent" id="32905805836"/>
 		</photoPack>
 		<photoPack name="">
-			
-		</photoPack>
-		<photoPack name="">
-			
-		</photoPack>
-		<photoPack name="">
-			
+
 		</photoPack>
 		
 		<photoPack name="Night">
+			<photo name="Gent" id="32905805836"/>
+			<photo name="Grand-Place de Bruxelles" id="32805272305"/>
+			<photo name="One for Two" id="32805229185"/>
 			<photo name="Country Night" id="32204785200"/>
 			<photo name="Over the River, Under the Stars" id="32442501571"/>
 			<photo name="The First Night of 2017" id="31703881844"/>
@@ -717,7 +867,7 @@
 			<photo name="Witch" id="29600533161"/>
 		</photoPack>
 		<photoPack name="City">
-			<photo name="UFO" id="31701941693"/>
+
 		</photoPack>
 	</photoPacks>
 
@@ -867,14 +1017,24 @@
 			</photos>
 		</set>
 		
-		<!--set name="City">
+		<set name="Just City">
 			<groups>	
-				<groupPack name="City"/>
+				<groupPack name="Just City"/>
 			</groups>
 			<photos>
-				<photoPack name="City"/>
+				<photoPack name="Just City"/>
 			</photos>
-		</set-->
+		</set>
+		
+		<set name="City and People">
+			<groups>	
+				<groupPack name="City and People"/>
+			</groups>
+			<photos>
+				<album name="Street" id="72157672167507692"/>
+				<photoPack name="City and People"/>
+			</photos>
+		</set>
 		
 		<set name="Architecture">
 			<groups>	
@@ -905,10 +1065,10 @@
 						
 		<set name="Sunsets">
 			<groups>	
-
+				<groupPack name="Sunsets"/>
 			</groups>
 			<photos>
-
+				<photoPack name="Sunsets"/>
 			</photos>
 		</set>
 						
@@ -921,7 +1081,6 @@
 				<album name="Ukraine" id="72157672131427332"/>
 			</photos>
 		</set>
-		
 		
 		<set name="Night">
 			<groups>	
@@ -942,12 +1101,24 @@
 				<album name="Girls, Girls, Girls" id="72157669972218114"/>
 			</photos>
 		</set>
+		
+		<set name="People">
+			<groups>
+				<groupPack name="People"/>
+			</groups>
+			<photos>
+				<album name="Street" id="72157672167507692"/>
+				<album name="Girls, Girls, Girls" id="72157669972218114"/>
+				<photoPack name="People"/>
+			</photos>
+		</set>
 			
 		<set name="Art">
 			<groups>	
 				<groupPack name="Art"/>
 				<groupPack name="Photography"/>
 				<groupPack name="Flickr Global"/>
+				<groupPack name="Nikon"/>
 			</groups>
 			<photos>	
 				<album name="Ukraine" id="72157672131427332"/>
