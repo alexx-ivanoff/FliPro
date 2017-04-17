@@ -43,7 +43,12 @@
 			<group name="Self Taught Photographers - LOOK AT DISCUSSION" id="91514935@N00"/>
 			<group name="flickr clickx" id="2138658@N22"/>
 			<group name="flickr (unofficial)" id="1902869@N24"/>
-			<group name="2728886@N20" id="2728886@N20"/>
+			<group name="!*Flickr All Stars*!" id="2728886@N20"/>
+			<group name="** Flickr's Best **" id="881546@N23"/>
+			<group name="Flickr Elite Group" id="326509@N24"/>
+			<group name="Flickr Lovers / Flickr ı Sevenler" id="742081@N22"/>
+			<group name="#FLICKR# Over The Shot" id="727419@N22"/>
+			<group name="FLICKR Stars :: COMMENT OR BAN" id="555737@N23"/>
 		</groupPack>
 			<groupPack name="Art">
 			<group name="You Think this is Art" id="75964794@N00"/>		
@@ -51,6 +56,8 @@
 			<group name="Magic Moments" id="52240880306@N01"/>
 			<group name="Artistic Photography" id="58898522@N00"/>
 			<group name="The best of world picture" id="2978869@N23"/>
+			<group name="ART BY FOTO" id="1335883@N21"/>
+			<group name="art for non-snobs" id="1436360@N22"/>
 		</groupPack>
 		<groupPack name="Street">
 			<group name="Just Street Photography" id="97329809@N00"/>
@@ -137,6 +144,20 @@
 			<group name="The Landscapes Scenery &amp; Sunsets Group" id="761487@N25"/>
 			<group name="NATURE'S PRIME (P1/A4)" id="1118172@N20"/>
 			<group name="Nature Scenes" id="12087001@N00"/>
+			<group name="Nature and Animals (Wild Only)" id="2740203@N20"/>
+			<group name="Nature and all that is beautiful" id="2625045@N25"/>
+			<group name="*Nature's Beautiful Photography" id="1071077@N24"/>
+			<group name="Nature and Nothing Else (Post 1 - Award 3)" id="718937@N20"/>
+			<group name="Nature of the World Unlimited" id="1092792@N20"/>
+			<group name="NATURE GREEN STAR" id="785899@N24"/>
+			<group name="NATURE RULES!!!" id="1164779@N25"/>
+			<group name="NATURË" id="1390256@N22"/>
+			<group name="*Nature Pics*" id="684768@N21"/>
+			<group name="NATURE ♥ unlimited ♥ (Public Group Forever)" id="570151@N23"/>
+			<group name="NATURE is LOVELY" id="447697@N21"/>
+			<group name="Nature's Garden" id="1135937@N22"/>
+			<group name="Nature's Pot-of-Gold: Level 1" id="741558@N22"/>
+			<group name="Nature's Gallery {photos with 5+ faves Only} Award 2" id="474125@N21"/>
 		</groupPack>
 		<groupPack name="Landscapes">
 			<group name="Landscape Photos" id="35638995@N00"/>
@@ -158,6 +179,20 @@
 			<group name="Landscape Photographs - P 1 A 1" id="1063369@N24"/>
 			<group name="WorldLandscapes" id="1205558@N20"/>
 			<group name="Inspirational Landscapes" id="830426@N21"/>
+			<group name="Landscape ART /// Inspiration landscapes around the world" id="1420712@N25"/>
+			<group name="Landscapes in an Upright Format" id="571054@N24"/>
+			<group name="Landscapes with Atmosphere" id="1085237@N24"/>
+			<group name="Landscape Photography Magazine" id="1630679@N23"/>
+			<group name="Landscape" id="23854677@N00"/>
+			<group name="Dreamy Landscapes (Editors' choice)" id="656795@N22"/>
+			<group name="The Best Landscape Group on Flickr" id="418659@N23"/>
+			<group name="1-2-3 Landscapes (1 A Day)" id="67012316@N00"/>
+			<group name="Natural Landscapes" id="776849@N21"/>
+			<group name="amateur landscape" id="86964180@N00"/>
+			<group name="art of landscape" id="15577692@N00"/>
+			<group name="Scenics, not just landscapes!" id="587728@N22"/>
+			<group name="Landscape Exploration" id="21315765@N00"/>
+			<group name="Beautiful Scenery & Landscapes" id="78249294@N00"/>
 		</groupPack>
 		<groupPack name="Colors">
 			<group name="!Catchy Colors" id="71332142@N00"/>
@@ -252,6 +287,11 @@
 			<group name="No-Flash Night Shots" id="17961503@N00"/>
 			<group name="Night Shot" id="47243595@N00"/>
 			<group name="Nocturnes  -  Night Photography" id="35489622@N00"/>
+			<group name="Night and darkness" id="578712@N21"/>
+			<group name="Night shooters" id="734362@N21"/>
+			<group name="night on earth..." id="736028@N22"/>
+			<group name="Night Photography Group" id="1567195@N24"/>
+			<group name="Night and low light photography" id="997139@N20"/>
 		</groupPack>
 		<groupPack name="Travel">
 			<group name="visit the world - the travel guide" id="11488522@N00"/>
@@ -267,6 +307,9 @@
 			<group name="World Photography - Public Photos - Traveling - Life" id="557255@N22"/>
 			<group name="WORLD TRAVEL : Your traveling experience (50 photos@day)" id="1215790@N24"/>
 			<group name="worldwidewandering - a travel atlas" id="95408346@N00"/>
+			<group name="Travel and Escapades" id="853792@N24"/>
+			<group name="* TRAVEL *" id="1069543@N21"/>
+			<group name="Yahoo! Travel" id="1900760@N20"/>
 		</groupPack>
 		<groupPack name="People">
 			<group name="*People  All  Over  World*" id="73343692@N00"/>
@@ -623,6 +666,7 @@
 			<photo name="Master of Pipes" id="29600421773"/>
 		</photoPack>
 		<photoPack name="Sunsets">
+			<photo name="Urban Sunset" id="33934298652"/>
 			<photo name="Torch" id="31083007740"/>
 			<photo name="Rajpath" id="31308080022"/>
 			<photo name="Constructor" id="31017275460"/>
@@ -770,6 +814,7 @@
 			<photo name="Keep Calm and Watch the Clock" id="32191247573"/>
 			<photo name="Sunset in Brugge" id="33023932896"/>
 			<photo name="Belfry at Sunset Light" id="32957483651"/>
+			<photo name="Urban Sunset" id="33934298652"/>
 		</photoPack>
 		<photoPack name="City and People">
 			<photo name="Rainy Walk" id="29104366965"/>
@@ -866,19 +911,12 @@
 			<photo name="Witch" id="29400159560"/>
 			<photo name="Witch" id="29600533161"/>
 		</photoPack>
-		<photoPack name="City">
-
-		</photoPack>
 	</photoPacks>
 
 	<sets>
 		<set name="India Main">
 			<groups>	
 				<groupPack name="India Main"/>
-				<groupPack name="Nikon"/>
-				<groupPack name="National Geographic"/>
-				<groupPack name="Flickr Global"/>
-				<groupPack name="Travel"/>
 			</groups>
 			<photos>
 				<album name="India 2016" id="72157675283589160"/>
@@ -887,10 +925,6 @@
 		
 		<set name="USA Main">
 			<groups>	
-				<groupPack name="Nikon"/>
-				<groupPack name="National Geographic"/>
-				<groupPack name="Travel"/>
-				<groupPack name="Photography"/>
 				<groupPack name="USA"/>
 			</groups>
 			<photos>
@@ -900,9 +934,6 @@
 		
 		<set name="Turkey">
 			<groups>	
-				<groupPack name="Nikon"/>
-				<groupPack name="National Geographic"/>
-				<groupPack name="Travel"/>
 				<groupPack name="Turkey"/>
 			</groups>
 			<photos>
@@ -919,7 +950,27 @@
 			</photos>
 		</set>
 		
-		<set name="India Nature and Landscapes">
+		<set name="Travel">
+			<groups>
+				<groupPack name="Travel"/>
+				<groupPack name="National Geographic"/>
+				<groupPack name="Photography"/>
+				<groupPack name="Flickr Global"/>
+			</groups>
+			<photos>
+				<album name="Turkey 2015" id="72157673922321210"/>
+				<album name="Europe" id="72157672131418352"/>
+				<album name="USA 2014" id="72157673164339365"/>
+				<album name="India 2016" id="72157675283589160"/>
+				<photo name="Rainy Walk" id="29104366965"/>
+				<photo name="Caucasus" id="29406967150"/>
+				<photo name="Kumlistsikhe" id="29408278120"/>
+				<photo name="Georgia" id="29588521452"/>
+				<photo name="How to Make Cheese" id="29959857713"/>
+			</photos>
+		</set>
+		
+		<!--set name="India Nature and Landscapes">
 			<groups>	
 				<groupPack name="Nature"/>
 				<groupPack name="Landscapes"/>
@@ -948,6 +999,19 @@
 			<photos>
 				<photoPack name="Other Nature and Landscapes"/>
 			</photos>
+		</set-->
+
+		<set name="Nature and Landscapes">
+			<groups>	
+				<groupPack name="Nature"/>
+				<groupPack name="Landscapes"/>
+				<groupPack name="Colors"/>
+			</groups>
+			<photos>
+				<photoPack name="India Nature and Landscapes"/>
+				<photoPack name="USA Nature and Landscapes"/>
+				<photoPack name="Other Nature and Landscapes"/>
+			</photos>
 		</set>
 		
 		<set name="Just Nature">
@@ -968,7 +1032,7 @@
 			</photos>
 		</set>
 		
-		<set name="All Nature and Landscapes">
+		<!--set name="All Nature and Landscapes">
 			<groups>	
 				<groupPack name="Colors"/>
 			</groups>
@@ -979,7 +1043,7 @@
 				<photoPack name="Just Landscapes"/>
 				<photoPack name="Just Nature"/>
 			</photos>
-		</set>
+		</set-->
 		
 		<set name="People">
 			<groups>	
@@ -1074,8 +1138,8 @@
 						
 		<set name="Ukraine">
 			<groups>	
-				<groupPack name="Photography"/>
-				<groupPack name="Nikon"/>
+				<!--groupPack name="Photography"/-->
+				<!--groupPack name="Nikon"/-->
 			</groups>
 			<photos>
 				<album name="Ukraine" id="72157672131427332"/>
@@ -1095,7 +1159,6 @@
 			<groups>	
 				<groupPack name="Girls"/>
 				<groupPack name="Portrait"/>
-				<groupPack name="Nikon"/>
 			</groups>
 			<photos>
 				<album name="Girls, Girls, Girls" id="72157669972218114"/>
