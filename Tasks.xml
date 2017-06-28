@@ -33,6 +33,7 @@
 			<group name="Your Best Photography" id="416556@N22"/>
 			<group name="Mordus de photos" id="1248524@N20"/>
 			<group name="Show All Your Photos" id="2817245@N20"/>
+			<group name="Momentos para no olvidar" id="2805208@N25"/>
 		</groupPack>
 		<groupPack name="Flickr Global">
 			<group name="***Flickr Global" id="1136489@N22"/>
@@ -677,6 +678,7 @@
 			<photo name="Misty Village" id="29109498511"/>
 		</photoPack>
 		<photoPack name="Architecture">
+			<photo name="Urban Mist" id="35196824820"/>
 			<photo name="Belfry at Sunset Light" id="32957483651"/>
 			<photo name="Sunset in Brugge" id="33023932896"/>
 			<photo name="Bricks & Wood" id="32201718014"/>
@@ -782,6 +784,7 @@
 			<photo name="Endless Emptiness" id="30168224831"/>
 		</photoPack>
 		<photoPack name="Bridges">
+			<photo name="Splashes" id="35583803845"/>
 			<photo name="Over the River, Under the Stars" id="32442501571"/>
 			<photo name="Urban Fishing" id="29942203314"/>
 			<photo name="Snowy Kiev" id="29919187213"/>
@@ -990,6 +993,9 @@
 			<photo name="Urban Sunset" id="33934298652"/>
 			<photo name="Kyiv's Evening" id="33371159304"/>
 			<photo name="Golden Kyiv" id="34104266551"/>
+			<photo name="Urban Mist" id="35196824820"/>
+			<photo name="Embarcadero" id="34729412184"/>
+			<photo name="Port of San Francisco" id="34720859764"/>
 		</photoPack>
 		<photoPack name="City and People">
 			<photo name="Rainy Walk" id="29104366965"/>
@@ -1006,6 +1012,7 @@
 			<photo name="Karzok" id="30902938392"/>
 			<photo name="Rashtrapati Bhavan" id="31338063591"/>
 			<photo name="Sun Ise" id="31440164566"/>
+			<photo name="Morning Fishing" id="35415770342"/>
 		</photoPack>
 		<photoPack name="People">
 			<photo name="Rainy Walk" id="29104366965"/>
@@ -1067,9 +1074,14 @@
 			<photo name="Sunrise at Tso Moriri" id="31009208096"/>
 			<photo name="Tso Moriri" id="31077766945"/>
 			<photo name="Under the Waterfall" id="30425797204"/>
+			<photo name="Port of San Francisco" id="34720859764"/>
+			<photo name="Splashes" id="35583803845"/>
 		</photoPack>
 		
 		<photoPack name="Night">
+			<photo name="Urban Mist" id="35196824820"/>
+			<photo name="Embarcadero" id="34729412184"/>
+			<photo name="Port of San Francisco" id="34720859764"/>
 			<photo name="Gent" id="32905805836"/>
 			<photo name="Grand-Place de Bruxelles" id="32805272305"/>
 			<photo name="One for Two" id="32805229185"/>
@@ -1145,6 +1157,7 @@
 			</groups>
 			<photos>
 				<album name="USA 2014" id="72157673164339365"/>
+				<album name="USA 2016" id="72157673164339365"/>
 			</photos>
 		</set>
 		
@@ -1188,6 +1201,7 @@
 				<album name="Europe" id="72157672131418352"/>
 				<album name="USA 2014" id="72157673164339365"/>
 				<album name="India 2016" id="72157675283589160"/>
+				<album name="USA 2016" id="72157675283589160"/>
 				<photo name="Rainy Walk" id="29104366965"/>
 				<photo name="Caucasus" id="29406967150"/>
 				<photo name="Kumlistsikhe" id="29408278120"/>
@@ -1409,6 +1423,7 @@
 				<album name="Street" id="72157672167507692"/>
 				<album name="Girls, Girls, Girls" id="72157669972218114"/>
 				<photoPack name="People"/>
+				<photoPack name="City and People"/>
 			</photos>
 		</set>
 			
@@ -1428,6 +1443,7 @@
 				<album name="USA 2014" id="72157673164339365"/>
 				<album name="Europe" id="72157672131418352"/>
 				<album name="Misc" id="72157672211410112"/>
+				<album name="USA 2016" id="72157672211410112"/>
 			</photos>
 		</set>
 	</sets>
