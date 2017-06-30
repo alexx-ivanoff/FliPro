@@ -678,6 +678,8 @@
 			<photo name="Misty Village" id="29109498511"/>
 		</photoPack>
 		<photoPack name="Architecture">
+			<photo name="Hyde St." id="35435476522"/>
+			<photo name="Fort Point" id="35564524716"/>
 			<photo name="Urban Mist" id="35196824820"/>
 			<photo name="Belfry at Sunset Light" id="32957483651"/>
 			<photo name="Sunset in Brugge" id="33023932896"/>
@@ -737,6 +739,8 @@
 			<photo name="Český Krumlov" id="29019041022"/>
 		</photoPack>
 		<photoPack name="Black and White">
+			<photo name="Bus Stop" id="35455407782"/>
+			<photo name="Street Drummer" id="35493319371"/>
 			<photo name="Dasha" id="35023612936"/>
 			<photo name="60" id="32067846384"/>
 			<photo name="Shimla's Street" id="30489069964"/>
@@ -996,6 +1000,9 @@
 			<photo name="Urban Mist" id="35196824820"/>
 			<photo name="Embarcadero" id="34729412184"/>
 			<photo name="Port of San Francisco" id="34720859764"/>
+			<photo name="Hyde St." id="35435476522"/>
+			<photo name="Fort Point" id="35564524716"/>
+			<photo name="Impurity" id="35493119031"/>
 		</photoPack>
 		<photoPack name="City and People">
 			<photo name="Rainy Walk" id="29104366965"/>
@@ -1013,6 +1020,8 @@
 			<photo name="Rashtrapati Bhavan" id="31338063591"/>
 			<photo name="Sun Ise" id="31440164566"/>
 			<photo name="Morning Fishing" id="35415770342"/>
+			<photo name="Bus Stop" id="35455407782"/>
+			<photo name="Street Drummer" id="35493319371"/>
 		</photoPack>
 		<photoPack name="People">
 			<photo name="Rainy Walk" id="29104366965"/>
