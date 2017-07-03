@@ -699,6 +699,7 @@
 			<photo name="Misty Village" id="29109498511"/>
 		</photoPack>
 		<photoPack name="Architecture">
+			<photo name="Downtown" id="34876726813"/>
 			<photo name="Stone Jungle" id="35664103505"/>
 			<photo name="X" id="35276720180"/>
 			<photo name="Frisco Geometry" id="34834312603"/>
@@ -763,6 +764,7 @@
 			<photo name="Český Krumlov" id="29019041022"/>
 		</photoPack>
 		<photoPack name="Black and White">
+			<photo name="Welcome to the Other Side" id="35298545940"/>
 			<photo name="In the Same Boat" id="35495127912"/>
 			<photo name="Small Affairs in a Big City" id="34834428543"/>
 			<photo name="Bus Stop" id="35455407782"/>
@@ -1032,6 +1034,7 @@
 			<photo name="Frisco Geometry" id="34834312603"/>
 			<photo name="X" id="35276720180"/>
 			<photo name="Stone Jungle" id="35664103505"/>
+			<photo name="Downtown" id="34876726813"/>
 		</photoPack>
 		<photoPack name="City and People">
 			<photo name="Rainy Walk" id="29104366965"/>
@@ -1054,6 +1057,7 @@
 			<photo name="Street Drummer" id="35493319371"/>
 			<photo name="Small Affairs in a Big City" id="34834428543"/>
 			<photo name="In the Same Boat" id="35495127912"/>
+			<photo name="Welcome to the Other Side" id="35298545940"/>
 		</photoPack>
 		<photoPack name="People">
 			<photo name="Moonspell" id="29054853642"/>
