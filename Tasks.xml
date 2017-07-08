@@ -33,6 +33,12 @@
 			<group name="Your Best Photography" id="416556@N22"/>
 			<group name="Mordus de photos" id="1248524@N20"/>
 			<group name="Show All Your Photos" id="2817245@N20"/>
+			<group name="World Photographers' Photos" id="2185216@N20"/>
+			<group name="Total Photography" id="88911816@N00"/>
+			<group name="Photographers from around the world" id="2351129@N21"/>
+			<group name="my life is a picture..." id="1495726@N24"/>
+			<group name="digital is the devil." id="1959097@N20"/>
+			<group name="ᗩᔕ Gooᗪ ᗩᔕ It getᔕ~ ...always pushing the barriers!" id="2918906@N23"/>
 			<group name="Momentos para no olvidar" id="2805208@N25"/>
 			<group name="Magic of photography" id="2568628@N21"/>
 			<group name="We love cameras" id="2548188@N23"/>
@@ -65,6 +71,7 @@
 			<group name="#FLICKR# Over The Shot" id="727419@N22"/>
 			<group name="! ♡ Flickrian ♡ No Rules:)" id="858705@N22"/>
 			<group name="'What Digital Camera' flickr group" id="61222694@N00"/>
+			<group name="The best of world picture" id="2978869@N23"/>
 			<group name="FlickrCentral With No Posting Limit" id="871737@N25"/>
 			<group name="FLICKERIANS" id="1274804@N24"/>
 			<group name="Flickr: YOUR PHOTOS" id="839940@N23"/>
@@ -75,9 +82,11 @@
 			<group name="Art Meets Photography" id="676103@N20"/>
 			<group name="Magic Moments" id="52240880306@N01"/>
 			<group name="Artistic Photography" id="58898522@N00"/>
-			<group name="The best of world picture" id="2978869@N23"/>
 			<group name="ART BY FOTO" id="1335883@N21"/>
 			<group name="art for non-snobs" id="1436360@N22"/>
+			<group name="Inspirational Photography" id="850516@N25"/>
+			<group name="Beauty and Art" id="1250112@N25"/>
+			<group name="Self Perception" id="87093399@N00"/>
 		</groupPack>
 		<groupPack name="Street">
 			<group name="Just Street Photography" id="97329809@N00"/>
@@ -129,6 +138,7 @@
 			<group name="worldwide street photography" id="647301@N23"/>
 			<group name="Street Cliche" id="1161775@N22"/>
 			<group name="Candid Street Photography Group" id="71456407@N00"/>
+			<group name="Mordus de photos de la vie" id="1583878@N22"/>
 		</groupPack>
 		<groupPack name="Black and White">
 			<group name="BLACK AND WHITE PHOTO HEAVEN!" id="38613568@N00"/>
@@ -174,6 +184,7 @@
 			<group name="Monochrome Love" id="1816536@N23"/>
 			<group name="[bw]" id="540896@N21"/>
 			<group name="BLACK and WHITE Creative Artwork" id="1575512@N25"/>
+			<group name="Photos in Black and White ONLY." id="2939713@N21"/>
 		</groupPack>
 		<groupPack name="Just City">
 			<group name="City" id="83647807@N00"/>
@@ -298,8 +309,13 @@
 			<group name="Sublime Femme...Sublime Woman" id="2755314@N25"/>
 			<group name="girl power!" id="760129@N21"/>
 			<group name="GIRLS/GIRLS/GIRLS" id="435936@N20"/>
-			<group name="Fotografia&amp;Arte" id="2439519@N22"/>
-			<group name="CHARME DES FILLES" id="2712810@N23"/>
+			<group name="Beautiful Young Women and Their Faces" id="1869549@N21"/>
+			<group name="Eternal Womanhood" id="2543356@N24"/>
+			<group name="Fashion Girls" id="617363@N25"/>
+			<group name="Models" id="35468145766@N01"/>
+			<group name="Fashion World" id="775069@N23"/>
+			<group name="FASHION ♥ PASSION" id="89254480@N00"/>
+			<group name="Feminine Beauty Beach" id="1956087@N22"/>
 		</groupPack>
 		<groupPack name="Portrait">
 			<group name="Portraiture Photography" id="29496069@N00"/>
@@ -326,6 +342,16 @@
 			<group name="Portrait Portrait Portrait (Read THE RULE).....yes because there" id="51772208@N00"/>
 			<group name="The Portrait Group" id="20421382@N00"/>
 			<group name="Portraiture" id="44001204@N00"/>
+			<group name="World Portrait 2020" id="1361678@N20"/>
+			<group name="RETRATOS/PORTRAITS" id="680212@N25"/>
+			<group name="Portraits with soul" id="2705226@N21"/>
+			<group name="Portraits have Souls" id="1171283@N22"/>
+			<group name="Portrait Photography Lovers" id="582736@N20"/>
+			<group name="PORTRAITS ***" id="2172681@N22"/>
+			<group name="Portrait Obsession" id="1039500@N23"/>
+			<group name="Flickr Portraits and HDR" id="64418558@N00"/>
+			<group name="Faces of Portraits" id="367330@N22"/>
+			<group name="Face" id="79666989@N00"/>
 		</groupPack>
 		<groupPack name="Winter">
 			<group name="**Snow, Snow, Snow!**" id="563072@N25"/>
@@ -414,6 +440,8 @@
 			<group name="People and Persons" id="12938526@N00"/>
 			<group name="People pictures" id="89483931@N00"/>
 			<group name="All People" id="70823775@N00"/>
+			<group name="~*People Pics That *WoW* Us*~" id="578415@N21"/>
+			<group name="People Watching" id="49568919@N00"/>
 		</groupPack>
 		<groupPack name="New York">
 			<group name="New York City" id="35034350743@N01"/>
@@ -496,7 +524,7 @@
 			<group name="Waterscapes" id="64478141@N00"/>
 			<group name="Water" id="52240442914@N01"/>
 			<group name="Seas, Oceans, Rivers and sun" id="65783108@N00"/>
-		</groupPack>		
+		</groupPack>
 		<groupPack name="USA">
 			<group name="Road Trip USA" id="46205126@N00"/>
 			<group name="EVERYTHING AMERICA" id="49906912@N00"/>
@@ -632,6 +660,8 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Ocean Beach" id="34982045063"/>
+			<photo name="Lake Sunset" id="34752968700"/>
 			<photo name="The First Night of 2017" id="31703881844"/>
 			<photo name="Kryvorivnya" id="32117048670"/>
 			<photo name="Kryvorivnya" id="32414769326"/>
@@ -816,6 +846,7 @@
 			<photo name="Endless Emptiness" id="30168224831"/>
 		</photoPack>
 		<photoPack name="Bridges">
+			<photo name="Everything is Golden" id="35690023116"/>
 			<photo name="Splashes" id="35583803845"/>
 			<photo name="Over the River, Under the Stars" id="32442501571"/>
 			<photo name="Urban Fishing" id="29942203314"/>
@@ -851,6 +882,9 @@
 			<photo name="Sunrise on Rails" id="29623992333"/>
 		</photoPack>
 		<photoPack name="Sunsets">
+			<photo name="Colored in Gold" id="35560856502"/>
+			<photo name="Everything is Golden" id="35690023116"/>
+			<photo name="Lombard St. / Fillmore St." id="35689947656"/>
 			<photo name="Golden Kyiv" id="34104266551"/>
 			<photo name="Kyiv's Evening" id="33371159304"/>
 			<photo name="Urban Sunset" id="33934298652"/>
@@ -1035,6 +1069,8 @@
 			<photo name="X" id="35276720180"/>
 			<photo name="Stone Jungle" id="35664103505"/>
 			<photo name="Downtown" id="34876726813"/>
+			<photo name="Everything is Golden" id="35690023116"/>
+			<photo name="Colored in Gold" id="35560856502"/>
 		</photoPack>
 		<photoPack name="City and People">
 			<photo name="Rainy Walk" id="29104366965"/>
@@ -1051,6 +1087,7 @@
 			<photo name="Karzok" id="30902938392"/>
 			<photo name="Rashtrapati Bhavan" id="31338063591"/>
 			<photo name="Sun Ise" id="31440164566"/>
+			<photo name="Gent" id="32905805836"/>
 			<photo name="Morning Fishing" id="35415770342"/>
 			<photo name="Hyde St." id="35435476522"/>
 			<photo name="Bus Stop" id="35455407782"/>
@@ -1058,6 +1095,10 @@
 			<photo name="Small Affairs in a Big City" id="34834428543"/>
 			<photo name="In the Same Boat" id="35495127912"/>
 			<photo name="Welcome to the Other Side" id="35298545940"/>
+			<photo name="Castro District" id="35706802425"/>
+			<photo name="Shaman For Hire" id="34897324313"/>
+			<photo name="Lombard St. / Fillmore St." id="35689947656"/>
+			<photo name="|| on a Pasue" id="35660220311"/>
 		</photoPack>
 		<photoPack name="People">
 			<photo name="Moonspell" id="29054853642"/>
@@ -1073,7 +1114,7 @@
 			<photo name="Tibetian Cooking" id="22795241808"/>
 			<photo name="Monk" id="25359786359"/>
 			<photo name="Figure in Red" id="25359787509"/>
-			<photo name="Gent" id="32905805836"/>
+			<photo name="Beach Patrol" id="34951772174"/>
 		</photoPack>
 		<photoPack name="Water">
 			<photo name="Prague in Gold" id="29045987451"/>
@@ -1120,6 +1161,8 @@
 			<photo name="Under the Waterfall" id="30425797204"/>
 			<photo name="Port of San Francisco" id="34720859764"/>
 			<photo name="Splashes" id="35583803845"/>
+			<photo name="Everything is Golden" id="35690023116"/>
+			<photo name="Ocean Beach" id="34982045063"/>
 		</photoPack>
 		
 		<photoPack name="Night">
@@ -1375,7 +1418,7 @@
 				<photoPack name="Just City"/>
 			</photos>
 		</set>
-			
+
 		<set name="Architecture">
 			<groups>	
 				<groupPack name="Architecture"/>
