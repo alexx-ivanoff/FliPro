@@ -19,6 +19,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 /**
@@ -174,7 +177,7 @@ public class TasksReader {
                 }
 
                 task.setGroups(groupIds.stream().distinct().collect(Collectors.toList()));
-                task.setPictures(pictures.stream().distinct().collect(Collectors.toList()));
+                task.setPictures(pictures.stream().filter(distinctByKey(p -> p.getId())).collect(Collectors.toList()));
                 tasks.add(task);
             }
         } catch (Exception e) {
@@ -191,5 +194,10 @@ public class TasksReader {
                 ).sum();
 */
         return tasks;
+    }
+
+    public static <T> Predicate<T> distinctByKey(Function<? super T, ?> keyExtractor) {
+        Map<Object,Boolean> seen = new ConcurrentHashMap<>();
+        return t -> seen.putIfAbsent(keyExtractor.apply(t), Boolean.TRUE) == null;
     }
 }
