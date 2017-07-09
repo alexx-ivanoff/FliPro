@@ -442,6 +442,7 @@
 			<group name="All People" id="70823775@N00"/>
 			<group name="~*People Pics That *WoW* Us*~" id="578415@N21"/>
 			<group name="People Watching" id="49568919@N00"/>
+			<group name="Group of People" id="2081310@N24"/>
 		</groupPack>
 		<groupPack name="New York">
 			<group name="New York City" id="35034350743@N01"/>
@@ -660,6 +661,8 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Pacific Foam" id="35640966282"/>
+			<photo name="Seal Rocks" id="35421514490"/>
 			<photo name="Ocean Beach" id="34982045063"/>
 			<photo name="Lake Sunset" id="34752968700"/>
 			<photo name="The First Night of 2017" id="31703881844"/>
@@ -1163,6 +1166,8 @@
 			<photo name="Splashes" id="35583803845"/>
 			<photo name="Everything is Golden" id="35690023116"/>
 			<photo name="Ocean Beach" id="34982045063"/>
+			<photo name="Seal Rocks" id="35421514490"/>
+			<photo name="Pacific Foam" id="35640966282"/>
 		</photoPack>
 		
 		<photoPack name="Night">
