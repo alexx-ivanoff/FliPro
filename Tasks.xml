@@ -44,6 +44,7 @@
 			<group name="We love cameras" id="2548188@N23"/>
 			<group name="Top Photography..." id="2732009@N21"/>
 			<group name="Photographers Club" id="387220@N21"/>
+			<group name="LOOK ! - - - - - - - The Home of great Photos" id="2995084@N21"/>
 		</groupPack>
 		<groupPack name="Flickr Global">
 			<group name="***Flickr Global" id="1136489@N22"/>
@@ -218,7 +219,6 @@
 			<group name="Nature...Anything Goes" id="442586@N20"/>
 			<group name="NATURE'S BEST" id="496080@N22"/>
 			<group name="nature's composition" id="614277@N22"/>
-			<group name="Nature's Gallery (Post 1 / Award 3)" id="1353720@N25"/>
 			<group name="Awesome Nature" id="40025645@N00"/>
 			<group name="The Landscapes Scenery &amp; Sunsets Group" id="761487@N25"/>
 			<group name="NATURE'S PRIME (P1/A4)" id="1118172@N20"/>
@@ -661,6 +661,9 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Away from the Hustle and Bustle" id="35102351453"/>
+			<photo name="Sutro Baths" id="35698078211"/>
+			<photo name="South Bay" id="35442253390"/>
 			<photo name="Pacific Foam" id="35640966282"/>
 			<photo name="Seal Rocks" id="35421514490"/>
 			<photo name="Ocean Beach" id="34982045063"/>
@@ -732,6 +735,10 @@
 			<photo name="Misty Village" id="29109498511"/>
 		</photoPack>
 		<photoPack name="Architecture">
+			<photo name="California St." id="35762046322"/>
+			<photo name="B&W Gate" id="35741971862"/>
+			<photo name="Streams of Golden Gate" id="35102463173"/>
+			<photo name="Passing the Bridge" id="35851424026"/>
 			<photo name="Downtown" id="34876726813"/>
 			<photo name="Stone Jungle" id="35664103505"/>
 			<photo name="X" id="35276720180"/>
@@ -797,6 +804,9 @@
 			<photo name="Český Krumlov" id="29019041022"/>
 		</photoPack>
 		<photoPack name="Black and White">
+			<photo name="Eccentric" id="35142827733"/>
+			<photo name="B&W Gate" id="35741971862"/>
+			<photo name="Nightram" id="35702213382"/>
 			<photo name="Welcome to the Other Side" id="35298545940"/>
 			<photo name="In the Same Boat" id="35495127912"/>
 			<photo name="Small Affairs in a Big City" id="34834428543"/>
@@ -849,6 +859,11 @@
 			<photo name="Endless Emptiness" id="30168224831"/>
 		</photoPack>
 		<photoPack name="Bridges">
+			<photo name="B&W Gate" id="35741971862"/>
+			<photo name="Streams of Golden Gate" id="35102463173"/>
+			<photo name="Passing the Bridge" id="35851424026"/>
+			<photo name="Golden & Purple" id="35851835855"/>
+			<photo name="Baker Beach" id="35442228070"/>
 			<photo name="Everything is Golden" id="35690023116"/>
 			<photo name="Splashes" id="35583803845"/>
 			<photo name="Over the River, Under the Stars" id="32442501571"/>
@@ -885,6 +900,9 @@
 			<photo name="Sunrise on Rails" id="29623992333"/>
 		</photoPack>
 		<photoPack name="Sunsets">
+			<photo name="Away from the Hustle and Bustle" id="35102351453"/>
+			<photo name="Sutro Baths" id="35698078211"/>
+			<photo name="Baker Beach" id="35442228070"/>
 			<photo name="Colored in Gold" id="35560856502"/>
 			<photo name="Everything is Golden" id="35690023116"/>
 			<photo name="Lombard St. / Fillmore St." id="35689947656"/>
@@ -1074,6 +1092,15 @@
 			<photo name="Downtown" id="34876726813"/>
 			<photo name="Everything is Golden" id="35690023116"/>
 			<photo name="Colored in Gold" id="35560856502"/>
+			<photo name="Golden & Purple" id="35851835855"/>
+			<photo name="The City has Coming" id="35483472970"/>
+			<photo name="Street Geometry" id="35483514830"/>
+			<photo name="Passing the Bridge" id="35851424026"/>
+			<photo name="B&W Gate" id="35741971862"/>
+			<photo name="Streams of the Golden Gate" id="35102463173"/>
+			<photo name="Gradient" id="35891261466"/>
+			<photo name="California St." id="35762046322"/>
+			<photo name="San Francisco" id="35911728206"/>
 		</photoPack>
 		<photoPack name="City and People">
 			<photo name="Rainy Walk" id="29104366965"/>
@@ -1102,6 +1129,10 @@
 			<photo name="Shaman For Hire" id="34897324313"/>
 			<photo name="Lombard St. / Fillmore St." id="35689947656"/>
 			<photo name="|| on a Pasue" id="35660220311"/>
+			<photo name="Nightram" id="35702213382"/>
+			<photo name="Road Crossing" id="35851397036"/>
+			<photo name="Eccentric" id="35142827733"/>
+			<photo name="Haight-Ashbury" id="35911698436"/>
 		</photoPack>
 		<photoPack name="People">
 			<photo name="Moonspell" id="29054853642"/>
@@ -1168,9 +1199,17 @@
 			<photo name="Ocean Beach" id="34982045063"/>
 			<photo name="Seal Rocks" id="35421514490"/>
 			<photo name="Pacific Foam" id="35640966282"/>
+			<photo name="Sutro Baths" id="35698078211"/>
+			<photo name="Baker Beach" id="35442228070"/>
+			<photo name="South Bay" id="35442253390"/>
+			<photo name="Golden & Purple" id="35851835855"/>
+			<photo name="Away from the Hustle and Bustle" id="35102351453"/>
 		</photoPack>
 		
 		<photoPack name="Night">
+			<photo name="San Francisco" id="35911728206"/>
+			<photo name="Nightram" id="35702213382"/>
+			<photo name="Golden & Purple" id="35851835855"/>
 			<photo name="Urban Mist" id="35196824820"/>
 			<photo name="Embarcadero" id="34729412184"/>
 			<photo name="Port of San Francisco" id="34720859764"/>
