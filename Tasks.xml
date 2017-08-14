@@ -699,6 +699,8 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Mount Dana" id="36161145490"/>
+			<photo name="Mono Lake" id="36161117680"/>
 			<photo name="Yosemite Valley" id="36493850286"/>
 			<photo name="El Capitan" id="35705262404"/>
 			<photo name="Warm Yosemite" id="36472285466"/>
@@ -769,6 +771,7 @@
 			<photo name="Colorful Ledge" id="35710036523"/>
 		</photoPack>
 		<photoPack name="Just Landscapes">
+			<photo name="Idaho" id="36389650332"/>
 			<photo name="Road of Utah" id="29501991035"/>
 			<photo name="Rainy Day" id="29535595995"/>
 			<photo name="Power Supply" id="29236426410"/>
@@ -1318,6 +1321,8 @@
 			<photo name="Mars Tree" id="29478594525"/>
 		</photoPack>
 		<photoPack name="US Yosemite">
+			<photo name="Mount Dana" id="36161145490"/>
+			<photo name="Mono Lake" id="36161117680"/>
 			<photo name="Yosemite Valley" id="36493850286"/>
 			<photo name="El Capitan" id="35705262404"/>
 			<photo name="Warm Yosemite" id="36472285466"/>
@@ -1692,6 +1697,15 @@
 			</groups>
 			<photos>
 				<photoPack name="US Arches"/>
+			</photos>
+		</set>
+		
+		<set name="US Death Valley">
+			<groups>
+				<groupPack name="US Death Valley"/>
+			</groups>
+			<photos>
+				<photoPack name="US Death Valley"/>
 			</photos>
 		</set>
 		
