@@ -45,6 +45,7 @@
 			<group name="Top Photography..." id="2732009@N21"/>
 			<group name="Photographers Club" id="387220@N21"/>
 			<group name="LOOK ! - - - - - - - The Home of great Photos" id="2995084@N21"/>
+			<group name="!*Only Your Best*!" id="2988412@N25"/>
 		</groupPack>
 		<groupPack name="Flickr Global">
 			<group name="***Flickr Global" id="1136489@N22"/>
@@ -699,6 +700,8 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Craters of the Moon" id="36580571085"/>
+			<photo name="Tinder of the Moon" id="36580522405"/>
 			<photo name="Mount Dana" id="36161145490"/>
 			<photo name="Mono Lake" id="36161117680"/>
 			<photo name="Yosemite Valley" id="36493850286"/>
