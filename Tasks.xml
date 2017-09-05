@@ -782,6 +782,7 @@
 			<photo name="Family" id="31186040862"/>
 			<photo name="Game" id="30522605713"/>
 			<photo name="Colorful Ledge" id="35710036523"/>
+			<photo name="Cracks" id="36463413341"/>
 		</photoPack>
 		<photoPack name="Just Landscapes">
 			<photo name="Idaho" id="36389650332"/>
@@ -947,6 +948,7 @@
 			<photo name="Bosphorus" id="30189721851"/>
 		</photoPack>
 		<photoPack name="Industrial">
+			<photo name="Hay Factory?" id="35792190093"/>
 			<photo name="Morning at Station" id="30319715856"/>
 			<photo name="Endless Emptiness" id="30168224831"/>
 			<photo name="Ironworks" id="29400645240"/>
@@ -959,6 +961,10 @@
 			<photo name="Sunrise on Rails" id="29623992333"/>
 		</photoPack>
 		<photoPack name="Sunsets">
+			<photo name="Evening Faithful" id="36640542080"/>
+			<photo name="Cracks" id="36463413341"/>
+			<photo name="Craters of the Moon" id="36580571085"/>
+			<photo name="El Capitan" id="35705262404"/>
 			<photo name="Away from the Hustle and Bustle" id="35102351453"/>
 			<photo name="Sutro Baths" id="35698078211"/>
 			<photo name="Baker Beach" id="35442228070"/>
@@ -1160,6 +1166,7 @@
 			<photo name="Gradient" id="35891261466"/>
 			<photo name="California St." id="35762046322"/>
 			<photo name="San Francisco" id="35911728206"/>
+			<photo name="Hay Factory?" id="35792190093"/>
 		</photoPack>
 		<photoPack name="City and People">
 			<photo name="Rainy Walk" id="29104366965"/>
