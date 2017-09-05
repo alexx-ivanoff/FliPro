@@ -124,7 +124,7 @@
 			<group name="Street Feedback" id="1287879@N21"/>
 			<group name="STREET PASSION" id="1317014@N21"/>
 			<group name="Street!" id="1714580@N21"/>
-			<group name="Street Photography & Candid Street Portrait" id="1698774@N25"/>
+			<group name="Street Photography &amp; Candid Street Portrait" id="1698774@N25"/>
 			<group name="Street and Documentary" id="1755253@N22"/>
 			<group name="Street Photography" id="2036833@N24"/>
 			<group name="Street Photography and Photographers Rights" id="870105@N22"/>
@@ -700,6 +700,16 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Evening Faithful" id="36640542080"/>
+			<photo name="Old Faithful" id="36229526453"/>
+			<photo name="Mystic Falls" id="36866399162"/>
+			<photo name="Grand Prismatic Spring" id="36619088720"/>
+			<photo name="Colors from Underground" id="36180274914"/>
+			<photo name="Round Pool" id="36993818655"/>
+			<photo name="Broken Mirror" id="36157859264"/>
+			<photo name="Yellowstone River" id="36805829566"/>
+			<photo name="Cursed Ground" id="36165276713"/>
+			<photo name="Somewhere in Idaho" id="36577295980"/>
 			<photo name="Craters of the Moon" id="36580571085"/>
 			<photo name="Tinder of the Moon" id="36580522405"/>
 			<photo name="Mount Dana" id="36161145490"/>
@@ -1253,6 +1263,11 @@
 			<photo name="South Bay" id="35442253390"/>
 			<photo name="Golden & Purple" id="35851835855"/>
 			<photo name="Away from the Hustle and Bustle" id="35102351453"/>
+			<photo name="Round Pool" id="36993818655"/>
+			<photo name="Broken Mirror" id="36157859264"/>
+			<photo name="Yellowstone River" id="36805829566"/>
+			<photo name="Grand Prismatic Spring" id="36619088720"/>
+			<photo name="Mystic Falls" id="36866399162"/>
 		</photoPack>
 		<photoPack name="Night">
 			<photo name="San Francisco" id="35911728206"/>
@@ -1368,6 +1383,17 @@
 			<photo name="Sunset at Grand Canyon" id="29255058590"/>
 			<photo name="Twillight of the Grand Canyon" id="29465420121"/>
 			<photo name="In the name of" id="28924633823"/>
+		</photoPack>
+		<photoPack name="US Yellowstone">
+			<photo name="Evening Faithful" id="36640542080"/>
+			<photo name="Old Faithful" id="36229526453"/>
+			<photo name="Mystic Falls" id="36866399162"/>
+			<photo name="Grand Prismatic Spring" id="36619088720"/>
+			<photo name="Colors from Underground" id="36180274914"/>
+			<photo name="Round Pool" id="36993818655"/>
+			<photo name="Broken Mirror" id="36157859264"/>
+			<photo name="Yellowstone River" id="36805829566"/>
+			<photo name="Cursed Ground" id="36165276713"/>
 		</photoPack>
 	</photoPacks>
 
@@ -1660,6 +1686,7 @@
 				<photoPack name="US Grand Canyon"/>
 				<photoPack name="US Arches"/>
 				<photoPack name="US Yosemite"/>
+				<photoPack name="US Yellowstone/>
 			</photos>
 		</set>
 		
@@ -1719,6 +1746,15 @@
 			</groups>
 			<photos>
 				<photoPack name="US Yosemite"/>
+			</photos>
+		</set>
+		
+		<set name="US Yellowstone">
+			<groups>
+				<groupPack name="US Yellowstone"/>
+			</groups>
+			<photos>
+				<photoPack name="US Yellowstone"/>
 			</photos>
 		</set>
 			
