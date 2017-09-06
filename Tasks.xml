@@ -146,6 +146,12 @@
 			<group name="Street Cliche" id="1161775@N22"/>
 			<group name="Candid Street Photography Group" id="71456407@N00"/>
 			<group name="Mordus de photos de la vie" id="1583878@N22"/>
+			<group name="Street Photos ONLY" id="1985435@N21"/>
+			<group name="STREET : The Gutter™ True Hard Core Street Critique" id="1135449@N24"/>
+			<group name="Street Photo - Fotografia Callejera" id="2666329@N22"/>
+			<group name="Streets of the World" id="77712948@N00"/>
+			<group name="Promenade....{ Street photography }" id="1226931@N25"/>
+			<group name="Extreme Street Photography (ESP)" id="25351450@N00"/>
 		</groupPack>
 		<groupPack name="Black and White">
 			<group name="BLACK AND WHITE PHOTO HEAVEN!" id="38613568@N00"/>
@@ -191,6 +197,12 @@
 			<group name="[bw]" id="540896@N21"/>
 			<group name="BLACK and WHITE Creative Artwork" id="1575512@N25"/>
 			<group name="Photos in Black and White ONLY." id="2939713@N21"/>
+			<group name="Black, White and Gray Photography" id="901258@N21"/>
+			<group name="Black and White and..." id="960472@N21"/>
+			<group name="* Black * Black * Black *" id="20866913@N00"/>
+			<group name="Only Black And White" id="842560@N23"/>
+			<group name="Black & White Favorites" id="2260815@N22"/>
+			<group name="Black and White SuperstarS" id="978944@N24"/>
 		</groupPack>
 		<groupPack name="Just City">
 			<group name="City" id="83647807@N00"/>
@@ -440,6 +452,7 @@
 			<group name="We travel the World" id="402895@N25"/>
 			<group name="Young Travelers of the World Unite!" id="83775428@N00"/>
 			<group name="* Travel Photography for World Nomads *" id="77078651@N00"/>
+			<group name="Travelling Lens" id="936090@N23"/>
 		</groupPack>
 		<groupPack name="People">
 			<group name="*People  All  Over  World*" id="73343692@N00"/>
@@ -620,6 +633,10 @@
 		<groupPack name="US Arches">
 			<group name="Arches National Park" id="41095460@N00"/>
 		</groupPack>
+		<groupPack name="US Death Valley">
+			<group name="Death Valley" id="74896430@N00"/>
+			<group name="Death Valley National Park" id="29995922@N00"/>
+		</groupPack>
 		<groupPack name="US Yosemite">
 			<group name="Yosemite Conservancy" id="1492095@N21"/>
 			<group name="Yosemite Photography" id="2289292@N21"/>
@@ -644,6 +661,8 @@
 			<group name="California Nature" id="897387@N21"/>
 			<group name="California Landscape and Seascape" id="27958937@N00"/>
 			<group name="California Landscape Photographer" id="1685841@N23"/>
+			<group name="Picturing California" id="75192773@N00"/>
+			<group name="California Photographer" id="727320@N23"/>
 		</groupPack>
 		<groupPack name="US Wyoming">
 			<group name="Wyoming" id="54931846@N00"/>
