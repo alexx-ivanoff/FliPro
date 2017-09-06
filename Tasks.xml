@@ -46,6 +46,9 @@
 			<group name="Photographers Club" id="387220@N21"/>
 			<group name="LOOK ! - - - - - - - The Home of great Photos" id="2995084@N21"/>
 			<group name="!*Only Your Best*!" id="2988412@N25"/>
+			<group name="AMaZiNG" id="30649887@N00"/>
+			<group name="Amazing+Photography" id="1028029@N23"/>
+			<group name="Born to photograph" id="2129714@N23"/>
 		</groupPack>
 		<groupPack name="Flickr Global">
 			<group name="***Flickr Global" id="1136489@N22"/>
@@ -78,6 +81,7 @@
 			<group name="FLICKERIANS" id="1274804@N24"/>
 			<group name="Flickr: YOUR PHOTOS" id="839940@N23"/>
 			<group name="brilliant flickr" id="2161940@N25"/>
+			<group name="Flickr Universe" id="862163@N20"/>
 		</groupPack>
 			<groupPack name="Art">
 			<group name="You Think this is Art" id="75964794@N00"/>		
@@ -89,6 +93,7 @@
 			<group name="Inspirational Photography" id="850516@N25"/>
 			<group name="Beauty and Art" id="1250112@N25"/>
 			<group name="Self Perception" id="87093399@N00"/>
+			<group name="Artistic Shot" id="83816680@N00"/>
 		</groupPack>
 		<groupPack name="Street">
 			<group name="Just Street Photography" id="97329809@N00"/>
@@ -237,6 +242,8 @@
 			<group name="Nature's Pot-of-Gold: Level 1" id="741558@N22"/>
 			<group name="Nature's Gallery {photos with 5+ faves Only} Award 2" id="474125@N21"/>
 			<group name="~*Nature Pics That *WoW* Us*~" id="521602@N25"/>
+			<group name="All Things ~*Earthy*~" id="1524985@N21"/>
+			<group name="*amazing nature*" id="73121272@N00"/>
 		</groupPack>
 		<groupPack name="Landscapes">
 			<group name="Landscape Photos" id="35638995@N00"/>
@@ -619,6 +626,10 @@
 			<group name="yosemite" id="25735300@N00"/>
 			<group name="Best of Yosemite" id="1830466@N22"/>
 		</groupPack>
+		<groupPack name="US Yellowstone">
+			<group name="yellowstone" id="74359273@N00"/>
+			<group name="Yellowstone Valleys and Views" id="880275@N25"/>
+		</groupPack>
 		<groupPack name="US Utah">
 			<group name="Utah" id="39937673@N00"/>
 			<group name="Utah Landscapes" id="41066920@N00"/>
@@ -633,6 +644,10 @@
 			<group name="California Nature" id="897387@N21"/>
 			<group name="California Landscape and Seascape" id="27958937@N00"/>
 			<group name="California Landscape Photographer" id="1685841@N23"/>
+		</groupPack>
+		<groupPack name="US Wyoming">
+			<group name="Wyoming" id="54931846@N00"/>
+			<group name="Wyoming The Cowboy State" id="587123@N22"/>
 		</groupPack>
 	</groupPacks>
 
@@ -700,6 +715,8 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Yellowstone Lower Falls" id="36223344474"/>
+			<photo name="Milky Ways" id="36661083020"/>
 			<photo name="Evening Faithful" id="36640542080"/>
 			<photo name="Old Faithful" id="36229526453"/>
 			<photo name="Mystic Falls" id="36866399162"/>
@@ -783,6 +800,7 @@
 			<photo name="Game" id="30522605713"/>
 			<photo name="Colorful Ledge" id="35710036523"/>
 			<photo name="Cracks" id="36463413341"/>
+			<photo name="From the Hell" id="36250580313"/>
 		</photoPack>
 		<photoPack name="Just Landscapes">
 			<photo name="Idaho" id="36389650332"/>
@@ -1275,8 +1293,10 @@
 			<photo name="Yellowstone River" id="36805829566"/>
 			<photo name="Grand Prismatic Spring" id="36619088720"/>
 			<photo name="Mystic Falls" id="36866399162"/>
+			<photo name="Yellowstone Lower Falls" id="36223344474"/>
 		</photoPack>
 		<photoPack name="Night">
+			<photo name="Milky Ways" id="36661083020"/>
 			<photo name="San Francisco" id="35911728206"/>
 			<photo name="Nightram" id="35702213382"/>
 			<photo name="Golden & Purple" id="35851835855"/>
@@ -1392,6 +1412,9 @@
 			<photo name="In the name of" id="28924633823"/>
 		</photoPack>
 		<photoPack name="US Yellowstone">
+			<photo name="Yellowstone Lower Falls" id="36223344474"/>
+			<photo name="From the Hell" id="36250580313"/>
+			<photo name="Milky Ways" id="36661083020"/>
 			<photo name="Evening Faithful" id="36640542080"/>
 			<photo name="Old Faithful" id="36229526453"/>
 			<photo name="Mystic Falls" id="36866399162"/>
@@ -1693,7 +1716,7 @@
 				<photoPack name="US Grand Canyon"/>
 				<photoPack name="US Arches"/>
 				<photoPack name="US Yosemite"/>
-				<photoPack name="US Yellowstone/>
+				<photoPack name="US Yellowstone"/>
 			</photos>
 		</set>
 		
@@ -1759,6 +1782,7 @@
 		<set name="US Yellowstone">
 			<groups>
 				<groupPack name="US Yellowstone"/>
+				<groupPack name="US Wyoming"/>
 			</groups>
 			<photos>
 				<photoPack name="US Yellowstone"/>
