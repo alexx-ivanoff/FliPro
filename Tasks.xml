@@ -734,6 +734,8 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Mystical Road" id="36936718811"/>
+			<photo name="Yellowstone Lake" id="37078164115"/>
 			<photo name="Yellowstone Lower Falls" id="36223344474"/>
 			<photo name="Milky Ways" id="36661083020"/>
 			<photo name="Evening Faithful" id="36640542080"/>
@@ -1068,6 +1070,7 @@
 			<photo name="Dnepr Sunrise" id="29724708774"/>
 			<photo name="Sunrise at Tso Moriri" id="31009208096"/>
 			<photo name="Cold Morning" id="30931079551"/>
+			<photo name="Mystical Road" id="36936718811"/>
 		</photoPack>
 		<photoPack name="Just City">
 			<photo name="Hell on Earth" id="29115708565"/>
@@ -1431,6 +1434,8 @@
 			<photo name="In the name of" id="28924633823"/>
 		</photoPack>
 		<photoPack name="US Yellowstone">
+			<photo name="Mystical Road" id="36936718811"/>
+			<photo name="Yellowstone Lake" id="37078164115"/>
 			<photo name="Yellowstone Lower Falls" id="36223344474"/>
 			<photo name="From the Hell" id="36250580313"/>
 			<photo name="Milky Ways" id="36661083020"/>
@@ -1557,6 +1562,9 @@
 				<photoPack name="USA Nature and Landscapes"/>
 				<photoPack name="Other Nature and Landscapes"/>
 			</photos>
+			<excludes>
+				<exclude photoId="28924633823" groupId="1135937@N22"/>
+			</excludes>
 		</set>
 		
 		<set name="Just Nature">
