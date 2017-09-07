@@ -1,5 +1,7 @@
 package anbinc.flickr;
 
+import javafx.util.Pair;
+
 import java.util.List;
 
 /**
@@ -8,6 +10,7 @@ import java.util.List;
 public class Task {
 
     private List<String> groups;
+    private List<Pair<Picture, String>> excludes;
     private List<Picture> pictures;
     private String name;
 
@@ -37,5 +40,13 @@ public class Task {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public List<Pair<Picture, String>> getExcludes() {
+        return excludes;
+    }
+
+    public void setExcludes(List<Pair<Picture, String>> excludes) {
+        this.excludes = excludes;
     }
 }

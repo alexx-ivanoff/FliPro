@@ -53,10 +53,12 @@ public class Administrator {
 
                         Picture picture = photosWithoutGroup.get(photoNumber);
 
-                        if (FlickrApi.addPhotoToGroup(picture, groupId)) {
-                            picture.use();
-                            report.get(task.getName()).add(new Pair<>(picture, groupId));
-                            photosProcessed++;
+                        if (!task.getExcludes().stream().anyMatch(e->e.getKey().getId() == picture.getId() && e.getValue() == groupId)) {
+                            if (FlickrApi.addPhotoToGroup(picture, groupId)) {
+                                picture.use();
+                                report.get(task.getName()).add(new Pair<>(picture, groupId));
+                                photosProcessed++;
+                            }
                         }
 
                         /*

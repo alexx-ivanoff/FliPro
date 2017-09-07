@@ -3,6 +3,7 @@ package anbinc.utils;
 import anbinc.flickr.FlickrApi;
 import anbinc.flickr.Picture;
 import anbinc.flickr.Task;
+import javafx.util.Pair;
 import org.apache.commons.io.IOUtils;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -116,6 +117,7 @@ public class TasksReader {
                 Task task = new Task();
                 List<String> groupIds = new ArrayList<>();
                 List<Picture> pictures = new ArrayList<>();
+                List<Pair<Picture, String>> excludes = new ArrayList<>();
 
                 if (setNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element setElement = (Element)setNode;
@@ -125,6 +127,7 @@ public class TasksReader {
                     NodeList groupPackList = setElement.getElementsByTagName("groupPack");
                     NodeList photoPackList = setElement.getElementsByTagName("photoPack");
                     NodeList albumsList = setElement.getElementsByTagName("album");
+                    NodeList excludesList = setElement.getElementsByTagName("exclude");
 
                     //fill groups
                     for (int groupNum = 0; groupNum < groupsList.getLength(); groupNum++) {
@@ -174,10 +177,19 @@ public class TasksReader {
                         }
 
                     }
+
+                    //fill excludes
+                    for (int excludeNum = 0; excludeNum < excludesList.getLength(); excludeNum++) {
+                        Node excludeNode = excludesList.item(excludeNum);
+
+                        if (excludeNode.getNodeType() == Node.ELEMENT_NODE)
+                            excludes.add(new Pair(new Picture(((Element)excludeNode).getAttribute("photoId")), ((Element)excludeNode).getAttribute("groupid")));
+                    }
                 }
 
                 task.setGroups(groupIds.stream().distinct().collect(Collectors.toList()));
                 task.setPictures(pictures.stream().filter(distinctByKey(p -> p.getId())).collect(Collectors.toList()));
+                task.setExcludes(excludes);
                 tasks.add(task);
             }
         } catch (Exception e) {

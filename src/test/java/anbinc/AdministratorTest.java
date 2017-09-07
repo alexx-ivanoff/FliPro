@@ -38,6 +38,7 @@ public class AdministratorTest {
     PoolsInterface poolsInt;
     private List<String> groupIds = new ArrayList<>();
     private List<Picture> pictures = new ArrayList<>();
+    private List<Pair<Picture, String>> excludes = new ArrayList<>();
     private PhotoList<Photo> photos = new PhotoList<>();
 
     @Test
@@ -187,6 +188,7 @@ public class AdministratorTest {
 
         task.setGroups(groupIds);
         task.setPictures(pictures);
+        task.setExcludes(new ArrayList<>());
         tasks.add(task);
 
         return tasks;
