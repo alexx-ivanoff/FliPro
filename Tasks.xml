@@ -152,6 +152,12 @@
 			<group name="Streets of the World" id="77712948@N00"/>
 			<group name="Promenade....{ Street photography }" id="1226931@N25"/>
 			<group name="Extreme Street Photography (ESP)" id="25351450@N00"/>
+			<group name="Street One" id="2753044@N23"/>
+			<group name="Street Photography — UK" id="2125010@N22"/>
+			<group name="Street Photography around the world" id="2550929@N21"/>
+			<group name="New Street Photography World" id="2227546@N20"/>
+			<group name="The Street Photographer Notebook E-Magazine" id="1895269@N24"/>
+			<group name="No Rules Street Photography (NRSP)" id="1137061@N25"/>
 		</groupPack>
 		<groupPack name="Black and White">
 			<group name="BLACK AND WHITE PHOTO HEAVEN!" id="38613568@N00"/>
@@ -203,6 +209,7 @@
 			<group name="Only Black And White" id="842560@N23"/>
 			<group name="Black & White Favorites" id="2260815@N22"/>
 			<group name="Black and White SuperstarS" id="978944@N24"/>
+			<group name="PLANET EARTH IN BLACK AND WHITE" id="1060854@N24"/>
 		</groupPack>
 		<groupPack name="Just City">
 			<group name="City" id="83647807@N00"/>
@@ -250,12 +257,24 @@
 			<group name="NATURË" id="1390256@N22"/>
 			<group name="*Nature Pics*" id="684768@N21"/>
 			<group name="NATURE ♥ unlimited ♥ (Public Group Forever)" id="570151@N23"/>
-			<group name="Nature's Garden" id="1135937@N22"/>
 			<group name="Nature's Pot-of-Gold: Level 1" id="741558@N22"/>
 			<group name="Nature's Gallery {photos with 5+ faves Only} Award 2" id="474125@N21"/>
 			<group name="~*Nature Pics That *WoW* Us*~" id="521602@N25"/>
 			<group name="All Things ~*Earthy*~" id="1524985@N21"/>
 			<group name="*amazing nature*" id="73121272@N00"/>
+			<group name="*Nature* (2 Comments/Photo W/Code)" id="366552@N23"/>
+			<group name="Nature Album" id="1638110@N24"/>
+			<group name="NATURES LOVE" id="1339259@N25"/>
+			<group name="Nature Fine Pictures Gallery" id="2414141@N20"/>
+			<group name="Nature Through My Eyes" id="1039260@N25"/>
+			<group name="Nature Watching" id="386378@N21"/>
+			<group name="nature is all - all is nature" id="808156@N20"/>
+			<group name="Nature Photographers" id="520164@N20"/>
+			<group name="NATURE _ Limited ▬►Flora & Fauna◄▬ Landscape" id="576487@N22"/>
+			<group name="Nature, Animals, and STUFF ho ho ho my" id="52240327977@N01"/>
+			<group name="Croque NATURE" id="782584@N21"/>
+			<group name="Our world of nature" id="443817@N21"/>
+			<group name="Fantastic Nature Group" id="1337195@N24"/>
 		</groupPack>
 		<groupPack name="Landscapes">
 			<group name="Landscape Photos" id="35638995@N00"/>
@@ -294,6 +313,15 @@
 			<group name="ONLY LANDSCAPES AND SUNSETS( NO PEOPLE PLEASE!!!!)" id="563268@N25"/>
 			<group name="Landscapes, Nature and Sunsets" id="2676309@N21"/>
 			<group name="Second Life - Landscapes" id="423977@N25"/>
+			<group name="Landscapes Digital Photo" id="10058644@N00"/>
+			<group name="Landscape" id="23854677@N00"/>
+			<group name="BEST Landscapes" id="659026@N24"/>
+			<group name="Landscape Digital Originals ONLY!" id="26996771@N00"/>
+			<group name="***Favorite landscape" id="880386@N24"/>
+			<group name="Colorful landscape/seascape" id="856094@N22"/>
+			<group name="Paisajes del mundo/World Landscapes" id="27303736@N00"/>
+			<group name="Landscape Beauty - Beleza de Paisagem / Landscapes Only Please!" id="1419508@N25"/>
+			<group name="100 + Viewed Natural Landscapes" id="318200@N25"/>
 		</groupPack>
 		<groupPack name="Colors">
 			<group name="!Catchy Colors" id="71332142@N00"/>
@@ -453,6 +481,10 @@
 			<group name="Young Travelers of the World Unite!" id="83775428@N00"/>
 			<group name="* Travel Photography for World Nomads *" id="77078651@N00"/>
 			<group name="Travelling Lens" id="936090@N23"/>
+			<group name="Travelling Pixels" id="1929941@N25"/>
+			<group name="Travelling Vicariously" id="2081182@N20"/>
+			<group name="Travel: The World Through a Lens" id="724108@N21"/>
+			<group name="Travel Photography Collective" id="1078600@N21"/>
 		</groupPack>
 		<groupPack name="People">
 			<group name="*People  All  Over  World*" id="73343692@N00"/>
@@ -607,6 +639,7 @@
 			<group name="National Parks, Monuments and Historical Sites" id="23869623@N00"/>
 			<group name="National Parks Traveler" id="1319783@N25"/>
 			<group name="A NATIONAL PARK" id="3001510@N20"/>
+			<group name="America's Parks Fav+" id="2718391@N21"/>
 		</groupPack>
 		<groupPack name="Weather">
 			<group name="Weather Worldwide" id="1553326@N24"/>
@@ -734,6 +767,9 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Ghostly Forest" id="36946766512"/>
+			<photo name="Looking for Friends" id="36281462474"/>
+			<photo name="Sleeping Tree" id="36946558032"/>
 			<photo name="Mystical Road" id="36936718811"/>
 			<photo name="Yellowstone Lake" id="37078164115"/>
 			<photo name="Yellowstone Lower Falls" id="36223344474"/>
@@ -822,6 +858,8 @@
 			<photo name="Colorful Ledge" id="35710036523"/>
 			<photo name="Cracks" id="36463413341"/>
 			<photo name="From the Hell" id="36250580313"/>
+			<photo name="Wake Up and Drive" id="36700713270"/>
+			<photo name="Morning Beams" id="36284175033"/>
 		</photoPack>
 		<photoPack name="Just Landscapes">
 			<photo name="Idaho" id="36389650332"/>
@@ -1071,6 +1109,8 @@
 			<photo name="Sunrise at Tso Moriri" id="31009208096"/>
 			<photo name="Cold Morning" id="30931079551"/>
 			<photo name="Mystical Road" id="36936718811"/>
+			<photo name="Wake Up and Drive" id="36700713270"/>
+			<photo name="Morning Beams" id="36284175033"/>
 		</photoPack>
 		<photoPack name="Just City">
 			<photo name="Hell on Earth" id="29115708565"/>
@@ -1316,6 +1356,8 @@
 			<photo name="Grand Prismatic Spring" id="36619088720"/>
 			<photo name="Mystic Falls" id="36866399162"/>
 			<photo name="Yellowstone Lower Falls" id="36223344474"/>
+			<photo name="Ghostly Forest" id="36946766512"/>
+			<photo name="Sleeping Tree" id="36946558032"/>
 		</photoPack>
 		<photoPack name="Night">
 			<photo name="Milky Ways" id="36661083020"/>
@@ -1434,6 +1476,11 @@
 			<photo name="In the name of" id="28924633823"/>
 		</photoPack>
 		<photoPack name="US Yellowstone">
+			<photo name="Ghostly Forest" id="36946766512"/>
+			<photo name="Looking for Friends" id="36281462474"/>
+			<photo name="Sleeping Tree" id="36946558032"/>
+			<photo name="Wake Up and Drive" id="36700713270"/>
+			<photo name="Morning Beams" id="36284175033"/>
 			<photo name="Mystical Road" id="36936718811"/>
 			<photo name="Yellowstone Lake" id="37078164115"/>
 			<photo name="Yellowstone Lower Falls" id="36223344474"/>
