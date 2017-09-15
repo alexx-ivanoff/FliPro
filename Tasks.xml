@@ -767,6 +767,16 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Buffalos" id="37236247195"/>
+			<photo name="Through the Morning Mist" id="37045551126"/>
+			<photo name="Soft and Colorful" id="36403067073"/>
+			<photo name="Cocktail 'Morning Road'" id="36819717590"/>
+			<photo name="The Sun is Coming" id="36362691204"/>
+			<photo name="Silent Nature" id="37180412235"/>
+			<photo name="In the Morning Mist" id="36782766790"/>
+			<photo name="Zombies" id="36948719396"/>
+			<photo name="Cold Silence" id="36948599986"/>
+			<photo name="Feel the Morning" id="36323860643"/>
 			<photo name="Ghostly Forest" id="36946766512"/>
 			<photo name="Looking for Friends" id="36281462474"/>
 			<photo name="Sleeping Tree" id="36946558032"/>
@@ -1358,6 +1368,11 @@
 			<photo name="Yellowstone Lower Falls" id="36223344474"/>
 			<photo name="Ghostly Forest" id="36946766512"/>
 			<photo name="Sleeping Tree" id="36946558032"/>
+			<photo name="Zombies" id="36948719396"/>
+			<photo name="Cold Silence" id="36948599986"/>
+			<photo name="Feel the Morning" id="36323860643"/>
+			<photo name="Silent Nature" id="37180412235"/>
+			<photo name="In the Morning Mist" id="36782766790"/>
 		</photoPack>
 		<photoPack name="Night">
 			<photo name="Milky Ways" id="36661083020"/>
@@ -1476,6 +1491,16 @@
 			<photo name="In the name of" id="28924633823"/>
 		</photoPack>
 		<photoPack name="US Yellowstone">
+			<photo name="Buffalos" id="37236247195"/>
+			<photo name="Through the Morning Mist" id="37045551126"/>
+			<photo name="Soft and Colorful" id="36403067073"/>
+			<photo name="Cocktail 'Morning Road'" id="36819717590"/>
+			<photo name="The Sun is Coming" id="36362691204"/>
+			<photo name="Silent Nature" id="37180412235"/>
+			<photo name="In the Morning Mist" id="36782766790"/>
+			<photo name="Zombies" id="36948719396"/>
+			<photo name="Cold Silence" id="36948599986"/>
+			<photo name="Feel the Morning" id="36323860643"/>
 			<photo name="Ghostly Forest" id="36946766512"/>
 			<photo name="Looking for Friends" id="36281462474"/>
 			<photo name="Sleeping Tree" id="36946558032"/>
@@ -1851,6 +1876,9 @@
 			<photos>
 				<photoPack name="US Yosemite"/>
 			</photos>
+			<excludes>
+				<exclude photoId="36161117680" groupId="25735300@N00"/>
+			</excludes>
 		</set>
 		
 		<set name="US Yellowstone">
