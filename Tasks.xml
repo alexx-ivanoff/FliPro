@@ -776,6 +776,8 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="A Piece of Road" id="37254564756"/>
+			<photo name="Glacier Gorge" id="37272374162"/>
 			<photo name="Mills Lake" id="36568853684"/>
 			<photo name="Dyeing in Yellow" id="37420765845"/>
 			<photo name="Rainy Mountain" id="36548258384"/>
@@ -815,7 +817,7 @@
 			<photo name="Mount Dana" id="36161145490"/>
 			<photo name="Mono Lake" id="36161117680"/>
 			<photo name="Yosemite Valley" id="36493850286"/>
-			<photo name="El Capitan" id="35705262404"/>
+			<photo name="Half Dome" id="35705262404"/>
 			<photo name="Warm Yosemite" id="36472285466"/>
 			<photo name="Yosemite" id="36472236176"/>
 			<photo name="Away from the Hustle and Bustle" id="35102351453"/>
@@ -1071,7 +1073,7 @@
 			<photo name="Evening Faithful" id="36640542080"/>
 			<photo name="Cracks" id="36463413341"/>
 			<photo name="Craters of the Moon" id="36580571085"/>
-			<photo name="El Capitan" id="35705262404"/>
+			<photo name="Half Dome" id="35705262404"/>
 			<photo name="Away from the Hustle and Bustle" id="35102351453"/>
 			<photo name="Sutro Baths" id="35698078211"/>
 			<photo name="Baker Beach" id="35442228070"/>
@@ -1472,7 +1474,7 @@
 			<photo name="Mount Dana" id="36161145490"/>
 			<photo name="Mono Lake" id="36161117680"/>
 			<photo name="Yosemite Valley" id="36493850286"/>
-			<photo name="El Capitan" id="35705262404"/>
+			<photo name="Half Dome" id="35705262404"/>
 			<photo name="Warm Yosemite" id="36472285466"/>
 			<photo name="Colorful Ledge" id="35710036523"/>
 			<photo name="Yosemite" id="36472236176"/>
@@ -1545,6 +1547,8 @@
 			<photo name="Cursed Ground" id="36165276713"/>
 		</photoPack>
 		<photoPack name="US Rocky Mountain">
+			<photo name="A Piece of Road" id="37254564756"/>
+			<photo name="Glacier Gorge" id="37272374162"/>
 			<photo name="Mills Lake" id="36568853684"/>
 			<photo name="Dyeing in Yellow" id="37420765845"/>
 			<photo name="Autumn Gradient" id="37231613076"/>
