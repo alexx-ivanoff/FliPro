@@ -7,6 +7,7 @@
 			<group name="Nikon D600/D610 CLUB" id="1949459@N23"/>
 			<group name="Nikon D600/D610" id="1936641@N20"/>
 			<group name="Nikon Digital Magic" id="74729440@N00"/>
+			<group name="Nikon FX" id="461520@N20"/>
 		</groupPack>
 		<groupPack name="Photography">
 			<group name="Photography" id="40732569271@N01"/>
@@ -652,6 +653,13 @@
 			<group name="I ♥ Asia" id="19277992@N00"/>
 			<group name="Shutter Asia" id="380867@N22"/>
 		</groupPack>
+		<groupPack name="San Francisco">
+			<group name="San Francisco" id="51035615908@N01"/>
+			<group name="San Francisco - a sense of time, a sense of place" id="1755438@N21"/>
+			<group name="San Francisco, One Per Day" id="96833792@N00"/>
+			<group name="Streets of San Francisco" id="93869007@N00"/>
+			<group name="San Francisco POI" id="435616@N25"/>
+		</groupPack>
 		<groupPack name="US Zion Canyon">
 			<group name="Zion National Park Photos" id="675973@N21"/>
 			<group name="Zion National Park" id="75012463@N00"/>
@@ -776,6 +784,8 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Fire in the Sky" id="37068690370"/>
+			<photo name="Mountains of Colorado" id="37068561060"/>
 			<photo name="A Piece of Road" id="37254564756"/>
 			<photo name="Glacier Gorge" id="37272374162"/>
 			<photo name="Mills Lake" id="36568853684"/>
@@ -1069,6 +1079,7 @@
 			<photo name="Sunrise on Rails" id="29623992333"/>
 		</photoPack>
 		<photoPack name="Sunsets">
+			<photo name="Fire in the Sky" id="37068690370"/>
 			<photo name="Rawlins" id="37083653782"/>
 			<photo name="Evening Faithful" id="36640542080"/>
 			<photo name="Cracks" id="36463413341"/>
@@ -1399,6 +1410,7 @@
 			<photo name="Lake Helene" id="37211746472"/>
 			<photo name="Mills Lake" id="36568853684"/>
 			<photo name="Dyeing in Yellow" id="37420765845"/>
+			<photo name="Fire in the Sky" id="37068690370"/>
 		</photoPack>
 		<photoPack name="Night">
 			<photo name="Milky Ways" id="36661083020"/>
@@ -1472,7 +1484,6 @@
 		</photoPack>
 		<photoPack name="US Yosemite">
 			<photo name="Mount Dana" id="36161145490"/>
-			<photo name="Mono Lake" id="36161117680"/>
 			<photo name="Yosemite Valley" id="36493850286"/>
 			<photo name="Half Dome" id="35705262404"/>
 			<photo name="Warm Yosemite" id="36472285466"/>
@@ -1547,6 +1558,8 @@
 			<photo name="Cursed Ground" id="36165276713"/>
 		</photoPack>
 		<photoPack name="US Rocky Mountain">
+			<photo name="Fire in the Sky" id="37068690370"/>
+			<photo name="Mountains of Colorado" id="37068561060"/>
 			<photo name="A Piece of Road" id="37254564756"/>
 			<photo name="Glacier Gorge" id="37272374162"/>
 			<photo name="Mills Lake" id="36568853684"/>
@@ -1838,6 +1851,15 @@
 				<album name="Girls, Girls, Girls" id="72157669972218114"/>
 				<photoPack name="People"/>
 				<photoPack name="City and People"/>
+			</photos>
+		</set>
+		
+		<set name="San Francisco">
+			<groups>
+				<groupPack name="San Francisco"/>
+			</groups>
+			<photos>
+				<photoPack name="San Francisco"/>
 			</photos>
 		</set>
 			
