@@ -784,6 +784,8 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Burning Skies" id="36675345343"/>
+			<photo name="Grand Lake" id="37314899092"/>
 			<photo name="Fire in the Sky" id="37068690370"/>
 			<photo name="Mountains of Colorado" id="37068561060"/>
 			<photo name="A Piece of Road" id="37254564756"/>
@@ -1079,6 +1081,7 @@
 			<photo name="Sunrise on Rails" id="29623992333"/>
 		</photoPack>
 		<photoPack name="Sunsets">
+			<photo name="Burning Skies" id="36675345343"/>
 			<photo name="Fire in the Sky" id="37068690370"/>
 			<photo name="Rawlins" id="37083653782"/>
 			<photo name="Evening Faithful" id="36640542080"/>
@@ -1291,6 +1294,7 @@
 			<photo name="San Francisco" id="35911728206"/>
 			<photo name="Hay Factory?" id="35792190093"/>
 			<photo name="Rawlins" id="37083653782"/>
+			<photo name="Grand Lake" id="37314899092"/>
 		</photoPack>
 		<photoPack name="City and People">
 			<photo name="Rainy Walk" id="29104366965"/>
@@ -1411,8 +1415,11 @@
 			<photo name="Mills Lake" id="36568853684"/>
 			<photo name="Dyeing in Yellow" id="37420765845"/>
 			<photo name="Fire in the Sky" id="37068690370"/>
+			<photo name="Burning Skies" id="36675345343"/>
+			<photo name="Grand Lake" id="37314899092"/>
 		</photoPack>
 		<photoPack name="Night">
+			<photo name="Grand Lake" id="37314899092"/>
 			<photo name="Milky Ways" id="36661083020"/>
 			<photo name="San Francisco" id="35911728206"/>
 			<photo name="Nightram" id="35702213382"/>
