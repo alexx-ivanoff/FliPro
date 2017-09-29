@@ -784,6 +784,8 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Hiking the Rocky Mountain" id="36715368313"/>
+			<photo name="On the Mount Ida" id="23533103018"/>
 			<photo name="Burning Skies" id="36675345343"/>
 			<photo name="Grand Lake" id="37314899092"/>
 			<photo name="Fire in the Sky" id="37068690370"/>
@@ -1484,6 +1486,9 @@
 			<photo name="Witch" id="29400159560"/>
 			<photo name="Witch" id="29600533161"/>
 		</photoPack>
+		<photoPack name="San Francisco">
+
+		</photoPack>
 		<photoPack name="US National Parks">
 			<photo name="Utah" id="29433171416"/>
 			<photo name="Mars" id="29433173826"/>
@@ -1565,6 +1570,10 @@
 			<photo name="Cursed Ground" id="36165276713"/>
 		</photoPack>
 		<photoPack name="US Rocky Mountain">
+			<photo name="Hiking the Rocky Mountain" id="36715368313"/>
+			<photo name="On the Mount Ida" id="23533103018"/>
+			<photo name="Burning Skies" id="36675345343"/>
+			<photo name="Grand Lake" id="37314899092"/>
 			<photo name="Fire in the Sky" id="37068690370"/>
 			<photo name="Mountains of Colorado" id="37068561060"/>
 			<photo name="A Piece of Road" id="37254564756"/>
