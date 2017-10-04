@@ -784,6 +784,8 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Burning Mountain" id="37146308560"/>
+			<photo name="Poudre Lake" id="37372776572"/>
 			<photo name="Hiking the Rocky Mountain" id="36715368313"/>
 			<photo name="On the Mount Ida" id="23533103018"/>
 			<photo name="Burning Skies" id="36675345343"/>
@@ -1046,6 +1048,7 @@
 			<photo name="Passing the Bridge" id="35851424026"/>
 			<photo name="Golden & Purple" id="35851835855"/>
 			<photo name="Baker Beach" id="35442228070"/>
+			<photo name="Yin Yang" id="34961289163"/>
 			<photo name="Everything is Golden" id="35690023116"/>
 			<photo name="Splashes" id="35583803845"/>
 			<photo name="Over the River, Under the Stars" id="32442501571"/>
@@ -1083,6 +1086,7 @@
 			<photo name="Sunrise on Rails" id="29623992333"/>
 		</photoPack>
 		<photoPack name="Sunsets">
+			<photo name="Burning Mountain" id="37146308560"/>
 			<photo name="Burning Skies" id="36675345343"/>
 			<photo name="Fire in the Sky" id="37068690370"/>
 			<photo name="Rawlins" id="37083653782"/>
@@ -1093,6 +1097,8 @@
 			<photo name="Away from the Hustle and Bustle" id="35102351453"/>
 			<photo name="Sutro Baths" id="35698078211"/>
 			<photo name="Baker Beach" id="35442228070"/>
+			<photo name="Yin Yang" id="34961289163"/>
+			<photo name="Posing" id="35582253552"/>
 			<photo name="Colored in Gold" id="35560856502"/>
 			<photo name="Everything is Golden" id="35690023116"/>
 			<photo name="Lombard St. / Fillmore St." id="35689947656"/>
@@ -1323,12 +1329,13 @@
 			<photo name="Welcome to the Other Side" id="35298545940"/>
 			<photo name="Castro District" id="35706802425"/>
 			<photo name="Shaman For Hire" id="34897324313"/>
+			<photo name="Friends" id="35383310610"/>
 			<photo name="Lombard St. / Fillmore St." id="35689947656"/>
-			<photo name="|| on a Pasue" id="35660220311"/>
+			<photo name="|| on a Pause" id="35660220311"/>
 			<photo name="Nightram" id="35702213382"/>
 			<photo name="Road Crossing" id="35851397036"/>
 			<photo name="Eccentric" id="35142827733"/>
-			<photo name="Haight-Ashbury" id="35911698436"/>
+			<photo name="Faces of Haight-Ashbury" id="35911698436"/>
 		</photoPack>
 		<photoPack name="People">
 			<photo name="Moonspell" id="29054853642"/>
@@ -1392,6 +1399,8 @@
 			<photo name="Port of San Francisco" id="34720859764"/>
 			<photo name="Splashes" id="35583803845"/>
 			<photo name="Everything is Golden" id="35690023116"/>
+			<photo name="Aquatic Cove" id="34910403694"/>
+			<photo name="Yin Yang" id="34961289163"/>
 			<photo name="Ocean Beach" id="34982045063"/>
 			<photo name="Seal Rocks" id="35421514490"/>
 			<photo name="Pacific Foam" id="35640966282"/>
@@ -1419,6 +1428,7 @@
 			<photo name="Fire in the Sky" id="37068690370"/>
 			<photo name="Burning Skies" id="36675345343"/>
 			<photo name="Grand Lake" id="37314899092"/>
+			<photo name="Poudre Lake" id="37372776572"/>
 		</photoPack>
 		<photoPack name="Night">
 			<photo name="Grand Lake" id="37314899092"/>
@@ -1487,7 +1497,54 @@
 			<photo name="Witch" id="29600533161"/>
 		</photoPack>
 		<photoPack name="San Francisco">
-
+			<photo name="San Francisco" id="35911728206"/>
+			<photo name="Faces of Haight-Ashbury" id="35911698436"/>
+			<photo name="Eccentric" id="35142827733"/>
+			<photo name="California St." id="35762046322"/>
+			<photo name="Gradient" id="35891261466"/>
+			<photo name="B&W Gate" id="35741971862"/>
+			<photo name="Streams of Golden Gate" id="35102463173"/>
+			<photo name="Away from the Hustle and Bustle" id="35102351453"/>
+			<photo name="Passing the Bridge" id="35851424026"/>
+			<photo name="Road Crossing" id="35851397036"/>
+			<photo name="Street Geometry" id="35483514830"/>
+			<photo name="The City has Coming" id="35483472970"/>
+			<photo name="Nightram" id="35702213382"/>
+			<photo name="Golden & Purple" id="35851835855"/>
+			<photo name="South Bay" id="35442253390"/>
+			<photo name="Baker Beach" id="35442228070"/>
+			<photo name="Sutro Baths" id="35698078211"/>
+			<photo name="Pacific Foam" id="35640966282"/>
+			<photo name="Seal Rocks" id="35421514490"/>
+			<photo name="Beach Patrol" id="34951772174"/>
+			<photo name="Ocean Beach" id="34982045063"/>
+			<photo name="|| on a Pause" id="35660220311"/>
+			<photo name="Friends" id="35383310610"/>
+			<photo name="Yin Yang" id="34961289163"/>
+			<photo name="Aquatic Cove" id="34910403694"/>
+			<photo name="Posing" id="35582253552"/>
+			<photo name="Colored in Gold" id="35560856502"/>
+			<photo name="Everything is Golden" id="35690023116"/>
+			<photo name="Lombard St. / Fillmore St." id="35689947656"/>
+			<photo name="Shaman For Hire" id="34897324313"/>
+			<photo name="Castro District" id="35706802425"/>
+			<photo name="Downtown" id="34876726813"/>
+			<photo name="Welcome to the Other Side" id="35298545940"/>
+			<photo name="In the Same Boat" id="35495127912"/>
+			<photo name="Stone Jungle" id="35664103505"/>
+			<photo name="X" id="35276720180"/>
+			<photo name="Small Affairs in a Big City" id="34834428543"/>
+			<photo name="Frisco Geometry" id="34834312603"/>
+			<photo name="Street Drummer" id="35493319371"/>
+			<photo name="Bus Stop" id="35455407782"/>
+			<photo name="Impurity" id="35493119031"/>
+			<photo name="Hyde St." id="35435476522"/>
+			<photo name="Fort Point" id="35564524716"/>
+			<photo name="Splashes" id="35583803845"/>
+			<photo name="Urban Fishing" id="29942203314"/>
+			<photo name="Urban Mist" id="35196824820"/>
+			<photo name="Embarcadero" id="34729412184"/>
+			<photo name="Port of San Francisco" id="34720859764"/>
 		</photoPack>
 		<photoPack name="US National Parks">
 			<photo name="Utah" id="29433171416"/>
@@ -1570,6 +1627,8 @@
 			<photo name="Cursed Ground" id="36165276713"/>
 		</photoPack>
 		<photoPack name="US Rocky Mountain">
+			<photo name="Burning Mountain" id="37146308560"/>
+			<photo name="Poudre Lake" id="37372776572"/>
 			<photo name="Hiking the Rocky Mountain" id="36715368313"/>
 			<photo name="On the Mount Ida" id="23533103018"/>
 			<photo name="Burning Skies" id="36675345343"/>
