@@ -50,6 +50,17 @@
 			<group name="AMaZiNG" id="30649887@N00"/>
 			<group name="Amazing+Photography" id="1028029@N23"/>
 			<group name="Born to photograph" id="2129714@N23"/>
+			<group name="Interesting photos!" id="658799@N24"/>
+			<group name="Mordus de photos Rouge" id="1517791@N24"/>
+			<group name="SIMPLY YOUR BEST PHOTO" id="1371506@N22"/>
+			<group name="Photo Addiction" id="955559@N22"/>
+			<group name="Photo Digital Club" id="2419720@N22"/>
+			<group name="PHOTOS pour TOUS - (PHOTOS for ALL)" id="1631248@N21"/>
+			<group name="My Favourite photo - la mia foto preferita" id="2757149@N20"/>
+			<group name="Photos That Rock!" id="446774@N25"/>
+			<group name="Photos * Images" id="1087841@N20"/>
+			<group name="50 MILLION PHOTOS" id="1042526@N20"/>
+			<group name="Photos of the other world" id="1532276@N23"/>
 		</groupPack>
 		<groupPack name="Flickr Global">
 			<group name="***Flickr Global" id="1136489@N22"/>
@@ -159,6 +170,20 @@
 			<group name="New Street Photography World" id="2227546@N20"/>
 			<group name="The Street Photographer Notebook E-Magazine" id="1895269@N24"/>
 			<group name="No Rules Street Photography (NRSP)" id="1137061@N25"/>
+			<group name="!! Street Favorites !!" id="2313118@N24"/>
+			<group name="Street People Shot as You see" id="2127445@N25"/>
+			<group name="Street Photography!" id="2146185@N24"/>
+			<group name="Street Photographers Around the World" id="2601778@N22"/>
+			<group name="Street Shots with Feeling" id="1633004@N25"/>
+			<group name="Elite Street Photography" id="1854212@N20"/>
+			<group name="Street Photography around the world" id="2550929@N21"/>
+			<group name="The Essence of Street Photography (TESP)" id="2654690@N23"/>
+			<group name="Aspiring Street Photographers" id="1518582@N21"/>
+			<group name="Street Life" id="71183855@N00"/>
+			<group name="Urban Picnic Street Photography" id="2111113@N24"/>
+			<group name="HCSP (Hardcore Street Photography)" id="94761711@N00"/>
+			<group name="Street Photography" id="319155@N20"/>
+			<group name="pure street" id="620055@N24"/>
 		</groupPack>
 		<groupPack name="Black and White">
 			<group name="BLACK AND WHITE PHOTO HEAVEN!" id="38613568@N00"/>
@@ -223,6 +248,14 @@
 			<group name="Urban Urban Urban" id="850014@N23"/>
 			<group name="URBAN" id="14049426@N00"/>
 			<group name="Urban - Photography" id="712151@N23"/>
+			<group name="City of the World" id="852873@N22"/>
+			<group name="CITY SIGHTS" id="828173@N21"/>
+			<group name="Lovely City!" id="515383@N21"/>
+			<group name="City Overlook" id="44942051@N00"/>
+			<group name="City Canyons" id="1860384@N20"/>
+			<group name="City Scapes" id="62533725@N00"/>
+			<group name="WORLD CITIES HUB" id="35678393@N00"/>
+			<group name="Around the World Cityscapes" id="800504@N21"/>
 		</groupPack>
 		<groupPack name="City and People">
 			<group name="URBAN" id="14049426@N00"/>
@@ -230,6 +263,8 @@
 			<group name="Urban - Photography" id="712151@N23"/>
 			<group name="The City: Urban &amp; Street Photography" id="2686179@N24"/>
 			<group name="Urban Urban Urban" id="850014@N23"/>
+			<group name="city life" id="83529696@N00"/>
+			<group name="city & the streets" id="567626@N23"/>
 		</groupPack>
 		<groupPack name="Nature">
 			<group name="Nature" id="40969270@N00"/>
@@ -276,6 +311,7 @@
 			<group name="Croque NATURE" id="782584@N21"/>
 			<group name="Our world of nature" id="443817@N21"/>
 			<group name="Fantastic Nature Group" id="1337195@N24"/>
+			<group name="LIZA'S Enchanting PHOTO-GARDEN!! (QUALITY NATURE-Photos ONLY!)" id="1033062@N22"/>
 		</groupPack>
 		<groupPack name="Landscapes">
 			<group name="Landscape Photos" id="35638995@N00"/>
@@ -443,6 +479,7 @@
 			<group name="National Geographic Society" id="1401585@N23"/>
 			<group name="Intelligent Travel - National Geographic Traveler's blog" id="495413@N25"/>
 			<group name="National Geographic Wannabes" id="43568224@N00"/>
+			<group name="Intelligent Travel - National Geographic Traveler's blog" id="495413@N25"/>
 		</groupPack>
 		<groupPack name="Night">
 			<group name="Night Images" id="11947580@N00"/>
@@ -485,6 +522,14 @@
 			<group name="Travelling Vicariously" id="2081182@N20"/>
 			<group name="Travel: The World Through a Lens" id="724108@N21"/>
 			<group name="Travel Photography Collective" id="1078600@N21"/>
+			<group name="flickr Travel Award (Post 1 - Award 3)" id="1448763@N24"/>
+			<group name="~Travel Photography" id="389256@N23"/>
+			<group name="Lonely Planet Publications: Photobook" id="39676782@N00"/>
+			<group name="Flickr Travels Around the World" id="1412034@N24"/>
+			<group name="Destinations around the world - The travel group" id="844972@N25"/>
+			<group name="Adventure + Photography (post 1 comment 3)" id="1955569@N24"/>
+			<group name="GEOTRAVEL FOTOLOGUES" id="642578@N20"/>
+			<group name="World Trekker (Post 7 - Award 3)" id="585850@N20"/>
 		</groupPack>
 		<groupPack name="People">
 			<group name="*People  All  Over  World*" id="73343692@N00"/>
@@ -1086,6 +1131,8 @@
 			<photo name="Sunrise on Rails" id="29623992333"/>
 		</photoPack>
 		<photoPack name="Sunsets">
+			<photo name="One Summer Evening" id="38180655281"/>
+			<photo name="Roofs in Fire" id="38125270212"/>
 			<photo name="Burning Mountain" id="37146308560"/>
 			<photo name="Burning Skies" id="36675345343"/>
 			<photo name="Fire in the Sky" id="37068690370"/>
@@ -1304,6 +1351,8 @@
 			<photo name="Rawlins" id="37083653782"/>
 			<photo name="Grand Lake" id="37314899092"/>
 			<photo name="Double Catch" id="37975327092"/>
+			<photo name="Roofs in Fire" id="38125270212"/>
+			<photo name="One Summer Evening" id="38180655281"/>
 		</photoPack>
 		<photoPack name="City and People">
 			<photo name="Rainy Walk" id="29104366965"/>
@@ -1431,6 +1480,7 @@
 			<photo name="Grand Lake" id="37314899092"/>
 			<photo name="Poudre Lake" id="37372776572"/>
 			<photo name="Double Catch" id="37975327092"/>
+			<photo name="One Summer Evening" id="38180655281"/>
 		</photoPack>
 		<photoPack name="Night">
 			<photo name="Grand Lake" id="37314899092"/>

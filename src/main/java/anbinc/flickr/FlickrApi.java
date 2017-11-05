@@ -72,13 +72,19 @@ public class FlickrApi {
 
         if (!pools.stream().anyMatch(p -> p.getId().equals(groupId)))   {
             try {
-                flickr.getPoolsInterface().add(picture.getId(), groupId);
-                System.out.println(String.format("Photo '%s' was successfully added to group '%s'.", picture.getName(), groupId));
-                //flickr.getPoolsInterface().getGroups();
-                return true;
+
+                try {
+                    flickr.getPoolsInterface().add(picture.getId(), groupId);
+                    System.out.println(String.format("Photo '%s' was successfully added to group '%s'.", picture.getName(), groupId));
+                    //flickr.getPoolsInterface().getGroups();
+                    return true;
+                }
+                catch (FlickrException e) {
+                    System.out.println(String.format("Photo '%s' was not added to group '%s' because of '%s'.", picture.getName(), groupId, e.getMessage()));
+                }
             }
-            catch (FlickrException e) {
-                System.out.println(String.format("Photo '%s' was not added to group '%s' because of '%s'.", picture.getName(), groupId, e.getMessage()));
+            catch (Exception e2)    {
+                System.out.println(String.format("Photo '%s' was not added to group '%s' because of non-flickr exception: '%s'.", picture.getId(), groupId, e2.getMessage()));
             }
         }
 
@@ -93,12 +99,16 @@ public class FlickrApi {
         //pictures.forEach(p -> unaddedPicsIds.add(p.getId()));
 
         try {
-            List<String> groupPhotoIds = flickr.getPoolsInterface().getPhotos(groupId, userId, new String[] {}, new HashSet<String>(), 1000, 1).stream().map(p -> p.getId()).collect(Collectors.toList());
-            unaddedPictures = pictures.stream().filter(p -> !groupPhotoIds.contains(p.getId())).collect(Collectors.toList());
-            //groupPhotos.stream().filter(p -> unaddedPicsIds.contains(p.getId())).collect(Collectors.toList()).stream().forEach(id -> unaddedPictures.remove());
+            try {
+                List<String> groupPhotoIds = flickr.getPoolsInterface().getPhotos(groupId, userId, new String[]{}, new HashSet<String>(), 1000, 1).stream().map(p -> p.getId()).collect(Collectors.toList());
+                unaddedPictures = pictures.stream().filter(p -> !groupPhotoIds.contains(p.getId())).collect(Collectors.toList());
+                //groupPhotos.stream().filter(p -> unaddedPicsIds.contains(p.getId())).collect(Collectors.toList()).stream().forEach(id -> unaddedPictures.remove());
+            } catch (FlickrException e) {
+                System.out.println("Flickr exception wrong during getting pics without group " + groupId + ": " + e.getErrorMessage());
+            }
         }
-        catch (FlickrException e)   {
-            int a=0;
+        catch (Exception e2)    {
+            System.out.println("Something goes wrong during getting pics without group " + groupId+ ": " + e2.getStackTrace());
         }
 
         return unaddedPictures;
@@ -112,14 +122,25 @@ public class FlickrApi {
     }
 
     public static String getPhotoName(String id) {
-        try {
-            String name =  flickr.getPhotosInterface().getPhoto(id).getTitle();
-            return name;
-        }
-        catch (FlickrException e)   {
 
+        int counter = 0;
+
+        while (counter < 3) {
+            try {
+                String name = flickr.getPhotosInterface().getPhoto(id).getTitle();
+                return name;
+            } catch (Exception e) {
+                System.out.println("Problems during getting name for photoid = " + id);
+                counter++;
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException ie) {
+
+                }
+            }
         }
-        return null;
+
+        return "---unknown name---";
     }
 
     private void getIds() throws FlickrException {
