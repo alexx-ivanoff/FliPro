@@ -829,6 +829,7 @@
 			<photo name="Dante's View" id="29468167812"/>
 		</photoPack>
 		<photoPack name="Other Nature and Landscapes">
+			<photo name="Urban Horizon" id="38500544536"/>
 			<photo name="Burning Mountain" id="37146308560"/>
 			<photo name="Poudre Lake" id="37372776572"/>
 			<photo name="Hiking the Rocky Mountain" id="36715368313"/>
@@ -952,6 +953,9 @@
 			<photo name="Wet Shot" id="36548149214"/>
 			<photo name="Autumn Gradient" id="37231613076"/>
 			<photo name="Florida Resident" id="26210361969"/>
+			<photo name="Autumn 12" id="37648459915"/>
+			<photo name="Over the Trees" id="37687927515"/>
+			<photo name="Amanita" id="37706770905"/>
 		</photoPack>
 		<photoPack name="Just Landscapes">
 			<photo name="Idaho" id="36389650332"/>
@@ -1033,6 +1037,7 @@
 			<photo name="Český Krumlov" id="29019041022"/>
 		</photoPack>
 		<photoPack name="Black and White">
+			<photo name="M-oment" id="26430582239"/>
 			<photo name="Eccentric" id="35142827733"/>
 			<photo name="B&W Gate" id="35741971862"/>
 			<photo name="Nightram" id="35702213382"/>
@@ -1353,8 +1358,12 @@
 			<photo name="Double Catch" id="37975327092"/>
 			<photo name="Roofs in Fire" id="38125270212"/>
 			<photo name="One Summer Evening" id="38180655281"/>
+			<photo name="Autumn 12" id="37648459915"/>
+			<photo name="Urban Horizon" id="38500544536"/>
+			<photo name="The Langoliers" id="24777230768"/>
 		</photoPack>
 		<photoPack name="City and People">
+			<photo name="M-oment" id="26430582239"/>
 			<photo name="Rainy Walk" id="29104366965"/>
 			<photo name="Fall of Lenin" id="29208699645"/>
 			<photo name="NYC's Motion" id="28721226634"/>
